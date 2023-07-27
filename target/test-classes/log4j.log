@@ -1,0 +1,68 @@
+[INFO ] 2023-07-27 13:55:45 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 13:55:47 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 13:55:47 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 13:55:52 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 13:56:01 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 13:56:01 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting massage near the email field
+[INFO ] 2023-07-27 13:56:01 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting massage under email field
+[INFO ] 2023-07-27 13:58:41 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 13:58:41 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 13:58:41 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 13:58:48 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 13:58:56 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 13:58:56 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting massage near the email field
+[INFO ] 2023-07-27 13:58:56 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 13:58:56 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 14:09:37 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 14:09:37 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:09:37 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:09:41 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:09:51 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:09:52 MainPage:127 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 14:09:52 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 14:09:52 MainPage:132 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 14:16:12 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 14:16:13 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:16:13 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:16:17 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:16:27 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:16:27 MainPage:142 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 14:16:28 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 14:16:28 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 14:16:29 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 14:19:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 14:19:08 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:19:08 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:19:12 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:19:22 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:19:22 MainPage:142 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 14:19:23 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 14:19:23 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 14:19:24 LoginPage:76 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 14:19:24 LoginPage:72 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[WARN ] 2023-07-27 14:19:24 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)

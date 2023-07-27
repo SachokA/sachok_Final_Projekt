@@ -1,0 +1,8 @@
+pages\BasePage.class
+pages\PricesDropComponent.class
+pages\ResultSearchPage.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\PricesDropPage.class
+pages\PopularProductComponent.class
+pages\MainPage.class
