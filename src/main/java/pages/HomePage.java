@@ -1,19 +1,12 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.*;
-import java.util.stream.Collectors;
+
 
 public class HomePage extends BasePage {
     @FindBy(xpath = "//button[@class='btn-unstyle select-title']")
@@ -41,7 +34,7 @@ public class HomePage extends BasePage {
     private List<WebElement> allProductsTitle;
 
     public HomePage() {
-        PageFactory.initElements(getWebDriver(), this);
+        PageFactory.initElements(getDriver(), this);
     }
 
     public HomePage clickButtonSorted(){
@@ -53,25 +46,9 @@ public class HomePage extends BasePage {
         return this;
     }
 
-//            case "Name, A to Z":
-//                sortNameAZ.click();
-//                break;
-//            case "Name, Z to A":
-//                sortNameZA.click();
-//                break;
-//            case "Price, low to high":
-//                sortPriceLowToHigh.click();
-//                break;
-//            case "Price, high to low":
-//                sortPriceHighToLow.click();
-//                break;
-//        }
-//        return this;
         public List<String> getAllProducts() {
 
         List<String> list = new ArrayList<>();
-//        int totalProducts = 19;
-//        int productsPerPage = 12;
        int totalPages = 2;
 
         for (int page = 1; page <= totalPages; page++) {
@@ -85,7 +62,7 @@ public class HomePage extends BasePage {
 
             // Перейти на наступну сторінку, якщо це не остання сторінка
             if (page < totalPages) {
-                Actions actions = new Actions(getWebDriver());
+                Actions actions = new Actions(getDriver());
                 actions.moveToElement(buttonNext).click().perform();
             }
         }return list;

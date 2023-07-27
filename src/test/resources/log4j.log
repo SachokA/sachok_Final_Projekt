@@ -74,3 +74,1271 @@ java.net.SocketException: Connection reset
 [INFO ] 2023-07-27 14:26:26 MainPage:79 :waitForPageLoading - message:Waiting for page loading
 [INFO ] 2023-07-27 14:26:35 MainPage:85 :switchToFrame - message:Switch to frame
 [INFO ] 2023-07-27 14:26:36 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 14:35:14 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 14:35:14 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:35:14 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:35:18 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:35:26 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:35:27 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 14:35:27 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 14:35:31 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 14:35:31 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 14:35:31 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 14:35:33 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 14:35:33 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 14:35:33 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[INFO ] 2023-07-27 14:50:54 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:50:54 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:50:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:50:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:51:02 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:51:02 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:51:15 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:51:15 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:51:15 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 14:51:15 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:51:16 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:51:16 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:51:16 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:51:38 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:51:38 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:51:38 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:51:38 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 14:51:38 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:51:38 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 14:51:38 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 14:51:38 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 14:51:39 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 14:51:39 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:51:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:51:39 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:51:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:52:18 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:52:18 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:52:18 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 14:52:19 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 14:52:20 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:52:20 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:52:21 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 14:52:24 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 14:52:24 LoginPage:76 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 14:52:24 LoginPage:72 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 14:52:24 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:52:24 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:52:24 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:52:24 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:53:28 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:53:28 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:53:28 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 14:53:30 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 14:53:31 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 14:53:34 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 14:53:34 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 14:53:34 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 14:53:34 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:53:34 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:53:55 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 14:53:55 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 14:53:56 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 14:53:56 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 14:53:56 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 15:16:29 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:16:29 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:16:29 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:16:29 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:16:37 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:16:37 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:16:50 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:16:50 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:16:50 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:16:50 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:16:50 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:16:50 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:16:50 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:17:08 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:17:08 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:17:08 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 15:17:09 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 15:17:09 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:17:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:17:11 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:17:11 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:17:11 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 15:17:11 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 15:17:11 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 15:17:12 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:17:12 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:17:14 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:17:16 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:17:25 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:17:25 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:17:29 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:17:30 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:17:39 LoginPage:76 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 15:17:39 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:17:39 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:17:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:17:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:19:09 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:19:09 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:19:09 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:19:09 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:19:09 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:19:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:19:31 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:19:31 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:19:31 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 15:19:31 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 15:19:31 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 15:22:39 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:22:39 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:22:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:22:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:22:55 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:22:55 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:23:05 MainPage:85 :switchToFrame - message:Switch to frame
+[WARN ] 2023-07-27 15:23:06 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:23:06 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:23:06 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:23:06 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:23:06 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:23:47 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:23:57 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:23:57 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:23:57 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 15:23:57 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 15:23:57 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:23:57 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:24:07 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:24:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:24:59 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:24:59 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:24:59 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:25:00 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:25:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:25:13 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:25:13 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:25:14 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:25:14 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:25:14 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 15:25:15 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:25:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:25:50 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:25:50 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:25:50 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:25:50 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:25:55 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:25:56 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:26:05 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:26:05 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 15:26:06 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:26:06 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 15:26:09 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 15:26:10 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:26:10 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:26:10 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:26:10 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:26:17 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:26:17 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:26:20 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:26:20 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:26:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:26:21 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:26:21 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:26:26 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:26:37 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:26:37 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:26:37 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:26:37 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:26:38 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:26:38 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:26:38 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:26:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:26:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:26:45 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:26:46 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:26:53 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:26:53 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:26:54 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:26:54 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:26:55 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:26:55 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:26:55 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:27:18 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:27:18 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:27:18 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 15:27:18 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 15:27:18 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 15:28:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:28:09 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:28:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:28:14 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:28:22 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:28:23 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 15:28:23 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 15:28:27 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 15:28:27 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 15:28:27 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 15:28:28 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 15:28:28 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 15:28:28 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[INFO ] 2023-07-27 15:28:49 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:28:49 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:28:49 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:28:54 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:29:01 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:29:01 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:29:01 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:29:01 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:29:02 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:29:02 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:29:02 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 15:29:19 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:29:19 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:29:19 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:29:24 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:29:36 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:29:36 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 15:29:37 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 15:29:42 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 15:29:42 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 15:29:42 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 15:29:48 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 15:29:48 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 15:29:48 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[WARN ] 2023-07-27 15:29:48 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:29:58 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:29:58 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:29:58 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:30:03 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:30:18 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:30:18 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:30:18 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:30:18 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:30:18 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:30:18 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:30:18 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[WARN ] 2023-07-27 15:30:18 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:30:29 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:30:29 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:30:29 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:30:35 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:30:47 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:30:47 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 15:30:47 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 15:30:47 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[WARN ] 2023-07-27 15:30:48 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:31:21 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:31:22 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:31:22 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:31:27 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:31:34 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:31:35 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 15:31:35 MainPage:162 :getPopularProduct - message:Get list popular product
+[WARN ] 2023-07-27 15:31:35 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:31:44 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:31:45 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:31:45 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:31:51 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:32:02 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:32:03 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[WARN ] 2023-07-27 15:32:03 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:32:15 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:32:16 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:32:16 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:32:22 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:32:30 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:32:30 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:32:30 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:32:31 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:32:32 LoginPage:76 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 15:32:32 LoginPage:72 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[WARN ] 2023-07-27 15:32:32 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:32:52 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:32:52 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:32:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:32:58 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:33:08 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:33:08 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:33:09 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:33:09 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:33:11 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[WARN ] 2023-07-27 15:33:11 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:33:18 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:33:19 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:33:19 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:33:25 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:33:33 MainPage:85 :switchToFrame - message:Switch to frame
+[WARN ] 2023-07-27 15:33:35 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:34:10 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:34:10 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:34:10 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:34:16 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:34:25 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:34:25 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 15:34:25 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 15:34:25 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 15:34:48 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:34:48 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:34:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:34:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:34:56 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:34:56 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:35:06 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:35:06 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:35:06 MainPage:195 :setFieldSearch - message:Set field search and enter
+[WARN ] 2023-07-27 15:35:07 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:35:07 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:35:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:35:07 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:35:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:35:11 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:35:11 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:35:25 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:35:25 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:35:25 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 15:35:25 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 15:35:25 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:35:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:35:25 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:35:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:35:49 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:35:49 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:35:50 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 15:35:51 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:35:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:36:00 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:36:00 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:36:00 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:36:00 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:36:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:36:10 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:36:10 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:36:10 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:36:10 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:36:11 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:36:14 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 15:36:23 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:36:23 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:36:23 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 15:36:24 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 15:36:24 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 15:38:11 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-07-27 15:38:11 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:38:11 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:38:17 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:38:26 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:38:26 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 15:38:27 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 15:38:30 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 15:38:30 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 15:38:30 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 15:38:32 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 15:38:32 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 15:38:32 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[WARN ] 2023-07-27 15:38:33 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:39:11 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:39:11 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:39:16 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:39:25 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:39:25 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 15:39:26 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 15:39:29 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 15:39:29 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 15:39:30 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 15:39:31 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 15:39:31 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 15:39:31 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[WARN ] 2023-07-27 15:39:31 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:39:31 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:39:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:39:34 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:39:44 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:39:44 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:39:45 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:39:45 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:39:45 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:39:45 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:39:45 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 15:39:45 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:39:45 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:39:48 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:39:56 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:39:56 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 15:39:56 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 15:39:57 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 15:39:57 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:39:57 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:40:00 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:40:08 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:40:08 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 15:40:09 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 15:40:09 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:40:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:40:12 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:40:21 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:40:22 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 15:40:22 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:40:22 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:40:26 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:40:34 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:40:34 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:40:34 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:40:35 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:40:35 LoginPage:76 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 15:40:35 LoginPage:72 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 15:40:36 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:40:36 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:40:39 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:40:46 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:40:46 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:40:46 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:40:47 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:40:48 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 15:40:48 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:40:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:40:52 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:41:03 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:41:03 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 15:41:03 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 15:41:03 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 15:46:44 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:46:44 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:46:51 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:47:01 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:47:01 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 15:47:02 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 15:47:05 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 15:47:05 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 15:47:06 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 15:47:07 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 15:47:07 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 15:47:07 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[WARN ] 2023-07-27 15:47:07 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 15:47:07 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:47:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:47:26 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:47:26 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:47:26 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:47:27 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:47:27 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:47:27 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 15:47:27 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 15:47:27 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 15:47:27 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:47:27 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:47:33 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:47:41 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:47:41 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 15:47:41 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 15:47:41 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 15:47:42 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:47:42 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:47:51 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:48:00 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:48:00 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 15:48:00 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 15:48:01 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:48:01 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:48:06 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:48:14 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:48:15 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 15:48:15 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:48:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:48:20 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:48:27 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:48:27 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:48:28 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:48:28 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:48:29 LoginPage:76 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 15:48:29 LoginPage:72 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 15:48:29 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:48:29 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:48:33 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:48:45 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:48:45 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 15:48:45 LoginPage:50 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 15:48:46 LoginPage:56 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 15:48:47 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 15:48:48 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 15:48:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 15:48:52 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 15:49:01 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 15:49:01 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 15:49:01 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 15:49:01 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 16:47:16 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:47:18 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:47:18 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:47:24 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:47:31 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:47:31 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 16:47:32 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 16:47:35 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 16:47:36 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 16:47:36 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 16:47:37 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 16:47:37 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 16:47:37 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[INFO ] 2023-07-27 16:47:37 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:47:37 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:47:37 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:47:42 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:47:51 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:47:51 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:47:51 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 16:47:52 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:47:52 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 16:47:52 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:47:52 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 16:47:52 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:47:52 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:47:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:47:56 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:48:09 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:48:09 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 16:48:09 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 16:48:10 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 16:48:10 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:48:10 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:48:10 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:48:14 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:48:24 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:48:24 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 16:48:24 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 16:48:25 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:48:25 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:48:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:48:29 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:48:32 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:48:34 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 16:48:34 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:48:34 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:48:34 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:48:38 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:48:51 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:48:51 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 16:48:52 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 16:48:52 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 16:48:55 LoginPage:73 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 16:48:55 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 16:48:55 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:48:55 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:48:55 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:48:58 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:49:15 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:49:15 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 16:49:16 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 16:49:16 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 16:49:26 LoginPage:65 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 16:49:26 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 16:49:26 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 16:49:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 16:49:29 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:49:40 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:49:40 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 16:49:40 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 16:49:40 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 16:54:40 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:54:42 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:54:42 WebDriverManager:1583 :logSeekRepo - message:Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
+[INFO ] 2023-07-27 16:54:46 Downloader:127 :downloadAndExtract - message:Downloading https://msedgedriver.azureedge.net/115.0.1901.183/edgedriver_win64.zip
+[INFO ] 2023-07-27 16:55:19 Downloader:188 :extract - message:Extracting driver from compressed file edgedriver_win64.zip
+[INFO ] 2023-07-27 16:55:19 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:55:59 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:55:59 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:55:59 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 16:56:00 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 16:56:06 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 16:56:06 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 16:56:06 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 16:56:07 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 16:56:07 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 16:56:07 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[WARN ] 2023-07-27 16:56:07 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 16:56:08 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:56:08 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:56:08 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:56:22 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:56:22 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:56:22 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:56:22 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 16:56:22 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:56:22 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 16:56:23 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:56:23 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 16:56:23 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:56:23 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:56:23 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:56:37 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:56:37 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:56:37 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 16:56:37 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 16:56:38 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 16:56:38 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:56:38 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:56:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:56:50 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:56:50 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:56:50 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 16:56:50 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 16:56:51 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:56:51 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:56:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:56:58 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:56:58 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:56:59 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 16:56:59 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:56:59 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:56:59 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:57:21 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:57:21 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:57:21 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 16:57:22 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 16:57:22 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 16:57:23 LoginPage:73 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 16:57:23 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 16:57:23 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:57:23 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:57:23 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:57:28 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:57:34 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:57:34 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 16:57:34 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 16:57:35 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 16:57:36 LoginPage:65 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 16:57:37 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-07-27 16:57:37 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.183 (resolved driver for Edge 115)
+[INFO ] 2023-07-27 16:57:37 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.183\msedgedriver.exe
+[INFO ] 2023-07-27 16:57:41 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:57:48 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:57:48 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 16:57:48 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 16:57:48 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 16:58:17 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 16:58:18 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 16:58:18 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 16:58:36 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:58:36 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:58:37 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 16:58:37 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 16:58:38 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 16:58:38 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 16:58:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 16:58:51 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:58:51 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:58:51 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:58:51 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 16:58:51 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:58:51 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 16:58:51 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 16:58:52 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 16:58:52 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 16:58:52 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 16:58:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 16:59:09 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:59:09 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:59:09 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 16:59:09 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 16:59:10 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 16:59:11 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 16:59:11 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 16:59:11 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 16:59:17 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:59:23 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:59:23 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 16:59:24 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 16:59:25 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 16:59:25 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 16:59:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 16:59:30 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:59:35 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:59:36 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 16:59:37 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 16:59:37 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 16:59:37 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 16:59:44 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 16:59:49 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 16:59:49 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 16:59:49 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 16:59:49 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 16:59:50 LoginPage:73 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 16:59:50 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 16:59:51 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 16:59:51 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 16:59:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 16:59:57 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:00:04 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:00:04 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:00:04 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:00:05 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:00:06 LoginPage:65 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 17:00:07 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:00:07 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:00:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:00:13 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:00:19 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:00:19 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 17:00:19 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 17:00:19 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 17:00:56 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:00:56 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:00:56 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:01:05 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:01:11 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:01:11 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 17:01:12 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 17:01:12 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:01:13 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:01:13 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:01:19 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:01:24 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:01:24 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:01:24 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:01:24 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:01:24 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:01:24 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:01:24 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 17:01:25 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:01:25 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:01:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:01:30 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:01:40 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:01:40 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 17:01:40 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 17:01:41 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 17:01:42 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:01:42 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:01:42 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:01:56 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:01:56 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:01:56 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 17:01:56 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 17:01:57 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:01:57 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:01:57 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:02:12 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:02:12 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:02:13 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 17:02:13 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:02:14 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:02:14 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:02:19 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:02:27 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:02:27 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:02:27 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:02:28 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:02:29 LoginPage:73 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 17:02:29 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 17:02:30 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:02:30 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:02:30 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:02:35 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:02:43 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:02:43 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:02:44 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:02:44 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:02:46 LoginPage:65 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 17:02:47 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-07-27 17:02:47 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-07-27 17:02:47 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-07-27 17:02:52 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:02:58 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:02:58 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 17:02:58 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 17:02:58 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 17:03:43 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:03:44 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:03:44 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:03:49 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:04:00 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:04:00 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 17:04:01 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 17:04:04 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 17:04:05 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 17:04:05 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 17:04:06 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 17:04:06 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 17:04:06 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[INFO ] 2023-07-27 17:04:06 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:04:06 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:04:06 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:04:09 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:04:20 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:04:20 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:04:20 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:04:20 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:04:20 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:04:21 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:04:21 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 17:04:21 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:04:21 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:04:21 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:04:24 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:04:33 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:04:33 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 17:04:33 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 17:04:33 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 17:04:34 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:04:34 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:04:34 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:04:37 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:04:39 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:04:39 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 17:04:39 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 17:04:40 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:04:40 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:04:40 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:04:43 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:04:51 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:04:51 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 17:04:52 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:04:52 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:04:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:04:55 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:05:02 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:05:02 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:05:02 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:05:03 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:05:03 LoginPage:73 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 17:05:03 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 17:05:04 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:05:04 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:05:04 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:05:06 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:05:15 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:05:15 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:05:16 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:05:16 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:05:18 LoginPage:65 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 17:05:18 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:05:18 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:05:18 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:05:21 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:05:29 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:05:29 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 17:05:29 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 17:05:29 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 17:06:07 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:06:07 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:06:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:06:13 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:06:22 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:06:22 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 17:06:23 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 17:06:26 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 17:06:26 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 17:06:26 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 17:06:29 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 17:06:29 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 17:06:29 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[WARN ] 2023-07-27 17:06:29 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 17:06:29 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:06:29 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:06:29 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:06:31 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:06:41 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:06:41 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:06:41 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:06:41 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:06:42 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:06:42 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:06:42 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 17:06:42 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:06:42 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:06:42 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:06:45 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:06:53 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:06:53 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 17:06:53 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 17:06:53 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 17:06:54 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:06:54 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:06:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:06:56 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:06:59 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:07:00 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 17:07:00 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 17:07:00 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:07:00 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:07:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:07:03 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:07:11 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:07:12 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 17:07:12 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:07:12 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:07:12 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:07:16 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:07:26 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:07:26 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:07:26 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:07:26 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:07:27 LoginPage:73 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 17:07:27 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 17:07:27 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:07:27 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:07:27 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:07:31 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:07:42 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:07:42 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:07:43 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:07:43 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:07:45 LoginPage:65 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 17:07:45 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:07:45 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:07:45 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:07:51 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:08:03 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:08:03 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 17:08:03 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 17:08:03 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-07-27 17:09:17 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:09:17 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:09:17 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:09:23 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:09:32 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:09:32 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 17:09:33 ResultSearchPage:118 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-07-27 17:09:36 ResultSearchPage:124 :select - message:Select value
+[INFO ] 2023-07-27 17:09:36 ResultSearchPage:132 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-07-27 17:09:37 ResultSearchPage:148 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-07-27 17:09:38 ResultSearchPage:155 :getTypePaper - message:Getting type paper
+[INFO ] 2023-07-27 17:09:38 ResultSearchPage:160 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-07-27 17:09:38 ResultSearchPage:169 :getTotalPrice - message:Get total price
+[WARN ] 2023-07-27 17:09:38 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-07-27 17:09:38 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:09:38 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:09:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:09:40 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:09:52 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:09:52 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:09:52 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:09:52 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:09:52 MainPage:118 :getList - message:Getting list elements
+[INFO ] 2023-07-27 17:09:52 MainPage:149 :moveToElement - message:Hover mouse over 'CLOTHES
+[INFO ] 2023-07-27 17:09:52 MainPage:157 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-07-27 17:09:53 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:09:53 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:09:53 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:09:56 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:10:06 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:10:06 MainPage:128 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-07-27 17:10:06 MainPage:107 :getLanguages - message:Getting list all languages
+[INFO ] 2023-07-27 17:10:06 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-07-27 17:10:07 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:10:07 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:10:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:10:10 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:10:19 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:10:19 MainPage:173 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-07-27 17:10:19 MainPage:162 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-07-27 17:10:20 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:10:20 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:10:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:10:23 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:10:34 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:10:35 PricesDropPage:21 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-07-27 17:10:35 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:10:35 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:10:35 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:10:38 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:10:49 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:10:49 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:10:49 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:10:50 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:10:51 LoginPage:73 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-07-27 17:10:51 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-07-27 17:10:51 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:10:51 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:10:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:10:54 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:11:05 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:11:05 MainPage:143 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-07-27 17:11:06 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-07-27 17:11:06 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-07-27 17:11:07 LoginPage:65 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-07-27 17:11:08 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:11:08 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:11:08 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:11:11 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:11:21 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:11:21 MainPage:195 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-07-27 17:11:53 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:11:53 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:11:53 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:11:57 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:12:07 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:12:09 BaseTest:24 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-07-27 17:12:09 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-07-27 17:12:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-07-27 17:12:14 MainPage:79 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-07-27 17:12:23 MainPage:85 :switchToFrame - message:Switch to frame
+[INFO ] 2023-07-27 17:12:23 MainPage:90 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-07-27 17:12:23 MainPage:97 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-07-27 17:12:23 MainPage:102 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe

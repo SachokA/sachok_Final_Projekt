@@ -12,7 +12,8 @@
             <class name="PriceDropCheck"/>
             <class name="RegistrationWithInvalidData"/>
             <class name="RegistrationWithValidData"/>
-            <class name="SortingCheck"/>
+            <class name="CheckoutEndToEnd"></class>
+            <class name="SortingCheck"></class>
             <class name="SubscribeWithInvalidEmail"/>
         </classes>
     </test>

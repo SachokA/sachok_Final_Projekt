@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-27T13:39:49 EEST" name="Run all tests" finished-at="2023-07-27T13:41:52 EEST" duration-ms="122478">
+  <suite started-at="2023-07-27T17:09:17 EEST" name="Run all tests" finished-at="2023-07-27T17:12:23 EEST" duration-ms="186690">
     <groups>
     </groups>
-    <test started-at="2023-07-27T13:39:49 EEST" name="Test 1" finished-at="2023-07-27T13:41:52 EEST" duration-ms="122478">
+    <test started-at="2023-07-27T17:09:17 EEST" name="Test 1" finished-at="2023-07-27T17:12:23 EEST" duration-ms="186690">
       <class name="SortingCheck">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SortingCheck@67c27493]" started-at="2023-07-27T13:41:27 EEST" name="setUp" finished-at="2023-07-27T13:41:38 EEST" duration-ms="11838" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SortingCheck@5a8ba37c]" started-at="2023-07-27T17:11:53 EEST" name="setUp" finished-at="2023-07-27T17:12:07 EEST" duration-ms="13813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortingCheck()[pri:0, instance:SortingCheck@67c27493]" started-at="2023-07-27T13:41:38 EEST" name="sortingCheck" finished-at="2023-07-27T13:41:41 EEST" duration-ms="2084" status="FAIL">
+        <test-method signature="sortingCheck()[pri:0, instance:SortingCheck@5a8ba37c]" started-at="2023-07-27T17:12:07 EEST" name="sortingCheck" finished-at="2023-07-27T17:12:09 EEST" duration-ms="2061" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -35,145 +35,181 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortingCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SortingCheck@67c27493]" started-at="2023-07-27T13:41:41 EEST" name="tearDown" finished-at="2023-07-27T13:41:41 EEST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SortingCheck@5a8ba37c]" started-at="2023-07-27T17:12:09 EEST" name="tearDown" finished-at="2023-07-27T17:12:09 EEST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SortingCheck -->
       <class name="CheckLanguages">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckLanguages@6069db50]" started-at="2023-07-27T13:40:24 EEST" name="setUp" finished-at="2023-07-27T13:40:38 EEST" duration-ms="13796" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckLanguages@7159139f]" started-at="2023-07-27T17:09:53 EEST" name="setUp" finished-at="2023-07-27T17:10:06 EEST" duration-ms="13027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkLanguages()[pri:0, instance:CheckLanguages@6069db50]" started-at="2023-07-27T13:40:38 EEST" name="checkLanguages" finished-at="2023-07-27T13:40:38 EEST" duration-ms="679" status="PASS">
+        <test-method signature="checkLanguages()[pri:0, instance:CheckLanguages@7159139f]" started-at="2023-07-27T17:10:06 EEST" name="checkLanguages" finished-at="2023-07-27T17:10:06 EEST" duration-ms="700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLanguages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CheckLanguages@6069db50]" started-at="2023-07-27T13:40:38 EEST" name="tearDown" finished-at="2023-07-27T13:40:39 EEST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CheckLanguages@7159139f]" started-at="2023-07-27T17:10:06 EEST" name="tearDown" finished-at="2023-07-27T17:10:07 EEST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- CheckLanguages -->
       <class name="SubscribeWithInvalidEmail">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SubscribeWithInvalidEmail@1a482e36]" started-at="2023-07-27T13:41:41 EEST" name="setUp" finished-at="2023-07-27T13:41:51 EEST" duration-ms="10741" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SubscribeWithInvalidEmail@37c2eacb]" started-at="2023-07-27T17:12:09 EEST" name="setUp" finished-at="2023-07-27T17:12:23 EEST" duration-ms="14017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkSubscribeWithInvalidEmail()[pri:0, instance:SubscribeWithInvalidEmail@1a482e36]" started-at="2023-07-27T13:41:51 EEST" name="checkSubscribeWithInvalidEmail" finished-at="2023-07-27T13:41:51 EEST" duration-ms="54" status="PASS">
+        <test-method signature="checkSubscribeWithInvalidEmail()[pri:0, instance:SubscribeWithInvalidEmail@37c2eacb]" started-at="2023-07-27T17:12:23 EEST" name="checkSubscribeWithInvalidEmail" finished-at="2023-07-27T17:12:23 EEST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSubscribeWithInvalidEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SubscribeWithInvalidEmail@1a482e36]" started-at="2023-07-27T13:41:51 EEST" name="tearDown" finished-at="2023-07-27T13:41:52 EEST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SubscribeWithInvalidEmail@37c2eacb]" started-at="2023-07-27T17:12:23 EEST" name="tearDown" finished-at="2023-07-27T17:12:23 EEST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SubscribeWithInvalidEmail -->
       <class name="CheckPopularProducts">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckPopularProducts@4efbca5a]" started-at="2023-07-27T13:40:39 EEST" name="setUp" finished-at="2023-07-27T13:40:47 EEST" duration-ms="8343" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckPopularProducts@65bcf7c2]" started-at="2023-07-27T17:10:07 EEST" name="setUp" finished-at="2023-07-27T17:10:19 EEST" duration-ms="12101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkPopularProducts()[pri:0, instance:CheckPopularProducts@4efbca5a]" started-at="2023-07-27T13:40:47 EEST" name="checkPopularProducts" finished-at="2023-07-27T13:40:48 EEST" duration-ms="751" status="PASS">
+        <test-method signature="checkPopularProducts()[pri:0, instance:CheckPopularProducts@65bcf7c2]" started-at="2023-07-27T17:10:19 EEST" name="checkPopularProducts" finished-at="2023-07-27T17:10:19 EEST" duration-ms="730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPopularProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CheckPopularProducts@4efbca5a]" started-at="2023-07-27T13:40:48 EEST" name="tearDown" finished-at="2023-07-27T13:40:48 EEST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CheckPopularProducts@65bcf7c2]" started-at="2023-07-27T17:10:19 EEST" name="tearDown" finished-at="2023-07-27T17:10:20 EEST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- CheckPopularProducts -->
-      <class name="AddingToCart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AddingToCart@dd8ba08]" started-at="2023-07-27T13:39:49 EEST" name="setUp" finished-at="2023-07-27T13:40:02 EEST" duration-ms="13189" status="PASS">
+      <class name="CheckoutEndToEnd">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckoutEndToEnd@55ecbafe]" started-at="2023-07-27T17:11:08 EEST" name="setUp" finished-at="2023-07-27T17:11:21 EEST" duration-ms="13820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addingToCart()[pri:0, instance:AddingToCart@dd8ba08]" started-at="2023-07-27T13:40:02 EEST" name="addingToCart" finished-at="2023-07-27T13:40:09 EEST" duration-ms="6285" status="PASS">
+        <test-method signature="checkoutEndToEnd()[pri:0, instance:CheckoutEndToEnd@55ecbafe]" started-at="2023-07-27T17:11:21 EEST" name="checkoutEndToEnd" finished-at="2023-07-27T17:11:53 EEST" duration-ms="31395" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a89d49ab9496d3fefbcae35756603fe7)] -> xpath: //*[@id='customer-form']/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a89d49ab9496d3fefbcae35756603fe7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a89d49ab9496d3fefbcae35756603fe7)] -> xpath: //*[@id='customer-form']/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a89d49ab9496d3fefbcae35756603fe7
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at pages.BasePage.waitUntilPresent(BasePage.java:25)
+at pages.ResultSearchPage.clickButtonContinueAddresses(ResultSearchPage.java:256)
+at CheckoutEndToEnd.checkoutEndToEnd(CheckoutEndToEnd.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutEndToEnd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CheckoutEndToEnd@55ecbafe]" started-at="2023-07-27T17:11:53 EEST" name="tearDown" finished-at="2023-07-27T17:11:53 EEST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CheckoutEndToEnd -->
+      <class name="AddingToCart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AddingToCart@3ed0918d]" started-at="2023-07-27T17:09:17 EEST" name="setUp" finished-at="2023-07-27T17:09:32 EEST" duration-ms="15338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addingToCart()[pri:0, instance:AddingToCart@3ed0918d]" started-at="2023-07-27T17:09:32 EEST" name="addingToCart" finished-at="2023-07-27T17:09:38 EEST" duration-ms="5842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AddingToCart@dd8ba08]" started-at="2023-07-27T13:40:09 EEST" name="tearDown" finished-at="2023-07-27T13:40:09 EEST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AddingToCart@3ed0918d]" started-at="2023-07-27T17:09:38 EEST" name="tearDown" finished-at="2023-07-27T17:09:38 EEST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- AddingToCart -->
       <class name="PriceDropCheck">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PriceDropCheck@1b7cc17c]" started-at="2023-07-27T13:40:48 EEST" name="setUp" finished-at="2023-07-27T13:41:02 EEST" duration-ms="14399" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PriceDropCheck@3db64bd4]" started-at="2023-07-27T17:10:20 EEST" name="setUp" finished-at="2023-07-27T17:10:34 EEST" duration-ms="14150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="priceDropCheck()[pri:0, instance:PriceDropCheck@1b7cc17c]" started-at="2023-07-27T13:41:02 EEST" name="priceDropCheck" finished-at="2023-07-27T13:41:03 EEST" duration-ms="1015" status="PASS">
+        <test-method signature="priceDropCheck()[pri:0, instance:PriceDropCheck@3db64bd4]" started-at="2023-07-27T17:10:34 EEST" name="priceDropCheck" finished-at="2023-07-27T17:10:35 EEST" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceDropCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:PriceDropCheck@1b7cc17c]" started-at="2023-07-27T13:41:03 EEST" name="tearDown" finished-at="2023-07-27T13:41:03 EEST" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PriceDropCheck@3db64bd4]" started-at="2023-07-27T17:10:35 EEST" name="tearDown" finished-at="2023-07-27T17:10:35 EEST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- PriceDropCheck -->
       <class name="RegistrationWithInvalidData">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithInvalidData@59662a0b]" started-at="2023-07-27T13:41:03 EEST" name="setUp" finished-at="2023-07-27T13:41:15 EEST" duration-ms="11474" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithInvalidData@6e106680]" started-at="2023-07-27T17:10:35 EEST" name="setUp" finished-at="2023-07-27T17:10:49 EEST" duration-ms="13983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithInvalidData@59662a0b]" started-at="2023-07-27T13:41:15 EEST" name="registrationWithValidData" finished-at="2023-07-27T13:41:16 EEST" duration-ms="1653" status="PASS">
+        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithInvalidData@6e106680]" started-at="2023-07-27T17:10:49 EEST" name="registrationWithValidData" finished-at="2023-07-27T17:10:51 EEST" duration-ms="2288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationWithValidData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:RegistrationWithInvalidData@59662a0b]" started-at="2023-07-27T13:41:16 EEST" name="tearDown" finished-at="2023-07-27T13:41:17 EEST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RegistrationWithInvalidData@6e106680]" started-at="2023-07-27T17:10:51 EEST" name="tearDown" finished-at="2023-07-27T17:10:51 EEST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- RegistrationWithInvalidData -->
       <class name="RegistrationWithValidData">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithValidData@77fbd92c]" started-at="2023-07-27T13:41:17 EEST" name="setUp" finished-at="2023-07-27T13:41:24 EEST" duration-ms="7357" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithValidData@576c5536]" started-at="2023-07-27T17:10:51 EEST" name="setUp" finished-at="2023-07-27T17:11:05 EEST" duration-ms="13677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithValidData@77fbd92c]" started-at="2023-07-27T13:41:24 EEST" name="registrationWithValidData" finished-at="2023-07-27T13:41:26 EEST" duration-ms="2452" status="PASS">
+        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithValidData@576c5536]" started-at="2023-07-27T17:11:05 EEST" name="registrationWithValidData" finished-at="2023-07-27T17:11:07 EEST" duration-ms="2325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationWithValidData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:RegistrationWithValidData@77fbd92c]" started-at="2023-07-27T13:41:26 EEST" name="tearDown" finished-at="2023-07-27T13:41:27 EEST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RegistrationWithValidData@576c5536]" started-at="2023-07-27T17:11:07 EEST" name="tearDown" finished-at="2023-07-27T17:11:08 EEST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- RegistrationWithValidData -->
       <class name="CheckCategories">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckCategories@9597028]" started-at="2023-07-27T13:40:09 EEST" name="setUp" finished-at="2023-07-27T13:40:23 EEST" duration-ms="14181" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckCategories@16c8b7bd]" started-at="2023-07-27T17:09:38 EEST" name="setUp" finished-at="2023-07-27T17:09:52 EEST" duration-ms="13720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkCategories()[pri:0, instance:CheckCategories@9597028]" started-at="2023-07-27T13:40:23 EEST" name="checkCategories" finished-at="2023-07-27T13:40:24 EEST" duration-ms="564" status="PASS">
+        <test-method signature="checkCategories()[pri:0, instance:CheckCategories@16c8b7bd]" started-at="2023-07-27T17:09:52 EEST" name="checkCategories" finished-at="2023-07-27T17:09:53 EEST" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCategories -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:CheckCategories@9597028]" started-at="2023-07-27T13:40:24 EEST" name="tearDown" finished-at="2023-07-27T13:40:24 EEST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CheckCategories@16c8b7bd]" started-at="2023-07-27T17:09:53 EEST" name="tearDown" finished-at="2023-07-27T17:09:53 EEST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

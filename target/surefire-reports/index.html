@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Run_all_tests" class="show-methods failed suite-Run_all_tests"> (show)</a> <!-- show-methods failed suite-Run_all_tests -->
                     </span>
                     <div class="method-list-content failed suite-Run_all_tests">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_all_tests" title="CheckoutEndToEnd" class="method navigator-link" hash-for-method="checkoutEndToEnd">checkoutEndToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Run_all_tests" title="SortingCheck" class="method navigator-link" hash-for-method="sortingCheck">sortingCheck</a> <!-- method navigator-link -->
@@ -181,8 +186,41 @@
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	Lists differ at element [0]: Brown Bear Cushion != Hummingbird Printed T-Shirt expected [Brown Bear Cushion] but found [Hummingbird Printed T-Shirt]
 	at SortingCheck.sortingCheck(SortingCheck.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-failed -->
+          <div class="suite-Run_all_tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CheckoutEndToEnd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutEndToEnd">
+                  </a> <!-- checkoutEndToEnd -->
+                  <span class="method-name">checkoutEndToEnd</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a89d49ab9496d3fefbcae35756603fe7)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a89d49ab9496d3fefbcae35756603fe7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.BasePage.waitUntilPresent(BasePage.java:25)
+	at pages.ResultSearchPage.clickButtonContinueAddresses(ResultSearchPage.java:256)
+	at CheckoutEndToEnd.checkoutEndToEnd(CheckoutEndToEnd.java:40)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -191,44 +229,14 @@
           <div class="suite-Run_all_tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">CheckCategories</span>
+              <span class="class-name">CheckLanguages</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkCategories">
-                  </a> <!-- checkCategories -->
-                  <span class="method-name">checkCategories</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_all_tests-class-passed -->
-          <div class="suite-Run_all_tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">RegistrationWithValidData</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationWithValidData">
-                  </a> <!-- registrationWithValidData -->
-                  <span class="method-name">registrationWithValidData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_all_tests-class-passed -->
-          <div class="suite-Run_all_tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">CheckPopularProducts</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkPopularProducts">
-                  </a> <!-- checkPopularProducts -->
-                  <span class="method-name">checkPopularProducts</span>
+                  <a name="checkLanguages">
+                  </a> <!-- checkLanguages -->
+                  <span class="method-name">checkLanguages</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -251,6 +259,21 @@
           <div class="suite-Run_all_tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">CheckPopularProducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPopularProducts">
+                  </a> <!-- checkPopularProducts -->
+                  <span class="method-name">checkPopularProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-passed -->
+          <div class="suite-Run_all_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">SubscribeWithInvalidEmail</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -259,6 +282,21 @@
                   <a name="checkSubscribeWithInvalidEmail">
                   </a> <!-- checkSubscribeWithInvalidEmail -->
                   <span class="method-name">checkSubscribeWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-passed -->
+          <div class="suite-Run_all_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegistrationWithValidData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationWithValidData">
+                  </a> <!-- registrationWithValidData -->
+                  <span class="method-name">registrationWithValidData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -281,14 +319,14 @@
           <div class="suite-Run_all_tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">CheckLanguages</span>
+              <span class="class-name">CheckCategories</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkLanguages">
-                  </a> <!-- checkLanguages -->
-                  <span class="method-name">checkLanguages</span>
+                  <a name="checkCategories">
+                  </a> <!-- checkCategories -->
+                  <span class="method-name">checkCategories</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -317,8 +355,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Run all tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test 1&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Run all tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Test 1&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;AddingToCart&quot;/&gt;
       &lt;class name=&quot;CheckCategories&quot;/&gt;
@@ -327,6 +365,7 @@
       &lt;class name=&quot;PriceDropCheck&quot;/&gt;
       &lt;class name=&quot;RegistrationWithInvalidData&quot;/&gt;
       &lt;class name=&quot;RegistrationWithValidData&quot;/&gt;
+      &lt;class name=&quot;CheckoutEndToEnd&quot;/&gt;
       &lt;class name=&quot;SortingCheck&quot;/&gt;
       &lt;class name=&quot;SubscribeWithInvalidEmail&quot;/&gt;
     &lt;/classes&gt;
@@ -342,7 +381,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test 1 (9 classes)</span>
+                <span class="test-name">Test 1 (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -368,48 +407,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addingToCart')
-data.setCell(0, 2, 'AddingToCart')
-data.setCell(0, 3, 6285);
+data.setCell(0, 1, 'checkoutEndToEnd')
+data.setCell(0, 2, 'CheckoutEndToEnd')
+data.setCell(0, 3, 31395);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registrationWithValidData')
-data.setCell(1, 2, 'RegistrationWithValidData')
-data.setCell(1, 3, 2452);
+data.setCell(1, 1, 'addingToCart')
+data.setCell(1, 2, 'AddingToCart')
+data.setCell(1, 3, 5842);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'sortingCheck')
-data.setCell(2, 2, 'SortingCheck')
-data.setCell(2, 3, 2084);
+data.setCell(2, 1, 'registrationWithValidData')
+data.setCell(2, 2, 'RegistrationWithValidData')
+data.setCell(2, 3, 2325);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'registrationWithValidData')
 data.setCell(3, 2, 'RegistrationWithInvalidData')
-data.setCell(3, 3, 1653);
+data.setCell(3, 3, 2288);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'priceDropCheck')
-data.setCell(4, 2, 'PriceDropCheck')
-data.setCell(4, 3, 1015);
+data.setCell(4, 1, 'sortingCheck')
+data.setCell(4, 2, 'SortingCheck')
+data.setCell(4, 3, 2061);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkPopularProducts')
-data.setCell(5, 2, 'CheckPopularProducts')
-data.setCell(5, 3, 751);
+data.setCell(5, 1, 'priceDropCheck')
+data.setCell(5, 2, 'PriceDropCheck')
+data.setCell(5, 3, 962);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkLanguages')
-data.setCell(6, 2, 'CheckLanguages')
-data.setCell(6, 3, 679);
+data.setCell(6, 1, 'checkPopularProducts')
+data.setCell(6, 2, 'CheckPopularProducts')
+data.setCell(6, 3, 730);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'checkCategories')
-data.setCell(7, 2, 'CheckCategories')
-data.setCell(7, 3, 564);
+data.setCell(7, 1, 'checkLanguages')
+data.setCell(7, 2, 'CheckLanguages')
+data.setCell(7, 3, 700);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkSubscribeWithInvalidEmail')
-data.setCell(8, 2, 'SubscribeWithInvalidEmail')
-data.setCell(8, 3, 54);
+data.setCell(8, 1, 'checkCategories')
+data.setCell(8, 2, 'CheckCategories')
+data.setCell(8, 3, 614);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkSubscribeWithInvalidEmail')
+data.setCell(9, 2, 'SubscribeWithInvalidEmail')
+data.setCell(9, 3, 56);
 window.suiteTableData['Run_all_tests']= { tableData: data, tableDiv: 'times-div-Run_all_tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Run_all_tests">
               </div> <!-- times-div-Run_all_tests -->
             </div> <!-- times-div -->
@@ -442,133 +485,150 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addingToCart</span>
-                <span class="method-start">13190 ms</span>
+                <span class="method-start">15436 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19476 ms</span>
+                <span class="method-start">21291 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckCategories</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19730 ms</span>
+                <span class="method-start">21511 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkCategories</span>
-                <span class="method-start">33911 ms</span>
+                <span class="method-start">35232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34475 ms</span>
+                <span class="method-start">35848 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckLanguages</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">34691 ms</span>
+                <span class="method-start">36035 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkLanguages</span>
-                <span class="method-start">48487 ms</span>
+                <span class="method-start">49062 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49166 ms</span>
+                <span class="method-start">49763 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckPopularProducts</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">49366 ms</span>
+                <span class="method-start">49959 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkPopularProducts</span>
-                <span class="method-start">57709 ms</span>
+                <span class="method-start">62061 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">58460 ms</span>
+                <span class="method-start">62792 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PriceDropCheck</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">58641 ms</span>
+                <span class="method-start">62969 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">priceDropCheck</span>
-                <span class="method-start">73040 ms</span>
+                <span class="method-start">77120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74056 ms</span>
+                <span class="method-start">78084 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">RegistrationWithInvalidData</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">74178 ms</span>
+                <span class="method-start">78273 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationWithValidData</span>
-                <span class="method-start">85652 ms</span>
+                <span class="method-start">92257 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">87305 ms</span>
+                <span class="method-start">94546 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">RegistrationWithValidData</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">87452 ms</span>
+                <span class="method-start">94731 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationWithValidData</span>
-                <span class="method-start">94809 ms</span>
+                <span class="method-start">108408 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">97261 ms</span>
+                <span class="method-start">110734 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutEndToEnd</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">110911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkoutEndToEnd</span>
+                <span class="method-start">124732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">156133 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SortingCheck</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">97438 ms</span>
+                <span class="method-start">156327 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">sortingCheck</span>
-                <span class="method-start">109277 ms</span>
+                <span class="method-start">170141 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">111363 ms</span>
+                <span class="method-start">172203 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SubscribeWithInvalidEmail</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">111526 ms</span>
+                <span class="method-start">172395 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkSubscribeWithInvalidEmail</span>
-                <span class="method-start">122267 ms</span>
+                <span class="method-start">186413 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">122322 ms</span>
+                <span class="method-start">186470 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,5 +1,6 @@
 package pages;
 
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-
+@Slf4j
 public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//a[text()='Brown bear notebook']")
     private WebElement brownBearNotebook;
@@ -110,15 +111,17 @@ public class ResultSearchPage extends BasePage {
     private WebElement selectCountry;
 
     public ResultSearchPage() {
-        PageFactory.initElements(getWebDriver(), this);
+        PageFactory.initElements(getDriver(), this);
     }
 
     public ResultSearchPage clickBrownBearNotebook() {
+        log.info("Click brown bear notebook");
         brownBearNotebook.click();
         return this;
     }
 
     public ResultSearchPage select(String value) {
+        log.info("Select value");
         Select select = new Select(selectPaperType);
         select.selectByVisibleText(value);
         return this;
@@ -126,6 +129,7 @@ public class ResultSearchPage extends BasePage {
 
 
     public ResultSearchPage setInputQuantityWanted() {
+        log.info("Set input quantity you wanted(5)");
         int clickCounter = 0;
 
         for (int i = 1; i < 5; i++) {
@@ -141,16 +145,19 @@ public class ResultSearchPage extends BasePage {
     }
 
     public String getMessageSuccessfully() {
-        WebDriverWait wait = new WebDriverWait(getWebDriver(), Duration.ofSeconds(10));
+        log.info("Get message successfully");
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(messageSuccessfully));
         return messageSuccessfully.getText().substring(1);
     }
 
     public String getTypePaper() {
+        log.info("Getting type paper");
         return typePaper.getText();
     }
 
     public String getProductQuantity() {
+        log.info("Get product quantity");
         return productQuantity.getText();
     }
 
@@ -159,6 +166,7 @@ public class ResultSearchPage extends BasePage {
     }
 
     public double getTotalPrice() {
+        log.info("Get total price");
         return Double.parseDouble(totalPrice.getText().substring(1));
     }
 
@@ -183,15 +191,13 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickButtonContinueShopping() {
-        WebDriverWait wait = new WebDriverWait(getWebDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOf(buttonContinueShopping));
+        waitUntilPresent(buttonContinueShopping,10);
         buttonContinueShopping.click();
         return this;
     }
 
     public ResultSearchPage setFieldSearch(String string) {
-        WebDriverWait wait = new WebDriverWait(getWebDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOf(inputSearch));
+        waitUntilPresent(inputSearch,10);
         inputSearch.sendKeys(string);
         inputSearch.sendKeys(Keys.ENTER);
         return this;
@@ -208,8 +214,7 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickButtonProceedToCheckout() {
-        WebDriverWait wait = new WebDriverWait(getWebDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOf(buttonProceedToCheckout));
+        waitUntilPresent(buttonProceedToCheckout,10);
         buttonProceedToCheckout.click();
         return this;
     }
@@ -248,8 +253,7 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickButtonContinueAddresses() {
-        WebDriverWait wait = new WebDriverWait(getWebDriver(), Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.elementToBeClickable( buttonContinueAddresses));
+        waitUntilPresent(buttonContinueAddresses,10);
         buttonContinueAddresses.click();
       return this;
     }
@@ -261,8 +265,7 @@ public class ResultSearchPage extends BasePage {
         return this;
     }
     public ResultSearchPage clickInputMyCarrier(){
-        WebDriverWait wait = new WebDriverWait(getWebDriver(), Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.elementToBeClickable(inputMyCarrier));
+        waitUntilPresent(inputMyCarrier,10);
        inputMyCarrier.click();
         return this;
 

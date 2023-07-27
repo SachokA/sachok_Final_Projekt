@@ -1,14 +1,11 @@
 package pages;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.RandomStringUtils;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 @Slf4j
 public class LoginPage extends BasePage {
     @FindBy(xpath = "//a[@data-link-action='display-register-form']")
@@ -43,7 +40,7 @@ public class LoginPage extends BasePage {
 
 
     public LoginPage() {
-        PageFactory.initElements(getWebDriver(), this);
+        PageFactory.initElements(getDriver(), this);
     }
 
     public LoginPage clickNotAccount() {

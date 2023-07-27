@@ -72,23 +72,23 @@ public class MainPage extends BasePage {
     private WebElement inputSearch;
 
     public MainPage() {
-        PageFactory.initElements(getWebDriver(), this);
+        PageFactory.initElements(getDriver(), this);
     }
 
     public void waitForPageLoading() {
         log.info("Waiting for page loading");
-        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
         wait.until(ExpectedConditions.invisibilityOf(loadingMessage));
     }
 
     public void switchToFrame() {
         log.info("Switch to frame");
-        getWebDriver().switchTo().frame(iframeFrameOfDemoShop);
+        getDriver().switchTo().frame(iframeFrameOfDemoShop);
     }
 
      public String getMessageOnPageGetOurLatestNewsAndSpecialSales() {
         log.info("Getting message near the email field");
-        JavascriptExecutor executor = (JavascriptExecutor) getWebDriver();
+        JavascriptExecutor executor = (JavascriptExecutor) getDriver();
         executor.executeScript("arguments[0].click()", textGetOurLatestNewsAndSpecialSales);
         return textGetOurLatestNewsAndSpecialSales.getText();
     }
@@ -147,7 +147,7 @@ public class MainPage extends BasePage {
 
     public MainPage moveToElement(WebElement webElement) {
         log.info("Hover mouse over 'CLOTHES");
-        Actions actions = new Actions(getWebDriver());
+        Actions actions = new Actions(getDriver());
         actions.moveToElement(webElement).perform();
 
         return this;
@@ -192,7 +192,7 @@ public class MainPage extends BasePage {
     }
 
     public ResultSearchPage setFieldSearch(String value) {
-        Actions actions = new Actions(getWebDriver());
+        log.info("Set field search and enter");
         inputSearch.sendKeys(value);
         inputSearch.sendKeys(Keys.ENTER);
         return new ResultSearchPage();

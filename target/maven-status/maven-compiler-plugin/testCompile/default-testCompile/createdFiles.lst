@@ -1,11 +1,11 @@
-CheckCategories.class
 PriceDropCheck.class
+SubscribeWithInvalidEmail.class
+CheckoutEndToEnd.class
+CheckCategories.class
 CheckPopularProducts.class
 RegistrationWithInvalidData.class
 RegistrationWithValidData.class
 SortingCheck.class
-SubscribeWithInvalidEmail.class
 CheckLanguages.class
 AddingToCart.class
 BaseTest.class
-CheckoutEndToEnd.class

@@ -14,7 +14,7 @@ public class PricesDropPage extends BasePage{
     private List<WebElement> pricesDropContainerLocator;
 
     public PricesDropPage(){
-        PageFactory.initElements(getWebDriver(),this);
+        PageFactory.initElements(getDriver(),this);
     }
 
     public List<PricesDropComponent> getPricesDropProduct(){
