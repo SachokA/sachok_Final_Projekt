@@ -1,9 +1,10 @@
 package pages;
 
 import lombok.extern.slf4j.Slf4j;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+
 @Slf4j
 public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//a[text()='Brown bear notebook']")
@@ -109,6 +111,8 @@ public class ResultSearchPage extends BasePage {
 
     @FindBy(xpath = "//select[@id='field-id_country']")
     private WebElement selectCountry;
+    @FindBy(xpath = "//input[@name='use_same_address']")
+    private WebElement inputUseSameAddress;
 
     public ResultSearchPage() {
         PageFactory.initElements(getDriver(), this);
@@ -175,7 +179,7 @@ public class ResultSearchPage extends BasePage {
         return this;
     }
 
-   public ResultSearchPage setInputProductMessage() {
+    public ResultSearchPage setInputProductMessage() {
         inputProductMessage.sendKeys("Best mug ever");
         return this;
     }
@@ -191,13 +195,13 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickButtonContinueShopping() {
-        waitUntilPresent(buttonContinueShopping,10);
+        waitUntilPresent(buttonContinueShopping, 10);
         buttonContinueShopping.click();
         return this;
     }
 
     public ResultSearchPage setFieldSearch(String string) {
-        waitUntilPresent(inputSearch,10);
+        waitUntilPresent(inputSearch, 10);
         inputSearch.sendKeys(string);
         inputSearch.sendKeys(Keys.ENTER);
         return this;
@@ -214,7 +218,7 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickButtonProceedToCheckout() {
-        waitUntilPresent(buttonProceedToCheckout,10);
+        waitUntilPresent(buttonProceedToCheckout, 10);
         buttonProceedToCheckout.click();
         return this;
     }
@@ -252,10 +256,20 @@ public class ResultSearchPage extends BasePage {
         return this;
     }
 
-    public ResultSearchPage clickButtonContinueAddresses() {
-        waitUntilPresent(buttonContinueAddresses,10);
+    public void clickButtonContinueAddresses() {
+      //  Actions actions = new Actions(getDriver());
+//        waitUntilPresent(buttonContinueAddresses,10);
+//        actions.moveToElement(buttonContinueAddresses);
+//        actions.click();
+//        actions.perform();
+
         buttonContinueAddresses.click();
-      return this;
+    }
+
+    public ResultSearchPage moveToAndClickButtonContinueAddresses() {
+        Actions actions = new Actions(getDriver());
+        actions.moveToElement(buttonContinueAddresses).click().perform();
+        return this;
     }
 
     public ResultSearchPage fillAddressFormWithValidData(String address, String zipCode, String city) {
@@ -264,15 +278,20 @@ public class ResultSearchPage extends BasePage {
         inputFieldCity.sendKeys(city);
         return this;
     }
-    public ResultSearchPage clickInputMyCarrier(){
-        waitUntilPresent(inputMyCarrier,10);
-       inputMyCarrier.click();
-        return this;
+
+    public void clickInputMyCarrier() {
+        waitUntilPresent(inputMyCarrier, 10);
+        inputMyCarrier.click();
+
 
     }
 
-    public void setSelectCountry(String value){
+    public void setSelectCountry(String value) {
         Select select = new Select(selectCountry);
         select.selectByVisibleText(value);
+    }
+
+    public void clickUseThisAddress(){
+        inputUseSameAddress.click();
     }
 }

@@ -16,9 +16,9 @@ public class PriceDropCheck extends BaseTest {
         mainPage.clickPricesDrop();
         SoftAssert softAssert = new SoftAssert();
         List<PricesDropComponent> products = pricesDropPage.getPricesDropProduct();
-        for (PricesDropComponent product: products) {
-           softAssert.assertNotNull(product.getOldPrice());
-           softAssert.assertNotNull(product.getCurrentPrice());
+        for (PricesDropComponent product : products) {
+            softAssert.assertNotNull(product.getOldPrice());
+            softAssert.assertNotNull(product.getCurrentPrice());
             softAssert.assertEquals(product.getCurrentPrice(),
                     Math.round((product.getOldPrice()
                             - product.getOldPrice() * product.getDiscountPercentageDiscountProduct()) * 100.0) / 100.0);

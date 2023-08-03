@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test 1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 27 17:09:17 EEST 2023</td>
+<td>Started on:</td><td>Sun Jul 30 17:01:45 EEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>186 seconds (186690 ms)</td>
+<tr><td>Total time:</td><td>111 seconds (111852 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,12 +77,12 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='CheckoutEndToEnd.checkoutEndToEnd()'><b>checkoutEndToEnd</b><br>Test class: CheckoutEndToEnd</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a89d49ab9496d3fefbcae35756603fe7)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: msedge on windows (14fffbe916e5f404d0478076b4bf5db1)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a89d49ab9496d3fefbcae35756603fe7
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:55969}, msedge: {msedgedriverVersion: 115.0.1901.188 (b51b39339c4..., userDataDir: C:\Users\Aguka\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55969/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14fffbe916e5f404d0478076b4bf5db1
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at pages.BasePage.waitUntilPresent(BasePage.java:25)
@@ -91,13 +91,13 @@ Session ID: a89d49ab9496d3fefbcae35756603fe7
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace95838444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace95838444'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a89d49ab9496d3fefbcae35756603fe7)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1771012334", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1771012334'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: msedge on windows (14fffbe916e5f404d0478076b4bf5db1)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52169/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a89d49ab9496d3fefbcae35756603fe7
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:55969}, msedge: {msedgedriverVersion: 115.0.1901.188 (b51b39339c4..., userDataDir: C:\Users\Aguka\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55969/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14fffbe916e5f404d0478076b4bf5db1
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at pages.BasePage.waitUntilPresent(BasePage.java:25)
@@ -119,40 +119,8 @@ Session ID: a89d49ab9496d3fefbcae35756603fe7
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>31</td>
-<td>CheckoutEndToEnd@55ecbafe</td></tr>
-<tr>
-<td title='SortingCheck.sortingCheck()'><b>sortingCheck</b><br>Test class: SortingCheck</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	Lists differ at element [0]: Brown Bear Cushion != Hummingbird Printed T-Shirt expected [Brown Bear Cushion] but found [Hummingbird Printed T-Shirt]
-	at SortingCheck.sortingCheck(SortingCheck.java:26)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace250908186", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace250908186'><pre>java.lang.AssertionError: The following asserts failed:
-	Lists differ at element [0]: Brown Bear Cushion != Hummingbird Printed T-Shirt expected [Brown Bear Cushion] but found [Hummingbird Printed T-Shirt]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at SortingCheck.sortingCheck(SortingCheck.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>2</td>
-<td>SortingCheck@5a8ba37c</td></tr>
+<td>30</td>
+<td>CheckoutEndToEnd@7afbf561</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -163,45 +131,50 @@ Session ID: a89d49ab9496d3fefbcae35756603fe7
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='CheckPopularProducts.checkPopularProducts()'><b>checkPopularProducts</b><br>Test class: CheckPopularProducts</td>
-<td></td>
-<td>0</td>
-<td>CheckPopularProducts@65bcf7c2</td></tr>
-<tr>
 <td title='AddingToCart.addingToCart()'><b>addingToCart</b><br>Test class: AddingToCart</td>
 <td></td>
 <td>5</td>
-<td>AddingToCart@3ed0918d</td></tr>
+<td>AddingToCart@27ace0b1</td></tr>
 <tr>
-<td title='CheckCategories.checkCategories()'><b>checkCategories</b><br>Test class: CheckCategories</td>
+<td title='SortingCheck.sortingCheck()'><b>sortingCheck</b><br>Test class: SortingCheck</td>
 <td></td>
-<td>0</td>
-<td>CheckCategories@16c8b7bd</td></tr>
-<tr>
-<td title='PriceDropCheck.priceDropCheck()'><b>priceDropCheck</b><br>Test class: PriceDropCheck</td>
-<td></td>
-<td>0</td>
-<td>PriceDropCheck@3db64bd4</td></tr>
+<td>2</td>
+<td>SortingCheck@2f98635e</td></tr>
 <tr>
 <td title='CheckLanguages.checkLanguages()'><b>checkLanguages</b><br>Test class: CheckLanguages</td>
 <td></td>
-<td>0</td>
-<td>CheckLanguages@7159139f</td></tr>
+<td>1</td>
+<td>CheckLanguages@624a24f6</td></tr>
+<tr>
+<td title='RegistrationWithInvalidData.registrationWithValidData()'><b>registrationWithValidData</b><br>Test class: RegistrationWithInvalidData</td>
+<td></td>
+<td>1</td>
+<td>RegistrationWithInvalidData@4f453e63</td></tr>
+<tr>
+<td title='CheckPopularProducts.checkPopularProducts()'><b>checkPopularProducts</b><br>Test class: CheckPopularProducts</td>
+<td></td>
+<td>1</td>
+<td>CheckPopularProducts@6b00ad9</td></tr>
+<tr>
+<td title='PriceDropCheck.priceDropCheck()'><b>priceDropCheck</b><br>Test class: PriceDropCheck</td>
+<td></td>
+<td>1</td>
+<td>PriceDropCheck@338cc75f</td></tr>
 <tr>
 <td title='RegistrationWithValidData.registrationWithValidData()'><b>registrationWithValidData</b><br>Test class: RegistrationWithValidData</td>
 <td></td>
 <td>2</td>
-<td>RegistrationWithValidData@576c5536</td></tr>
+<td>RegistrationWithValidData@7c9bdee9</td></tr>
 <tr>
-<td title='RegistrationWithInvalidData.registrationWithValidData()'><b>registrationWithValidData</b><br>Test class: RegistrationWithInvalidData</td>
+<td title='CheckCategories.checkCategories()'><b>checkCategories</b><br>Test class: CheckCategories</td>
 <td></td>
-<td>2</td>
-<td>RegistrationWithInvalidData@6e106680</td></tr>
+<td>0</td>
+<td>CheckCategories@53a5e217</td></tr>
 <tr>
 <td title='SubscribeWithInvalidEmail.checkSubscribeWithInvalidEmail()'><b>checkSubscribeWithInvalidEmail</b><br>Test class: SubscribeWithInvalidEmail</td>
 <td></td>
 <td>0</td>
-<td>SubscribeWithInvalidEmail@37c2eacb</td></tr>
+<td>SubscribeWithInvalidEmail@49c8f6e8</td></tr>
 </table><p>
 </body>
 </html>

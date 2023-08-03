@@ -17,7 +17,7 @@
         <browserWidth>1920</browserWidth>
         <browserHeight>1080</browserHeight>
         <browser>CHROME</browser>
-        <threads>1</threads>
+        <threads>2</threads>
     </properties>
     <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
     <dependencies>

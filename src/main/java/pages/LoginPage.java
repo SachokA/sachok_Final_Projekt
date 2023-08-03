@@ -1,7 +1,6 @@
 package pages;
 
 import lombok.extern.slf4j.Slf4j;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -65,11 +64,13 @@ public class LoginPage extends BasePage {
         log.info("Get displayed user name");
         return showedCurrentlyUser.getText();
     }
-    public String getMessageAlertInvalidFormat(){
+
+    public String getMessageAlertInvalidFormat() {
         log.info("Getting message alert invalid format");
         return alertInvalidFormat.getText();
     }
-    public String isInvalidFieldMustBeRed(){
+
+    public String isInvalidFieldMustBeRed() {
         log.info("Is invalid field must be red");
         String style = inputFirstName.getCssValue("outline-color");
         return style;

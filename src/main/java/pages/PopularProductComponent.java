@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 @Getter
 public class PopularProductComponent extends BasePage {
-    private WebElement image;
+
     private String name;
     private Double currentPrice;
     private String oldPrice;
@@ -17,7 +17,7 @@ public class PopularProductComponent extends BasePage {
     }
 
     public PopularProductComponent(WebElement container) {
-        this.image = container.findElement(By.xpath(".//img"));
+
         this.name = container.findElement(By.xpath(".//h3")).getText();
         try {
             this.oldPrice = container.findElement(By.xpath(".//span[@class='regular-price']")).getText().substring(1);

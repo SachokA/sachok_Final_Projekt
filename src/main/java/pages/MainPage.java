@@ -1,10 +1,7 @@
 package pages;
 
 import lombok.extern.slf4j.Slf4j;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -13,13 +10,29 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
-import java.util.Objects;
+import java.util.Map;
 
 @Slf4j
 public class MainPage extends BasePage {
 
+
+    @FindBy(linkText = "CLOTHES")
+    private WebElement clothesCategory;
+
+    @FindBy(linkText = "ACCESSORIES")
+    private WebElement accessoriesCategory;
+
+    @FindBy(linkText = "ART")
+    private WebElement artCategory;
+
+    @FindBy(xpath = "//*[@id='category-4'or@id='category-5']/a")
+    private List<WebElement> clothesSubMenu;
+    @FindBy(xpath = "//*[@id='category-7'or@id='category-8']/a")
+    private List<WebElement> accessoriesSubMenu;
+    @FindBy(xpath = "//a[contains(text(), 'Art')]")
+    private WebElement artSubMenu;
 
     @FindBy(xpath = "//p[@id='block-newsletter-label']")
     private WebElement textGetOurLatestNewsAndSpecialSales;
@@ -37,29 +50,24 @@ public class MainPage extends BasePage {
     private List<WebElement> languagesList;
 
     @FindBy(xpath = "//*[@id='category-4'or@id='category-5']/a")
-    public List<WebElement> clothesList;
+    private List<WebElement> clothesList;
 
     @FindBy(xpath = "//*[@id='category-7'or@id='category-8']/a")
-    public List<WebElement> accessoriesList;
+    private List<WebElement> accessoriesList;
 
     @FindBy(xpath = "//div[@id='loadingMessage']")
     private WebElement loadingMessage;
     @FindBy(xpath = "//iframe[@title='Frame of demo shop']")
-    public WebElement iframeFrameOfDemoShop;
+    private WebElement iframeFrameOfDemoShop;
 
     @FindBy(xpath = "//span[text()='Sign in']")
     private WebElement buttonSignIn;
 
-    @FindBy(linkText = "CLOTHES")
-    public WebElement buttonClothes;
 
-    @FindBy(linkText = "ACCESSORIES")
-    public WebElement buttonAccessories;
+    @FindBy(xpath = "//div[@class='popover sub-menu js-sub-menu collapse']")
+    private WebElement subMenu;
 
-    @FindBy(linkText = "ART")
-    public WebElement buttonArt;
-
-    @FindBy(xpath = "//section[@class='featured-products clearfix']//article")
+    @FindBy(xpath = "//section[@class='featured-products clearfix']//div[@class='product-description']")
     private List<WebElement> popularProductContainerLocator;
 
     @FindBy(xpath = "//a[@title='Our special products']")
@@ -86,7 +94,7 @@ public class MainPage extends BasePage {
         getDriver().switchTo().frame(iframeFrameOfDemoShop);
     }
 
-     public String getMessageOnPageGetOurLatestNewsAndSpecialSales() {
+    public String getMessageOnPageGetOurLatestNewsAndSpecialSales() {
         log.info("Getting message near the email field");
         JavascriptExecutor executor = (JavascriptExecutor) getDriver();
         executor.executeScript("arguments[0].click()", textGetOurLatestNewsAndSpecialSales);
@@ -114,11 +122,21 @@ public class MainPage extends BasePage {
         return list;
     }
 
-    public List<String> getList(List<WebElement> webElement) {
+    public List<String> getListClothes() {
         log.info("Getting list elements");
         List<String> list = new ArrayList<>();
-        List<WebElement> clothes = webElement;
+        List<WebElement> clothes = clothesList;
         for (WebElement element : clothes) {
+            list.add(element.getText());
+        }
+        return list;
+    }
+
+    public List<String> getListAccessories() {
+        log.info("Getting list elements");
+        List<String> list = new ArrayList<>();
+        List<WebElement> accessories = accessoriesList;
+        for (WebElement element : accessories) {
             list.add(element.getText());
         }
         return list;
@@ -145,19 +163,6 @@ public class MainPage extends BasePage {
         return new LoginPage();
     }
 
-    public MainPage moveToElement(WebElement webElement) {
-        log.info("Hover mouse over 'CLOTHES");
-        Actions actions = new Actions(getDriver());
-        actions.moveToElement(webElement).perform();
-
-        return this;
-    }
-
-    public String getArtValue() {
-        log.info("Check that no any sub category appears");
-        return buttonArt.getAttribute("class");
-    }
-
     public List<PopularProductComponent> getPopularProduct() {
         log.info("Get list popular product");
         List<PopularProductComponent> products = new ArrayList<>();
@@ -182,11 +187,13 @@ public class MainPage extends BasePage {
     }
 
     public PricesDropPage clickPricesDrop() {
+        log.info("Click button prices drop");
         pricesDrop.click();
         return new PricesDropPage();
     }
 
     public HomePage clickAllProducts() {
+        log.info("Click button All Products");
         allProducts.click();
         return new HomePage();
     }
@@ -197,4 +204,54 @@ public class MainPage extends BasePage {
         inputSearch.sendKeys(Keys.ENTER);
         return new ResultSearchPage();
     }
+
+    public MainPage hoverOverClothesCategory() {
+        log.info("Hover over clothes category");
+        Actions actions = new Actions(getDriver());
+        actions.moveToElement(clothesCategory).perform();
+        return this;
+
+    }
+
+    public MainPage hoverOverAccessoriesCategory() {
+        log.info("Hover over accessories category");
+        Actions actions = new Actions(getDriver());
+        actions.moveToElement(accessoriesCategory).perform();
+        return this;
+
+    }
+
+    public MainPage hoverOverArtCategory() {
+        log.info("Hover over art category");
+        Actions actions = new Actions(getDriver());
+        actions.moveToElement(artCategory).perform();
+        return this;
+    }
+
+    public List<String> getClothesSubMenuItems() {
+        log.info("Get clothes subMenu clothes");
+        List<String> clothes = new ArrayList<>();
+        List<WebElement> subMenuClothes = clothesSubMenu;
+        for (WebElement element : subMenuClothes) {
+            clothes.add(element.getText());
+        }
+        return clothes;
+    }
+
+    public List<String> getAccessoriesSubMenuItems() {
+        log.info("Get clothes subMenu accessories");
+        List<String> accessories = new ArrayList<>();
+        List<WebElement> subMenuAccessories = accessoriesSubMenu;
+        for (WebElement element : subMenuAccessories) {
+            accessories.add(element.getText());
+        }
+        return accessories;
+    }
+
+    public String getArtValue() {
+        log.info("Check that no any sub category appears");
+        return artSubMenu.getAttribute("class");
+    }
 }
+
+

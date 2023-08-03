@@ -1,5 +1,5 @@
+import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import pages.MainPage;
 import pages.ResultSearchPage;
 
@@ -9,20 +9,24 @@ public class AddingToCart extends BaseTest {
     public void addingToCart() {
         MainPage mainPage = new MainPage();
         ResultSearchPage resultSearchPage = new ResultSearchPage();
-        SoftAssert softAssert = new SoftAssert();
+        SoftAssertions softAssert = new SoftAssertions();
         String actualMessage = mainPage.setFieldSearch("Bear")
                 .clickBrownBearNotebook()
                 .select("Doted")
                 .setInputQuantityWanted()
                 .getMessageSuccessfully();
-        softAssert.assertEquals(actualMessage,"Product successfully added to your shopping cart");
+        softAssert.assertThat(actualMessage).as("not as expected")
+                .isEqualTo("Product successfully added to your shopping cart");
         String actualTypePaper = resultSearchPage.getTypePaper();
-        softAssert.assertEquals(actualTypePaper,"Paper Type: Doted");
+        softAssert.assertThat(actualTypePaper).as("not as expected" )
+                .isEqualTo("Paper Type: Doted");
         String actualQuantity = resultSearchPage.getProductQuantity();
-        softAssert.assertEquals(actualQuantity,"Quantity: 5");
+        softAssert.assertThat(actualQuantity).as("not as expected" )
+                .isEqualTo("Quantity: 5");
         double actualTotal = resultSearchPage.getTotalPrice();
-        double expectedTotal = resultSearchPage.getProductPrice()*5;
-        softAssert.assertEquals(actualTotal,expectedTotal);
+        double expectedTotal = resultSearchPage.getProductPrice() * 5;
+        softAssert.assertThat(actualTotal).as("not as expected")
+                .isEqualTo(expectedTotal);
         softAssert.assertAll();
 
     }

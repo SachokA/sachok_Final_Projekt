@@ -37,7 +37,9 @@ public class CheckoutEndToEnd extends BaseTest {
         resultSearchPage.clickButtonContinue();
         resultSearchPage.fillAddressFormWithValidData(address,zipCode,city);
         resultSearchPage.setSelectCountry("France");
+        resultSearchPage.clickUseThisAddress();
         resultSearchPage.clickButtonContinueAddresses();
+        resultSearchPage.moveToAndClickButtonContinueAddresses();
         resultSearchPage.clickInputMyCarrier();
 
 

@@ -1,11 +1,13 @@
 pages\BrowserFactory$1.class
 pages\BasePage.class
-pages\PricesDropComponent.class
-pages\ResultSearchPage.class
 pages\LoginPage.class
 enums\BrowserType.class
 pages\HomePage.class
 pages\BrowserFactory.class
 pages\PricesDropPage.class
-pages\PopularProductComponent.class
+pages\AllProductsComponent.class
 pages\MainPage.class
+pages\PricesDropComponent.class
+pages\HomePageTwo.class
+pages\ResultSearchPage.class
+pages\PopularProductComponent.class

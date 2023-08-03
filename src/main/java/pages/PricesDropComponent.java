@@ -15,6 +15,7 @@ public class PricesDropComponent extends BasePage {
 
     public PricesDropComponent() {
     }
+
     public PricesDropComponent(WebElement container) {
         this.image = container.findElement(By.xpath(".//div[@class='thumbnail-top']//a//img"));
         this.name = container.findElement(By.xpath(".//div[@class='product-description']//h2//a")).getText();
@@ -26,4 +27,4 @@ public class PricesDropComponent extends BasePage {
         this.currentPrice = Double.valueOf(container.findElement(By.xpath(".//div[@class='product-price-and-shipping']//span[@class='price']")).getText().substring(1));
         this.discountPercentageDiscountProduct = 0.01 * (Double.valueOf(container.findElement(By.xpath(".//li[@class='product-flag discount']")).getText().substring(1, 3)));
     }
-    }
+}

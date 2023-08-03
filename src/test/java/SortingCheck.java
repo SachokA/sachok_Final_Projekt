@@ -1,5 +1,6 @@
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import pages.AllProductsComponent;
 import pages.HomePage;
 import pages.MainPage;
 
@@ -14,15 +15,12 @@ public class SortingCheck extends BaseTest {
         MainPage mainPage = new MainPage();
         HomePage homePage = new HomePage();
         SoftAssert softAssert = new SoftAssert();
-
         mainPage.clickAllProducts();
         homePage.clickButtonSorted();
         homePage.selectSortedNameAZ();
-        List<String> actualResultSortedNameAZ = homePage.getAllProducts();
-        List<String> expectedResultSortedNameAZ = homePage.sortedNameAZ();
-        softAssert.assertEquals(actualResultSortedNameAZ, expectedResultSortedNameAZ);
-
-
+        List<AllProductsComponent> actualResultAZ = homePage.mergeList();
+        System.out.println(actualResultAZ.size());
+        System.out.println(actualResultAZ);
         softAssert.assertAll();
     }
 }

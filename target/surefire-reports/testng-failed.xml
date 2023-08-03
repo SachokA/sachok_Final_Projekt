@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" parallel="classes" name="Failed suite [Run all tests]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="1" parallel="classes" name="Test 1(failed)" verbose="0">
+<suite thread-count="2" parallel="classes" name="Failed suite [Run all tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="classes" name="Test 1(failed)" verbose="0">
     <classes>
-      <class name="SortingCheck">
-        <methods>
-          <include name="sortingCheck"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- SortingCheck -->
       <class name="CheckoutEndToEnd">
         <methods>
           <include name="tearDown"/>
