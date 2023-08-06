@@ -5,7 +5,7 @@ import pages.PopularProductComponent;
 
 import java.util.List;
 
-public class CheckPopularProducts extends BaseTest {
+public class CheckPopularProductsTest extends BaseTest {
     @Test
     public void checkPopularProducts() {
         MainPage mainPage = new MainPage();

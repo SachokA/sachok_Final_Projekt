@@ -1,10 +1,9 @@
-import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.MainPage;
 import pages.ResultSearchPage;
 
-public class CheckoutEndToEnd extends BaseTest {
+public class CheckoutEndToEndTest extends BaseTest {
     @Test
     public void checkoutEndToEnd() {
         MainPage mainPage = new MainPage();
@@ -31,18 +30,14 @@ public class CheckoutEndToEnd extends BaseTest {
         System.out.println(actualTotal);
         double expectedTotal = resultSearchPage.getTotalPriceAllProducts();
         softAssert.assertEquals(actualTotal, expectedTotal);
-        resultSearchPage.clickButtonProceedToCheckout();
-        resultSearchPage
-                .fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes(firstName, lastName, email);
-        resultSearchPage.clickButtonContinue();
-        resultSearchPage.fillAddressFormWithValidData(address,zipCode,city);
-        resultSearchPage.setSelectCountry("France");
-        resultSearchPage.clickUseThisAddress();
-        resultSearchPage.clickButtonContinueAddresses();
-        resultSearchPage.moveToAndClickButtonContinueAddresses();
-        resultSearchPage.clickInputMyCarrier();
-
-
+        resultSearchPage.clickButtonProceedToCheckout()
+                .fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes(firstName, lastName, email)
+                .clickButtonContinue()
+                .fillAddressFormWithValidData(address, zipCode, city)
+                .setSelectCountry("France")
+                .clickButtonContinueAddresses()
+                .clickButtonContinueAddresses()
+                .clickInputMyCarrier();
         softAssert.assertAll();
     }
 }

@@ -4,7 +4,7 @@ import pages.MainPage;
 import pages.ResultSearchPage;
 
 @Test
-public class AddingToCart extends BaseTest {
+public class AddingToCartTest extends BaseTest {
 
     public void addingToCart() {
         MainPage mainPage = new MainPage();

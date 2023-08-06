@@ -2,6 +2,7 @@ package pages;
 
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -91,7 +92,7 @@ public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//input[@name='customer_privacy']")
     private WebElement inputCheckBoxCustomerPrivacy;
 
-    @FindBy(xpath = "//footer[@class='form-footer clearfix']//button[@name='continue']")
+    @FindBy(xpath = "//button[@name='continue']") //"//footer[@class='form-footer clearfix']//button[@name='continue']")
     private WebElement buttonContinue;
 
     @FindBy(xpath = "//input[@id='field-address1']")
@@ -103,7 +104,7 @@ public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//input[@id='field-city']")
     private WebElement inputFieldCity;
 
-    @FindBy(xpath = "//*[@id='customer-form']/footer/button")
+    @FindBy(xpath = "//button[@name='confirm-addresses']")//"//*[@id='customer-form']/footer/button")
     private WebElement buttonContinueAddresses;
 
     @FindBy(xpath = "//input[@id='delivery_option_2']")
@@ -256,21 +257,13 @@ public class ResultSearchPage extends BasePage {
         return this;
     }
 
-    public void clickButtonContinueAddresses() {
-      //  Actions actions = new Actions(getDriver());
-//        waitUntilPresent(buttonContinueAddresses,10);
-//        actions.moveToElement(buttonContinueAddresses);
-//        actions.click();
-//        actions.perform();
-
-        buttonContinueAddresses.click();
-    }
-
-    public ResultSearchPage moveToAndClickButtonContinueAddresses() {
-        Actions actions = new Actions(getDriver());
-        actions.moveToElement(buttonContinueAddresses).click().perform();
+    public ResultSearchPage clickButtonContinueAddresses() {
+      //  buttonContinueAddresses.click();
+       JavascriptExecutor jsExecutor = (JavascriptExecutor) getDriver();
+     jsExecutor.executeScript("arguments[0].click();", buttonContinueAddresses);
         return this;
     }
+
 
     public ResultSearchPage fillAddressFormWithValidData(String address, String zipCode, String city) {
         inputFieldAddress.sendKeys(address);
@@ -279,19 +272,20 @@ public class ResultSearchPage extends BasePage {
         return this;
     }
 
-    public void clickInputMyCarrier() {
+    public ResultSearchPage clickInputMyCarrier() {
         waitUntilPresent(inputMyCarrier, 10);
         inputMyCarrier.click();
-
-
+        return this;
     }
 
-    public void setSelectCountry(String value) {
+    public ResultSearchPage setSelectCountry(String value) {
         Select select = new Select(selectCountry);
         select.selectByVisibleText(value);
+        return this;
     }
 
-    public void clickUseThisAddress(){
+    public ResultSearchPage clickUseThisAddress() {
         inputUseSameAddress.click();
+        return this;
     }
 }

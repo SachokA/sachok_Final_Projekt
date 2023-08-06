@@ -1,9 +1,8 @@
 import org.assertj.core.api.SoftAssertions;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.MainPage;
 
-public class CheckLanguages extends BaseTest{
+public class CheckLanguagesTest extends BaseTest{
 
     @Test
     public void checkLanguages(){

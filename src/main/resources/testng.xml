@@ -5,16 +5,16 @@
 
     <test name="Test 1">
         <classes>
-            <class name="AddingToCart"/>
-            <class name="CheckCategories"/>
-            <class name="CheckLanguages"/>
-            <class name="CheckPopularProducts"/>
-            <class name="PriceDropCheck"/>
-            <class name="RegistrationWithInvalidData"/>
-            <class name="RegistrationWithValidData"/>
-            <class name="CheckoutEndToEnd"></class>
-            <class name="SortingCheck"></class>
-            <class name="SubscribeWithInvalidEmail"/>
+            <class name="AddingToCartTest"/>
+            <class name="CheckCategoriesTest"/>
+            <class name="CheckLanguagesTest"/>
+            <class name="CheckPopularProductsTest"/>
+            <class name="PriceDropCheckTest"/>
+            <class name="RegistrationWithInvalidDataTest"/>
+            <class name="RegistrationWithValidDataTest"/>
+            <class name="CheckoutEndToEndTest"></class>
+            <class name="SortingCheckTest"></class>
+            <class name="SubscribeWithInvalidEmailTest"/>
         </classes>
     </test>
 </suite>

@@ -1,9 +1,8 @@
 import org.assertj.core.api.SoftAssertions;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.MainPage;
 
-public class SubscribeWithInvalidEmail extends BaseTest{
+public class SubscribeWithInvalidEmailTest extends BaseTest{
 @Test
     public void checkSubscribeWithInvalidEmail(){
     MainPage mainPage =new MainPage();

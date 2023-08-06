@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import pages.MainPage;
 
-public class RegistrationWithValidData extends BaseTest{
+public class RegistrationWithValidDataTest extends BaseTest{
 @Test
     public void registrationWithValidData(){
     MainPage mainPage = new MainPage();

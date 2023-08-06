@@ -9,33 +9,71 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Run all tests</th></tr>
-<tr><td><a href="#t0">Test 1</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">111,852</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test 1</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">155,519</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Run all tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">CheckoutEndToEnd</td><td><a href="#m0">checkoutEndToEnd</a></td><td rowspan="1">1690725785684</td><td rowspan="1">30999</td></tr><tr><th colspan="4">Test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">AddingToCart</td><td><a href="#m1">addingToCart</a></td><td rowspan="1">1690725745245</td><td rowspan="1">5615</td></tr><tr class="passedodd"><td rowspan="1">CheckCategories</td><td><a href="#m2">checkCategories</a></td><td rowspan="1">1690725739829</td><td rowspan="1">664</td></tr><tr class="passedeven"><td rowspan="1">CheckLanguages</td><td><a href="#m3">checkLanguages</a></td><td rowspan="1">1690725750885</td><td rowspan="1">1494</td></tr><tr class="passedodd"><td rowspan="1">CheckPopularProducts</td><td><a href="#m4">checkPopularProducts</a></td><td rowspan="1">1690725766374</td><td rowspan="1">1070</td></tr><tr class="passedeven"><td rowspan="1">PriceDropCheck</td><td><a href="#m5">priceDropCheck</a></td><td rowspan="1">1690725764809</td><td rowspan="1">1158</td></tr><tr class="passedodd"><td rowspan="1">RegistrationWithInvalidData</td><td><a href="#m6">registrationWithValidData</a></td><td rowspan="1">1690725773030</td><td rowspan="1">1887</td></tr><tr class="passedeven"><td rowspan="1">RegistrationWithValidData</td><td><a href="#m7">registrationWithValidData</a></td><td rowspan="1">1690725779998</td><td rowspan="1">2623</td></tr><tr class="passedodd"><td rowspan="1">SortingCheck</td><td><a href="#m8">sortingCheck</a></td><td rowspan="1">1690725790974</td><td rowspan="1">2925</td></tr><tr class="passedeven"><td rowspan="1">SubscribeWithInvalidEmail</td><td><a href="#m9">checkSubscribeWithInvalidEmail</a></td><td rowspan="1">1690725805977</td><td rowspan="1">59</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Run all tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">CheckoutEndToEndTest</td><td><a href="#m0">checkoutEndToEnd</a></td><td rowspan="1">1691316749737</td><td rowspan="1">31311</td></tr><tr class="failedodd"><td rowspan="1">SortingCheckTest</td><td><a href="#m1">sortingCheck</a></td><td rowspan="1">1691316795387</td><td rowspan="1">2016</td></tr><tr><th colspan="4">Test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">AddingToCartTest</td><td><a href="#m2">addingToCart</a></td><td rowspan="1">1691316677423</td><td rowspan="1">6262</td></tr><tr class="passedodd"><td rowspan="1">CheckCategoriesTest</td><td><a href="#m3">checkCategories</a></td><td rowspan="1">1691316677249</td><td rowspan="1">2474</td></tr><tr class="passedeven"><td rowspan="1">CheckLanguagesTest</td><td><a href="#m4">checkLanguages</a></td><td rowspan="1">1691316693522</td><td rowspan="1">1039</td></tr><tr class="passedodd"><td rowspan="1">CheckPopularProductsTest</td><td><a href="#m5">checkPopularProducts</a></td><td rowspan="1">1691316694247</td><td rowspan="1">121173</td></tr><tr class="passedeven"><td rowspan="1">PriceDropCheckTest</td><td><a href="#m6">priceDropCheck</a></td><td rowspan="1">1691316706574</td><td rowspan="1">1281</td></tr><tr class="passedodd"><td rowspan="1">RegistrationWithInvalidDataTest</td><td><a href="#m7">registrationWithValidData</a></td><td rowspan="1">1691316722301</td><td rowspan="1">2310</td></tr><tr class="passedeven"><td rowspan="1">RegistrationWithValidDataTest</td><td><a href="#m8">registrationWithValidData</a></td><td rowspan="1">1691316737306</td><td rowspan="1">2312</td></tr><tr class="passedodd"><td rowspan="1">SubscribeWithInvalidEmailTest</td><td><a href="#m9">checkSubscribeWithInvalidEmail</a></td><td rowspan="1">1691316810158</td><td rowspan="1">56</td></tr></tbody>
 </table>
-<h2>Test 1</h2><h3 id="m0">CheckoutEndToEnd#checkoutEndToEnd</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: msedge on windows (14fffbe916e5f404d0478076b4bf5db1)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button] (tried for 10 second(s) with 500 milliseconds interval)
+<h2>Test 1</h2><h3 id="m0">CheckoutEndToEndTest#checkoutEndToEnd</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.170)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:55969}, msedge: {msedgedriverVersion: 115.0.1901.188 (b51b39339c4..., userDataDir: C:\Users\Aguka\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55969/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14fffbe916e5f404d0478076b4bf5db1
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at pages.BasePage.waitUntilPresent(BasePage.java:25)
-	at pages.ResultSearchPage.clickButtonContinueAddresses(ResultSearchPage.java:256)
-	at CheckoutEndToEnd.checkoutEndToEnd(CheckoutEndToEnd.java:40)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9751498bdabecde7e10072df363fc34, clickElement {id=B009F5F6C790E2ED623EF3BFAD03385A_element_154}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57893/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e9751498bdabecde7e10072df363fc34)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button]
+Session ID: e9751498bdabecde7e10072df363fc34
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at pages.ResultSearchPage.clickButtonContinueAddresses(ResultSearchPage.java:266)
+	at CheckoutEndToEndTest.checkoutEndToEnd(CheckoutEndToEndTest.java:38)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">AddingToCart#addingToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">CheckCategories#checkCategories</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">CheckLanguages#checkLanguages</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">CheckPopularProducts#checkPopularProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">PriceDropCheck#priceDropCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">RegistrationWithInvalidData#registrationWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">RegistrationWithValidData#registrationWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">SortingCheck#sortingCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">SubscribeWithInvalidEmail#checkSubscribeWithInvalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">SortingCheckTest#sortingCheck</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f1ff3889d4568db77740ec5391ae3322, findChildElement {id=46D286FC6A1DC8318464BE1B25CB5B60_element_55, using=xpath, value=.//*[@class=&apos;regular-price&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57940/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1ff3889d4568db77740ec5391ae3322
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+	at pages.AllProductsComponent.&lt;init&gt;(AllProductsComponent.java:26)
+	at pages.HomePage.getAllElementsFromPage(HomePage.java:68)
+	at pages.HomePage.mergeList(HomePage.java:79)
+	at SortingCheckTest.sortingCheck(SortingCheckTest.java:17)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">AddingToCartTest#addingToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">CheckCategoriesTest#checkCategories</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">CheckLanguagesTest#checkLanguages</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">CheckPopularProductsTest#checkPopularProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">PriceDropCheckTest#priceDropCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">RegistrationWithInvalidDataTest#registrationWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">RegistrationWithValidDataTest#registrationWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">SubscribeWithInvalidEmailTest#checkSubscribeWithInvalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

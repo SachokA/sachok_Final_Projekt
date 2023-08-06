@@ -4,11 +4,9 @@ import pages.MainPage;
 import pages.PricesDropComponent;
 import pages.PricesDropPage;
 
-import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.List;
 
-public class PriceDropCheck extends BaseTest {
+public class PriceDropCheckTest extends BaseTest {
     @Test
     public void priceDropCheck() {
         MainPage mainPage = new MainPage();

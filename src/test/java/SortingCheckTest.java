@@ -4,20 +4,16 @@ import pages.AllProductsComponent;
 import pages.HomePage;
 import pages.MainPage;
 
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Set;
 
-public class SortingCheck extends BaseTest {
+public class SortingCheckTest extends BaseTest {
     @Test
     public void sortingCheck() throws InterruptedException {
         MainPage mainPage = new MainPage();
         HomePage homePage = new HomePage();
         SoftAssert softAssert = new SoftAssert();
-        mainPage.clickAllProducts();
-        homePage.clickButtonSorted();
-        homePage.selectSortedNameAZ();
+        mainPage.clickAllProducts()
+                .clickButtonSorted().selectSortedNameAZ();
         List<AllProductsComponent> actualResultAZ = homePage.mergeList();
         System.out.println(actualResultAZ.size());
         System.out.println(actualResultAZ);

@@ -1,3 +1,4 @@
+import enums.Category;
 import org.assertj.core.api.SoftAssertions;
 import org.testng.annotations.Test;
 ;
@@ -5,7 +6,10 @@ import pages.MainPage;
 
 import java.util.List;
 
-public class CheckCategories extends BaseTest {
+import static enums.Category.ACCESSORIES;
+import static enums.Category.CLOTHES;
+
+public class CheckCategoriesTest extends BaseTest {
 
     @Test
     public void checkCategories() {
@@ -14,11 +18,11 @@ public class CheckCategories extends BaseTest {
 
         mainPage.hoverOverClothesCategory();
         List<String> actualClothesSubCategories = mainPage.getClothesSubMenuItems();
-        softly.assertThat(actualClothesSubCategories).contains("MEN", "WOMEN");
+        softly.assertThat(actualClothesSubCategories).containsAll(CLOTHES.getSubCategories());
 
         mainPage.hoverOverAccessoriesCategory();
         List<String> actualAccessoriesSubCategories = mainPage.getAccessoriesSubMenuItems();
-        softly.assertThat(actualAccessoriesSubCategories).contains("STATIONERY", "HOME ACCESSORIES");
+        softly.assertThat(actualAccessoriesSubCategories).containsAll(ACCESSORIES.getSubCategories());
 
         mainPage.hoverOverArtCategory();
         String isArtCategory = mainPage.getArtValue();

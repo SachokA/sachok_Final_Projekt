@@ -7219,3 +7219,662 @@ java.net.SocketException: Connection reset
 [INFO ] 2023-08-03 09:19:54 MainPage:87 :waitForPageLoading - message:Waiting for page loading
 [INFO ] 2023-08-03 09:20:05 MainPage:93 :switchToFrame - message:Switch to frame
 [INFO ] 2023-08-03 09:20:05 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-06 11:18:52 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 11:18:52 BaseTest:39 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 11:18:54 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 11:18:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 11:19:02 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 11:19:08 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 11:19:09 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-06 11:19:09 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-06 11:19:10 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-06 11:19:10 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-06 11:19:10 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-06 11:19:10 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-06 11:32:52 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 11:32:52 BaseTest:39 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 11:32:52 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 11:32:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 11:32:59 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 11:33:05 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 11:33:05 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-06 11:33:05 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-06 11:33:07 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-06 11:33:07 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-06 11:33:07 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-06 11:33:07 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-06 11:49:50 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 11:49:50 BaseTest:39 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 11:49:50 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 11:49:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 11:49:59 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 11:50:05 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 11:50:06 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-06 11:50:06 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-06 11:50:07 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-06 11:50:07 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-06 11:50:07 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[WARN ] 2023-08-06 11:50:08 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-06 11:52:43 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 11:52:43 BaseTest:39 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 11:52:44 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 11:52:44 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 11:52:49 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 11:52:57 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 11:52:57 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-06 11:52:57 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-06 11:52:58 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-06 11:52:59 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-06 11:52:59 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-06 11:53:16 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 11:53:16 BaseTest:39 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 11:53:17 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 11:53:17 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 11:53:22 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 11:53:29 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 11:53:29 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-06 11:53:30 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-06 11:53:30 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-06 11:53:31 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-06 11:53:32 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-06 11:53:46 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 11:53:46 BaseTest:39 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 11:53:47 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 11:53:47 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 11:53:52 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 11:53:59 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 11:53:59 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-06 11:53:59 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-06 11:54:00 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-06 11:54:01 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-06 11:54:01 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-06 11:54:58 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 11:54:58 BaseTest:39 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 11:54:58 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 11:54:58 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 11:55:07 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 11:55:14 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 11:55:14 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-06 11:55:15 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-06 11:55:15 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-06 12:04:28 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:04:28 BaseTest:42 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:04:28 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:04:28 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:04:34 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:04:41 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:04:41 MainPage:202 :setFieldSearch - message:Set field search and enter
+[WARN ] 2023-08-06 12:05:18 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-06 12:07:51 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:07:51 BaseTest:42 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:07:51 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:07:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:07:59 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:08:06 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:08:06 MainPage:202 :setFieldSearch - message:Set field search and enter
+[WARN ] 2023-08-06 12:08:40 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-06 12:22:30 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:22:31 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:22:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:22:35 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:22:38 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:22:44 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:22:45 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:24:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:24:09 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:24:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:24:12 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:24:15 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:24:21 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:24:21 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:25:43 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:25:44 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:25:44 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:25:46 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:25:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:25:57 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:25:57 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:31:03 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:31:03 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:31:03 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:31:07 BaseTest:46 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:31:09 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:31:17 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:31:17 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:32:20 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:32:20 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:32:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:32:23 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:32:26 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:32:33 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:32:34 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:43:22 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:43:23 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:43:23 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:43:26 BaseTest:46 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:43:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:43:37 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:43:37 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:45:43 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:45:43 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:45:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:45:46 BaseTest:47 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:45:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:46:07 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:46:07 MainPage:202 :setFieldSearch - message:Set field search and enter
+[WARN ] 2023-08-06 12:46:52 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-06 12:47:48 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:47:48 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:47:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:47:52 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:47:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:48:02 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:48:02 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:49:50 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:49:51 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:49:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:49:55 BaseTest:46 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:50:06 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:50:06 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:50:06 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:56:42 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:56:43 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:56:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:56:45 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 12:56:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 12:56:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 12:56:58 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 12:59:54 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 12:59:55 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 12:59:55 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 12:59:58 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:03:44 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 13:03:44 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:03:44 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:03:47 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:03:51 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:03:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:03:58 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:07:03 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 13:07:04 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:07:04 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:07:06 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:07:11 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:07:20 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:07:20 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:08:26 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 13:08:27 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:08:27 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:08:29 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:08:33 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:08:40 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:08:40 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:11:01 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:11:01 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:11:01 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:11:01 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:11:04 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:11:04 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:11:08 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:11:08 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:11:16 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:11:17 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:11:17 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:11:17 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-06 13:11:17 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-06 13:11:18 ResultSearchPage:122 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-06 13:11:19 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-06 13:11:19 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-06 13:11:19 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-06 13:11:19 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-06 13:11:19 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:11:19 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:11:20 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:11:21 ResultSearchPage:128 :select - message:Select value
+[INFO ] 2023-08-06 13:11:21 ResultSearchPage:136 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-06 13:11:22 ResultSearchPage:152 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-06 13:11:23 ResultSearchPage:159 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-06 13:11:23 ResultSearchPage:164 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-06 13:11:23 ResultSearchPage:173 :getTotalPrice - message:Get total price
+[INFO ] 2023-08-06 13:11:23 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:11:23 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:11:23 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:11:24 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:11:27 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:11:33 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:11:33 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-06 13:11:33 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-06 13:11:34 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-06 13:11:34 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:11:34 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-06 13:11:34 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:11:34 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:11:35 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:11:37 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:11:46 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:11:46 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-06 13:11:47 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-08-06 13:11:48 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:11:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:11:48 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:11:53 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:12:02 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:12:02 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-06 13:12:02 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-06 13:12:03 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-06 13:12:04 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-06 13:12:04 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-06 13:12:04 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:12:04 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:12:05 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:12:06 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:12:17 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:12:17 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-06 13:12:17 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-06 13:12:18 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-06 13:12:19 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-06 13:12:19 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:12:19 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:12:20 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:12:22 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:12:29 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:12:29 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:12:34 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-06 13:13:01 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:13:01 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:13:02 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:13:04 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:13:15 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:13:15 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-06 13:13:17 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:13:17 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:13:18 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:13:21 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:13:30 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:13:30 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-06 13:13:30 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-06 13:13:30 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-06 13:20:21 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-08-06 13:20:21 WebDriverManager:1238 :resolveDriverVersion - message:Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
+[INFO ] 2023-08-06 13:20:21 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:20:24 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:20:37 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:20:37 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:20:37 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:25:34 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 13:25:36 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 13:25:36 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 13:25:37 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:25:41 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:25:44 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:25:52 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:25:52 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:27:07 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 13:27:09 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 13:27:09 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 13:27:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:27:11 BaseTest:41 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:27:14 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:27:21 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:27:21 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:39:40 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 13:39:42 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 13:39:42 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 13:39:42 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:39:45 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:39:49 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:39:56 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:39:57 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:44:54 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 13:44:55 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 13:44:55 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 13:44:56 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:44:58 BaseTest:47 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:45:02 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:45:08 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:45:09 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:52:10 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 13:52:12 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 13:52:12 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 13:52:12 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:52:15 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:52:20 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:52:28 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:52:28 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:53:19 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 13:53:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 13:53:21 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 13:53:21 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:53:23 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:53:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:53:34 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:53:34 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 13:57:24 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 13:57:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 13:57:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 13:57:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 13:57:29 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 13:57:32 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 13:57:40 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 13:57:40 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:00:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:00:10 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:00:10 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:00:10 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:00:13 BaseTest:49 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:00:15 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:00:22 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:00:22 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:03:40 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:03:44 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:03:44 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:03:44 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:03:48 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:03:59 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:04:01 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:04:01 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:04:01 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:04:04 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:04:07 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:04:15 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:04:15 MainPage:202 :setFieldSearch - message:Set field search and enter
+[WARN ] 2023-08-06 14:04:50 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-06 14:05:28 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:05:30 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:05:30 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:05:30 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:05:33 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:05:34 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:05:42 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:05:42 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:06:43 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:06:45 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:06:45 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:06:45 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:06:48 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:06:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:06:59 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:06:59 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:09:43 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:09:44 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:09:44 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:09:45 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:09:47 BaseTest:52 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:09:53 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:09:59 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:09:59 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:14:16 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:14:18 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:14:18 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:14:19 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:14:23 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:14:25 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:14:34 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:14:34 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:16:01 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:16:03 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:16:03 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:16:03 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:16:06 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:16:09 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:16:15 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:16:16 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:18:44 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:18:46 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:18:46 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:18:46 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:18:48 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:18:52 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:18:59 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:18:59 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:20:16 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:20:18 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:20:18 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:20:18 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:20:20 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:20:25 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:20:32 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:20:33 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:21:57 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:21:59 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:21:59 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:21:59 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:22:03 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:22:07 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:22:14 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:22:14 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:25:01 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:25:03 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:25:03 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:25:03 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:25:06 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:25:10 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:25:17 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:25:17 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:27:24 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:27:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:27:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:27:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:27:29 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:27:32 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:27:39 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:27:39 MainPage:202 :setFieldSearch - message:Set field search and enter
+[WARN ] 2023-08-06 14:28:20 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-06 14:34:46 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:34:48 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:34:48 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:34:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:34:51 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:34:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:35:03 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:35:03 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:39:29 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:39:31 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:39:31 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:39:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:39:34 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:39:39 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:39:47 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:39:48 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:41:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:41:09 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:41:09 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:41:10 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:41:13 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:41:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:41:22 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:41:22 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-06 14:42:58 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-06 14:42:59 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-06 14:42:59 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-06 14:43:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-06 14:43:02 BaseTest:44 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-06 14:43:06 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-06 14:43:12 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-06 14:43:13 MainPage:202 :setFieldSearch - message:Set field search and enter

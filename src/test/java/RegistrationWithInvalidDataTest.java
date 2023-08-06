@@ -1,12 +1,13 @@
 import org.apache.commons.lang3.RandomStringUtils;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.LoginPage;
 import pages.MainPage;
 
+import static enums.Others.RED;
+
 @Test
-public class RegistrationWithInvalidData extends BaseTest {
+public class RegistrationWithInvalidDataTest extends BaseTest {
     public void registrationWithValidData() {
         MainPage mainPage = new MainPage();
         LoginPage loginPage = new LoginPage();
@@ -18,7 +19,7 @@ public class RegistrationWithInvalidData extends BaseTest {
                 .clickNotAccount()
                 .fillRegistrationFormWithRandomData(firstName, lastName, email, password);
         SoftAssert softAssert = new SoftAssert();
-        softAssert.assertEquals(loginPage.isInvalidFieldMustBeRed(),"rgba(255, 76, 76, 1)");
+        softAssert.assertEquals(loginPage.isInvalidFieldMustBeRed(),RED.getValue());
         softAssert.assertEquals(loginPage.getMessageAlertInvalidFormat(), "Invalid format.");
         softAssert.assertAll();
     }
