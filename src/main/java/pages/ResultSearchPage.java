@@ -170,7 +170,7 @@ public class ResultSearchPage extends BasePage {
     public ResultSearchPage setInputQuantityWanted() {
         log.info("Set input quantity you wanted(5)");
         int clickCounter = 0;
-
+        waitSecond(1);
         for (int i = 1; i < 5; i++) {
             inputQuantityWanted.click();
             clickCounter++;

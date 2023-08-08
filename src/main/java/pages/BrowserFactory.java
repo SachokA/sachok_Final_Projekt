@@ -11,14 +11,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class BrowserFactory {
-    public static WebDriver getBrowserInstance(BrowserType browser, ChromeOptions options) {
+    public static WebDriver getBrowserInstance(BrowserType browser) {
         switch (browser) {
             case CHROME:
                 ChromeOptions ops = new ChromeOptions();
                 ops.addArguments("--enable-features=AutofillAddressSavePrompt@2");
+                ops.addArguments("--incognito");
                 WebDriverManager.chromedriver().setup();
                 ChromeDriverService service = ChromeDriverService.createDefaultService();
-                return new ChromeDriver(service, options);
+                return new ChromeDriver(service);
             case SAFARI:
                 WebDriverManager.safaridriver().setup();
                 return new SafariDriver();

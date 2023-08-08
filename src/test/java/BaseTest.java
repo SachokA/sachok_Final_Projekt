@@ -36,13 +36,12 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public synchronized void setUp() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--incognito");
 
-        WebDriver driver = BrowserFactory.getBrowserInstance(BrowserType.CHROME, options);
+
         int width = Integer.parseInt(System.getProperty("browser.width"));
         int height = Integer.parseInt(System.getProperty("browser.height"));
         String browser = System.getProperty("browser.type");
+        WebDriver driver = BrowserFactory.getBrowserInstance(BrowserType.valueOf(browser));
         log.info("Tests will run at {}x{} in {} browser.", width, height, browser);
         driver.get("https://demo.prestashop.com/");
         driver.manage().window().setSize(new Dimension(width, height));
