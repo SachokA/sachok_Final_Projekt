@@ -4,6 +4,7 @@ enums\Category.class
 pages\LoginPage.class
 enums\BrowserType.class
 pages\HomePage.class
+untils\Utils.class
 pages\BrowserFactory.class
 pages\PricesDropPage.class
 pages\AllProductsComponent.class

@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import untils.Utils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -148,7 +149,10 @@ public class ResultSearchPage extends BasePage {
     public ResultSearchPage() {
         PageFactory.initElements(getDriver(), this);
     }
-
+    public ResultSearchPage waitSecond(long sec) {
+        Utils.waitSeconds(sec);
+        return this;
+    }
     public ResultSearchPage clickBrownBearNotebook() {
         log.info("Click brown bear notebook");
         brownBearNotebook.click();
@@ -212,28 +216,32 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage setInputProductMessage() {
-
+        log.info("Set input product message");
         inputProductMessage.sendKeys("Best mug ever");
         return this;
     }
 
     public ResultSearchPage clickButtonCustomizedData() {
+        log.info("Click button customized data");
         buttonSaveCustomized.click();
         return this;
     }
 
     public ResultSearchPage clickAddToCard() {
+        log.info("click add to card");
         buttonAddToCard.click();
         return this;
     }
 
     public ResultSearchPage clickButtonContinueShopping() {
+        log.info("Click button continue shopping");
         waitUntilPresent(buttonContinueShopping, 10);
         buttonContinueShopping.click();
         return this;
     }
 
     public ResultSearchPage setFieldSearch(String string) {
+        log.info("Setting field search and click ENTER");
         waitUntilPresent(inputSearch, 10);
         inputSearch.sendKeys(string);
         inputSearch.sendKeys(Keys.ENTER);
@@ -241,30 +249,30 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickTShirtHummingbirdPrinted() {
+        log.info("Click T-shirt Humming printed");
         tShirtHummingbirdPrinted.click();
         return this;
     }
 
     public ResultSearchPage clickTShirtHummingbirdPrintedBlackColour() {
+        log.info("Choice of colour T-Shirt black");
         tShirtHummingbirdPrintedBlackColour.click();
         return this;
     }
 
     public ResultSearchPage clickButtonProceedToCheckout() {
+        log.info("click Button Proceed To Checkout");
         waitUntilPresent(buttonProceedToCheckout, 10);
         buttonProceedToCheckout.click();
         return this;
     }
-
-    public double getCurrentPriceValue() {
-        return Double.parseDouble(currentPriceValue.getText().substring(1));
-    }
-
     public Double getCurrentTotalPriceValue() {
+        log.info("get Current Total Price Value");
         return Double.valueOf(currentTotalPrice.getText().substring(1));
     }
 
     public double getTotalPriceAllProducts() {
+        log.info("get Total Price All Products");
         List<Double> list = new ArrayList<>();
         List<WebElement> prices = currentPrice;
         double total = 0.00;
@@ -276,6 +284,7 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes(String firstName, String lastName, String email) {
+        log.info("Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes");
         inputFirstName.sendKeys(firstName);
         inputLastName.sendKeys(lastName);
         inputEmail.sendKeys(email);
@@ -287,71 +296,75 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickButtonContinue() {
+        log.info("Click Button Continue");
         buttonContinue.click();
         return this;
     }
 
-    public ResultSearchPage clickButtonContinueAddresses() throws InterruptedException {
-        Thread.sleep(3000);
+    public ResultSearchPage clickButtonContinueAddresses() {
+        log.info("Click Button Continue Addresses");
+        waitSecond(2);
         buttonContinueAddresses.click();
         return this;
     }
 
     public ResultSearchPage fillAddressFormWithValidData(String address, String zipCode, String city) {
+        log.info("Fill Address Form With Valid Data");
         inputFieldAddress.sendKeys(address);
         inputFieldPostcode.sendKeys(zipCode);
         inputFieldCity.sendKeys(city);
         return this;
     }
 
-    public ResultSearchPage clickInputMyCarrier() throws InterruptedException {
-        Thread.sleep(800);
+    public ResultSearchPage clickInputMyCarrier() {
+        log.info("click Input My Carrier");
+        waitSecond(1);
         inputMyCarrier.click();
         return this;
     }
     public ResultSearchPage clickContinueShippingMethod(){
+        log.info("click Continue Shipping Method");
         continueShippingMethod.click();
         return this;
     }
 
     public ResultSearchPage setSelectCountry(String value) {
+        log.info("set Select Country");
         Select select = new Select(selectCountry);
         select.selectByVisibleText(value);
         return this;
     }
-
-    public ResultSearchPage clickUseThisAddress() {
-        inputUseSameAddress.click();
-        return this;
-    }
-
-    public ResultSearchPage clickPayByCheck() throws InterruptedException {
-        Thread.sleep(900);
+    public ResultSearchPage clickPayByCheck(){
+        log.info("click Pay By Check");
+        waitSecond(1);
         inputCheckByPay.click();
         return this;
     }
 
     public ResultSearchPage clickIAgree(){
+        log.info("click I Agree...");
         inputIAgree.click();
         return this;
     }
 
     public double getSubTotal(){
-
+        log.info("Get subtotal");
         return Double.parseDouble(subTotal.getText().substring(1));
     }
 
     public double getShipping(){
-
+        log.info("Get Shipping");
         return Double.parseDouble(subTotalShipping.getText().substring(1));
     }
 
     public Double getAmount() {
+        log.info("get Amount");
         String amountText = amount.getText();
         BigDecimal amountValue = new BigDecimal(amountText.substring(1,6));
         return amountValue.setScale(2, RoundingMode.HALF_UP).doubleValue();
     }
     public ResultSearchPage clickPlaceOrder(){
+        log.info("click Place Order");
         placeOrder.click();
         return this;
     }
