@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Run_all_tests">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Run_all_tests" title="CheckoutEndToEndTest" class="method navigator-link" hash-for-method="checkoutEndToEnd">checkoutEndToEnd</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Run_all_tests" title="CheckPopularProductsTest" class="method navigator-link" hash-for-method="checkPopularProducts">checkPopularProducts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,12 +137,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Run_all_tests" title="CheckPopularProductsTest" class="method navigator-link" hash-for-method="checkPopularProducts">checkPopularProducts</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Run_all_tests" title="SubscribeWithInvalidEmailTest" class="method navigator-link" hash-for-method="checkSubscribeWithInvalidEmail">checkSubscribeWithInvalidEmail</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Run_all_tests" title="SubscribeWithInvalidEmailTest" class="method navigator-link" hash-for-method="checkSubscribeWithInvalidEmail">checkSubscribeWithInvalidEmail</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Run_all_tests" title="CheckoutEndToEndTest" class="method navigator-link" hash-for-method="checkoutEndToEnd">checkoutEndToEnd</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,12 +152,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Run_all_tests" title="RegistrationWithValidDataTest" class="method navigator-link" hash-for-method="registrationWithValidData">registrationWithValidData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Run_all_tests" title="RegistrationWithInvalidDataTest" class="method navigator-link" hash-for-method="registrationWithValidData">registrationWithValidData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Run_all_tests" title="RegistrationWithInvalidDataTest" class="method navigator-link" hash-for-method="registrationWithValidData">registrationWithValidData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Run_all_tests" title="RegistrationWithValidDataTest" class="method navigator-link" hash-for-method="registrationWithValidData">registrationWithValidData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Run_all_tests -->
@@ -183,15 +183,115 @@
                   <a name="sortingCheck">
                   </a> <!-- sortingCheck -->
                   <span class="method-name">sortingCheck</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=115.0.5790.170)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f1ff3889d4568db77740ec5391ae3322, findChildElement {id=46D286FC6A1DC8318464BE1B25CB5B60_element_55, using=xpath, value=.//*[@class=&apos;regular-price&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57940/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f1ff3889d4568db77740ec5391ae3322
+Command: [527b5f02b32bd553cac45c1973f7138b, actions {actions=[org.openqa.selenium.interactions.Sequence@3ba2099b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 527b5f02b32bd553cac45c1973f7138b
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:395)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:165)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:185)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:185)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:203)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:198)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:322)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:313)
+	at org.openqa.selenium.json.Json.toJson(Json.java:43)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:256)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:120)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:585)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:554)
+	at pages.HomePage.clickButtonNext(HomePage.java:80)
+	at pages.HomePage.mergeList(HomePage.java:86)
+	at pages.HomePage.getSavedList(HomePage.java:94)
+	at pages.HomePage.sortedAZ(HomePage.java:100)
+	at SortingCheckTest.sortingCheck(SortingCheckTest.java:19)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:338)
+		at org.openqa.selenium.json.Json.toJson(Json.java:41)
+		... 29 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:391)
+	... 50 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;next js-search-link&apos;]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [527b5f02b32bd553cac45c1973f7138b, findElement {using=xpath, value=//a[@class=&apos;next js-search-link&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 527b5f02b32bd553cac45c1973f7138b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:275)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:224)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	... 55 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-failed -->
+          <div class="suite-Run_all_tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CheckPopularProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPopularProducts">
+                  </a> <!-- checkPopularProducts -->
+                  <span class="method-name">checkPopularProducts</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.170)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2421d72eabba98e13f173c8c11fa80b, findChildElement {id=D8EC9C759DB623CAE11DC30D5A7FB9C9_element_59, using=xpath, value=.//span[@class=&apos;price&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61049/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2421d72eabba98e13f173c8c11fa80b
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -203,10 +303,9 @@ Session ID: f1ff3889d4568db77740ec5391ae3322
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
-	at pages.AllProductsComponent.&lt;init&gt;(AllProductsComponent.java:26)
-	at pages.HomePage.getAllElementsFromPage(HomePage.java:68)
-	at pages.HomePage.mergeList(HomePage.java:79)
-	at SortingCheckTest.sortingCheck(SortingCheckTest.java:17)
+	at pages.PopularProductComponent.&lt;init&gt;(PopularProductComponent.java:27)
+	at pages.MainPage.getSizePopularProduct(MainPage.java:182)
+	at CheckPopularProductsTest.checkPopularProducts(CheckPopularProductsTest.java:14)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
@@ -216,9 +315,24 @@ Session ID: f1ff3889d4568db77740ec5391ae3322
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Run_all_tests-class-failed -->
-          <div class="suite-Run_all_tests-class-failed">
+          <div class="suite-Run_all_tests-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">SubscribeWithInvalidEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSubscribeWithInvalidEmail">
+                  </a> <!-- checkSubscribeWithInvalidEmail -->
+                  <span class="method-name">checkSubscribeWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-passed -->
+          <div class="suite-Run_all_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">CheckoutEndToEndTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -227,93 +341,6 @@ Session ID: f1ff3889d4568db77740ec5391ae3322
                   <a name="checkoutEndToEnd">
                   </a> <!-- checkoutEndToEnd -->
                   <span class="method-name">checkoutEndToEnd</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=115.0.5790.170)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9751498bdabecde7e10072df363fc34, clickElement {id=B009F5F6C790E2ED623EF3BFAD03385A_element_154}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Aguka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57893/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e9751498bdabecde7e10072df363fc34)] -&gt; xpath: //*[@id=&apos;customer-form&apos;]/footer/button]
-Session ID: e9751498bdabecde7e10072df363fc34
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at pages.ResultSearchPage.clickButtonContinueAddresses(ResultSearchPage.java:266)
-	at CheckoutEndToEndTest.checkoutEndToEnd(CheckoutEndToEndTest.java:38)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_all_tests-class-failed -->
-          <div class="suite-Run_all_tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">RegistrationWithValidDataTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationWithValidData">
-                  </a> <!-- registrationWithValidData -->
-                  <span class="method-name">registrationWithValidData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_all_tests-class-passed -->
-          <div class="suite-Run_all_tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">CheckLanguagesTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkLanguages">
-                  </a> <!-- checkLanguages -->
-                  <span class="method-name">checkLanguages</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_all_tests-class-passed -->
-          <div class="suite-Run_all_tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">RegistrationWithInvalidDataTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationWithValidData">
-                  </a> <!-- registrationWithValidData -->
-                  <span class="method-name">registrationWithValidData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_all_tests-class-passed -->
-          <div class="suite-Run_all_tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">CheckPopularProductsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkPopularProducts">
-                  </a> <!-- checkPopularProducts -->
-                  <span class="method-name">checkPopularProducts</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -336,21 +363,6 @@ Session ID: e9751498bdabecde7e10072df363fc34
           <div class="suite-Run_all_tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">SubscribeWithInvalidEmailTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkSubscribeWithInvalidEmail">
-                  </a> <!-- checkSubscribeWithInvalidEmail -->
-                  <span class="method-name">checkSubscribeWithInvalidEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_all_tests-class-passed -->
-          <div class="suite-Run_all_tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">CheckCategoriesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -366,6 +378,21 @@ Session ID: e9751498bdabecde7e10072df363fc34
           <div class="suite-Run_all_tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">RegistrationWithValidDataTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationWithValidData">
+                  </a> <!-- registrationWithValidData -->
+                  <span class="method-name">registrationWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-passed -->
+          <div class="suite-Run_all_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">PriceDropCheckTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -374,6 +401,36 @@ Session ID: e9751498bdabecde7e10072df363fc34
                   <a name="priceDropCheck">
                   </a> <!-- priceDropCheck -->
                   <span class="method-name">priceDropCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-passed -->
+          <div class="suite-Run_all_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RegistrationWithInvalidDataTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationWithValidData">
+                  </a> <!-- registrationWithValidData -->
+                  <span class="method-name">registrationWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_all_tests-class-passed -->
+          <div class="suite-Run_all_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CheckLanguagesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLanguages">
+                  </a> <!-- checkLanguages -->
+                  <span class="method-name">checkLanguages</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -441,50 +498,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkPopularProducts')
-data.setCell(0, 2, 'CheckPopularProductsTest')
-data.setCell(0, 3, 121173);
+data.setCell(0, 1, 'sortingCheck')
+data.setCell(0, 2, 'SortingCheckTest')
+data.setCell(0, 3, 258455);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkoutEndToEnd')
-data.setCell(1, 2, 'CheckoutEndToEndTest')
-data.setCell(1, 3, 31311);
+data.setCell(1, 1, 'checkPopularProducts')
+data.setCell(1, 2, 'CheckPopularProductsTest')
+data.setCell(1, 3, 49275);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addingToCart')
-data.setCell(2, 2, 'AddingToCartTest')
-data.setCell(2, 3, 6262);
+data.setCell(2, 1, 'checkoutEndToEnd')
+data.setCell(2, 2, 'CheckoutEndToEndTest')
+data.setCell(2, 3, 41404);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkCategories')
-data.setCell(3, 2, 'CheckCategoriesTest')
-data.setCell(3, 3, 2474);
+data.setCell(3, 1, 'addingToCart')
+data.setCell(3, 2, 'AddingToCartTest')
+data.setCell(3, 3, 6745);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'registrationWithValidData')
 data.setCell(4, 2, 'RegistrationWithValidDataTest')
-data.setCell(4, 3, 2312);
+data.setCell(4, 3, 3123);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'registrationWithValidData')
-data.setCell(5, 2, 'RegistrationWithInvalidDataTest')
-data.setCell(5, 3, 2310);
+data.setCell(5, 1, 'checkCategories')
+data.setCell(5, 2, 'CheckCategoriesTest')
+data.setCell(5, 3, 2967);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'sortingCheck')
-data.setCell(6, 2, 'SortingCheckTest')
-data.setCell(6, 3, 2016);
+data.setCell(6, 1, 'registrationWithValidData')
+data.setCell(6, 2, 'RegistrationWithInvalidDataTest')
+data.setCell(6, 3, 2364);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'priceDropCheck')
 data.setCell(7, 2, 'PriceDropCheckTest')
-data.setCell(7, 3, 1281);
+data.setCell(7, 3, 1436);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'checkLanguages')
 data.setCell(8, 2, 'CheckLanguagesTest')
-data.setCell(8, 3, 1039);
+data.setCell(8, 3, 1087);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'checkSubscribeWithInvalidEmail')
 data.setCell(9, 2, 'SubscribeWithInvalidEmailTest')
-data.setCell(9, 3, 56);
+data.setCell(9, 3, 117);
 window.suiteTableData['Run_all_tests']= { tableData: data, tableDiv: 'times-div-Run_all_tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Run_all_tests">
               </div> <!-- times-div-Run_all_tests -->
             </div> <!-- times-div -->
@@ -510,181 +567,195 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">CheckCategoriesTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AddingToCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">AddingToCartTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">CheckCategoriesTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CheckCategoriesTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">checkCategories</span>
-                <span class="method-start">16357 ms</span>
+                <span class="method-start">17878 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AddingToCartTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addingToCart</span>
-                <span class="method-start">16531 ms</span>
+                <span class="method-start">19354 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckCategoriesTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkCategories status=SUCCESS method=CheckCategoriesTest.checkCategories()[pri:0, ...)</span>
-                <span class="method-start">18838 ms</span>
+                <span class="method-start">20857 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckLanguagesTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19082 ms</span>
+                <span class="method-start">21128 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AddingToCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=addingToCart status=SUCCESS method=AddingToCartTest.addingToCart()[pri:0, instance:...)</span>
-                <span class="method-start">22796 ms</span>
+                <span class="method-start">26101 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckPopularProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">22981 ms</span>
+                <span class="method-start">26289 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckLanguagesTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">checkLanguages</span>
-                <span class="method-start">32630 ms</span>
+                <span class="method-start">34761 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CheckPopularProductsTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">checkPopularProducts</span>
-                <span class="method-start">33355 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">CheckLanguagesTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkLanguages status=SUCCESS method=CheckLanguagesTest.checkLanguages()[pri:0, ins...)</span>
-                <span class="method-start">33671 ms</span>
+                <span class="method-start">35849 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">PriceDropCheckTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">33851 ms</span>
+                <span class="method-start">36580 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckPopularProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkPopularProducts</span>
+                <span class="method-start">40134 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PriceDropCheckTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">priceDropCheck</span>
-                <span class="method-start">45682 ms</span>
+                <span class="method-start">45028 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=priceDropCheck status=SUCCESS method=PriceDropCheckTest.priceDropCheck()[pri:0, ins...)</span>
-                <span class="method-start">46965 ms</span>
+                <span class="method-start">46469 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">RegistrationWithInvalidDataTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">47178 ms</span>
+                <span class="method-start">46722 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationWithValidData</span>
-                <span class="method-start">61409 ms</span>
+                <span class="method-start">66703 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationWithValidData status=SUCCESS method=RegistrationWithInvalidDataTest.reg...)</span>
-                <span class="method-start">63720 ms</span>
+                <span class="method-start">69092 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">RegistrationWithValidDataTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">63959 ms</span>
+                <span class="method-start">69726 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationWithValidData</span>
-                <span class="method-start">76414 ms</span>
+                <span class="method-start">87948 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckPopularProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=registrationWithValidData status=SUCCESS method=RegistrationWithValidDataTest.regis...)</span>
-                <span class="method-start">78727 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=checkPopularProducts status=FAILURE method=CheckPopularProductsTest.checkPopularPro...)</span>
+                <span class="method-start">89470 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CheckoutEndToEndTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">78907 ms</span>
+                <span class="method-start">89496 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkoutEndToEnd</span>
-                <span class="method-start">88845 ms</span>
-              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RegistrationWithValidDataTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=checkoutEndToEnd status=FAILURE method=CheckoutEndToEndTest.checkoutEndToEnd()[pri:...)</span>
-                <span class="method-start">120163 ms</span>
+                <span class="method-name">tearDown([TestResult name=registrationWithValidData status=SUCCESS method=RegistrationWithValidDataTest.regis...)</span>
+                <span class="method-start">91072 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SortingCheckTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">120570 ms</span>
+                <span class="method-start">91190 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutEndToEndTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkoutEndToEnd</span>
+                <span class="method-start">99627 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SortingCheckTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">sortingCheck</span>
-                <span class="method-start">134495 ms</span>
+                <span class="method-start">106821 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CheckoutEndToEndTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=sortingCheck status=FAILURE method=SortingCheckTest.sortingCheck()[pri:0, instance:...)</span>
-                <span class="method-start">136515 ms</span>
+                <span class="method-name">tearDown([TestResult name=checkoutEndToEnd status=SUCCESS method=CheckoutEndToEndTest.checkoutEndToEnd()[pri:...)</span>
+                <span class="method-start">141033 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SubscribeWithInvalidEmailTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">136879 ms</span>
+                <span class="method-start">141250 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkSubscribeWithInvalidEmail</span>
-                <span class="method-start">149266 ms</span>
+                <span class="method-start">179118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkSubscribeWithInvalidEmail status=SUCCESS method=SubscribeWithInvalidEmailTest....)</span>
-                <span class="method-start">149324 ms</span>
+                <span class="method-start">179238 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">CheckPopularProductsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">SortingCheckTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=checkPopularProducts status=SUCCESS method=CheckPopularProductsTest.checkPopularPro...)</span>
-                <span class="method-start">154529 ms</span>
+                <span class="method-name">tearDown([TestResult name=sortingCheck status=FAILURE method=SortingCheckTest.sortingCheck()[pri:0, instance:...)</span>
+                <span class="method-start">365328 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

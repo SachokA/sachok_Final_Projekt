@@ -1,17 +1,20 @@
 package pages;
 
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import untils.Utils;
 
 import java.time.Duration;
 import java.util.*;
 
-
+@Slf4j
 public class HomePage extends BasePage {
+
     @FindBy(xpath = "//button[@class='btn-unstyle select-title']")
     private WebElement buttonSort;
 
@@ -38,6 +41,7 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//div[@class='product-description']")
     private List<WebElement> allProductsName;
+    private List<AllProductsComponent> saveList;
 
     public HomePage() {
         PageFactory.initElements(getDriver(), this);
@@ -59,11 +63,20 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    public List<AllProductsComponent> getAllElementsFromPage()  {
+    public HomePage selectSortedPriceLowHigh() {
+        sortPriceLowToHigh.click();
+        return this;
+    }
+
+    public HomePage waitSecond(long sec) {
+        Utils.waitSeconds(sec);
+        return this;
+    }
+
+    public List<AllProductsComponent> getAllElementsFromPage() throws InterruptedException {
         List<AllProductsComponent> products = new ArrayList<>();
-        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfAllElements(allProductsName));
         List<WebElement> containers = allProductsName;
+        waitSecond(2);
         for (WebElement container : containers) {
             AllProductsComponent allProductsComponent = new AllProductsComponent(container);
             products.add(allProductsComponent);
@@ -71,15 +84,49 @@ public class HomePage extends BasePage {
         return products;
     }
 
-    public void clickButtonNext(){
+    public void clickButtonNext() {
         Actions actions = new Actions(getDriver());
-        actions.moveToElement(buttonNext).click().perform();
+        actions.moveToElement(buttonNext);
+        actions.click();
+        actions.perform();
     }
-    public List<AllProductsComponent> mergeList(){
+
+    public List<AllProductsComponent> mergeList() throws InterruptedException {
         List<AllProductsComponent> one = getAllElementsFromPage();
         clickButtonNext();
         List<AllProductsComponent> two = getAllElementsFromPage();
         one.addAll(two);
+        saveList = one;
         return one;
     }
-}
+
+    public List<AllProductsComponent> sortedAZ() throws InterruptedException {
+        List<AllProductsComponent> sorted = new ArrayList<>(saveList);
+        Collections.sort(sorted, AllProductsComponent.NAME_COMPARATOR);
+        return sorted;
+    }
+
+    public List<AllProductsComponent> sortedZA() throws InterruptedException {
+        List<AllProductsComponent> sorted = new ArrayList<>(sortedAZ());
+        Collections.reverse(sorted);
+        return sorted;
+    }
+
+    public List<AllProductsComponent> sortedPriceLowHigh() throws InterruptedException {
+        List<AllProductsComponent> sorted = new ArrayList<>(saveList);
+        sorted.sort(Comparator.comparingDouble(AllProductsComponent::getPriceValue));
+        return sorted;
+    }
+
+    public List<AllProductsComponent> sortedPriceHighLow() throws InterruptedException {
+        List<AllProductsComponent> sorted = new ArrayList<>(saveList);
+        sorted.sort(Comparator.comparingDouble(AllProductsComponent::getPriceValue).reversed());
+        return sorted;
+    }
+
+    public HomePage selectSortedPriceHighLow() {
+        sortPriceHighToLow.click();
+        return this;
+    }
+
+  }

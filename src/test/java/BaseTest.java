@@ -1,3 +1,4 @@
+import com.google.common.collect.ImmutableList;
 import enums.BrowserType;
 import io.qameta.allure.Attachment;
 import lombok.extern.slf4j.Slf4j;
@@ -36,7 +37,8 @@ public class BaseTest {
     @BeforeMethod(alwaysRun = true)
     public synchronized void setUp() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--autofill-address-save-prompt=false");
+        options.addArguments("--incognito");
+
         WebDriver driver = BrowserFactory.getBrowserInstance(BrowserType.CHROME, options);
         int width = Integer.parseInt(System.getProperty("browser.width"));
         int height = Integer.parseInt(System.getProperty("browser.height"));
@@ -44,7 +46,7 @@ public class BaseTest {
         log.info("Tests will run at {}x{} in {} browser.", width, height, browser);
         driver.get("https://demo.prestashop.com/");
         driver.manage().window().setSize(new Dimension(width, height));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         BasePage.setDriverThreadLocal(driver);
         MainPage mainPage = new MainPage();
         mainPage.waitForPageLoading();

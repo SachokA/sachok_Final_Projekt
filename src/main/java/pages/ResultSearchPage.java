@@ -12,12 +12,18 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Slf4j
 public class ResultSearchPage extends BasePage {
+    @FindBy(xpath = "//iframe[@title='Frame of demo shop']")
+    private WebElement iframeFrameOfDemoShop;
     @FindBy(xpath = "//a[text()='Brown bear notebook']")
     private WebElement brownBearNotebook;
 
@@ -86,6 +92,9 @@ public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//input[@id='field-email']")
     private WebElement inputEmail;
 
+    @FindBy(xpath = "//input[@type='checkbox']")
+    private List<WebElement> inputCheckBox;
+
     @FindBy(xpath = "//input[@name='psgdpr']")
     private WebElement inputCheckBoxIAgree;
 
@@ -110,10 +119,31 @@ public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//input[@id='delivery_option_2']")
     private WebElement inputMyCarrier;
 
+    @FindBy(xpath = "//button[@name='confirmDeliveryOption']")
+    private WebElement continueShippingMethod;
+
     @FindBy(xpath = "//select[@id='field-id_country']")
     private WebElement selectCountry;
     @FindBy(xpath = "//input[@name='use_same_address']")
     private WebElement inputUseSameAddress;
+
+    @FindBy(xpath = "//input[@id='payment-option-3']")
+    private WebElement inputCheckByPay;
+
+    @FindBy(xpath = "//input[@id='conditions_to_approve[terms-and-conditions]']")
+    private WebElement inputIAgree;
+
+    @FindBy(xpath = "//*[@id='cart-subtotal-products']/span[2]")
+    private WebElement subTotal;
+
+    @FindBy(xpath = "//*[@id='cart-subtotal-shipping']/span[2]")
+    private WebElement subTotalShipping;
+
+    @FindBy(xpath = "//*[@id='payment-option-3-additional-information']/section/dl/dd[1]")
+    private WebElement amount;
+
+    @FindBy(xpath = "//button[@class='btn btn-primary center-block']")
+    private WebElement placeOrder;
 
     public ResultSearchPage() {
         PageFactory.initElements(getDriver(), this);
@@ -176,11 +206,13 @@ public class ResultSearchPage extends BasePage {
     }
 
     public ResultSearchPage clickCustomizableMug() {
+        log.info("Click Customizable Mug");
         customizableMug.click();
         return this;
     }
 
     public ResultSearchPage setInputProductMessage() {
+
         inputProductMessage.sendKeys("Best mug ever");
         return this;
     }
@@ -247,8 +279,10 @@ public class ResultSearchPage extends BasePage {
         inputFirstName.sendKeys(firstName);
         inputLastName.sendKeys(lastName);
         inputEmail.sendKeys(email);
-        inputCheckBoxIAgree.click();
-        inputCheckBoxCustomerPrivacy.click();
+        List<WebElement> checkBoxs = inputCheckBox;
+        for (WebElement check : checkBoxs) {
+            check.click();
+        }
         return this;
     }
 
@@ -257,13 +291,11 @@ public class ResultSearchPage extends BasePage {
         return this;
     }
 
-    public ResultSearchPage clickButtonContinueAddresses() {
-      //  buttonContinueAddresses.click();
-       JavascriptExecutor jsExecutor = (JavascriptExecutor) getDriver();
-     jsExecutor.executeScript("arguments[0].click();", buttonContinueAddresses);
+    public ResultSearchPage clickButtonContinueAddresses() throws InterruptedException {
+        Thread.sleep(3000);
+        buttonContinueAddresses.click();
         return this;
     }
-
 
     public ResultSearchPage fillAddressFormWithValidData(String address, String zipCode, String city) {
         inputFieldAddress.sendKeys(address);
@@ -272,9 +304,13 @@ public class ResultSearchPage extends BasePage {
         return this;
     }
 
-    public ResultSearchPage clickInputMyCarrier() {
-        waitUntilPresent(inputMyCarrier, 10);
+    public ResultSearchPage clickInputMyCarrier() throws InterruptedException {
+        Thread.sleep(800);
         inputMyCarrier.click();
+        return this;
+    }
+    public ResultSearchPage clickContinueShippingMethod(){
+        continueShippingMethod.click();
         return this;
     }
 
@@ -286,6 +322,37 @@ public class ResultSearchPage extends BasePage {
 
     public ResultSearchPage clickUseThisAddress() {
         inputUseSameAddress.click();
+        return this;
+    }
+
+    public ResultSearchPage clickPayByCheck() throws InterruptedException {
+        Thread.sleep(900);
+        inputCheckByPay.click();
+        return this;
+    }
+
+    public ResultSearchPage clickIAgree(){
+        inputIAgree.click();
+        return this;
+    }
+
+    public double getSubTotal(){
+
+        return Double.parseDouble(subTotal.getText().substring(1));
+    }
+
+    public double getShipping(){
+
+        return Double.parseDouble(subTotalShipping.getText().substring(1));
+    }
+
+    public Double getAmount() {
+        String amountText = amount.getText();
+        BigDecimal amountValue = new BigDecimal(amountText.substring(1,6));
+        return amountValue.setScale(2, RoundingMode.HALF_UP).doubleValue();
+    }
+    public ResultSearchPage clickPlaceOrder(){
+        placeOrder.click();
         return this;
     }
 }
