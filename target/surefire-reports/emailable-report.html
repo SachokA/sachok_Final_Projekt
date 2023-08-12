@@ -9,65 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Run all tests</th></tr>
-<tr><td><a href="#t0">Test 1</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">103,627</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test 1</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">95,109</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Run all tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">AddingToCartTest</td><td><a href="#m0">addingToCart</a></td><td rowspan="1">1691530929337</td><td rowspan="1">9125</td></tr><tr class="failedodd"><td rowspan="1">CheckoutEndToEndTest</td><td><a href="#m1">checkoutEndToEnd</a></td><td rowspan="1">1691530962317</td><td rowspan="1">29805</td></tr><tr class="failedeven"><td rowspan="1">SortingCheckTest</td><td><a href="#m2">sortingCheck</a></td><td rowspan="1">1691530965758</td><td rowspan="1">29799</td></tr><tr><th colspan="4">Test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">CheckCategoriesTest</td><td><a href="#m3">checkCategories</a></td><td rowspan="1">1691530930213</td><td rowspan="1">3520</td></tr><tr class="passedodd"><td rowspan="1">CheckLanguagesTest</td><td><a href="#m4">checkLanguages</a></td><td rowspan="1">1691530931310</td><td rowspan="1">2276</td></tr><tr class="passedeven"><td rowspan="1">CheckPopularProductsTest</td><td><a href="#m5">checkPopularProducts</a></td><td rowspan="1">1691530943725</td><td rowspan="1">1573</td></tr><tr class="passedodd"><td rowspan="1">PriceDropCheckTest</td><td><a href="#m6">priceDropCheck</a></td><td rowspan="1">1691530948358</td><td rowspan="1">1225</td></tr><tr class="passedeven"><td rowspan="1">RegistrationWithInvalidDataTest</td><td><a href="#m7">registrationWithValidData</a></td><td rowspan="1">1691530955832</td><td rowspan="1">2835</td></tr><tr class="passedodd"><td rowspan="1">RegistrationWithValidDataTest</td><td><a href="#m8">registrationWithValidData</a></td><td rowspan="1">1691530958098</td><td rowspan="1">3543</td></tr><tr class="passedeven"><td rowspan="1">SubscribeWithInvalidEmailTest</td><td><a href="#m9">checkSubscribeWithInvalidEmail</a></td><td rowspan="1">1691530970895</td><td rowspan="1">101</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Run all tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SortingCheckTest</td><td><a href="#m0">sortingCheck</a></td><td rowspan="1">1691833678236</td><td rowspan="1">29178</td></tr><tr><th colspan="4">Test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">AddingToCartTest</td><td><a href="#m1">addingToCart</a></td><td rowspan="1">1691833630127</td><td rowspan="1">9305</td></tr><tr class="passedodd"><td rowspan="1">CheckCategoriesTest</td><td><a href="#m2">checkCategories</a></td><td rowspan="1">1691833630127</td><td rowspan="1">4321</td></tr><tr class="passedeven"><td rowspan="1">CheckLanguagesTest</td><td><a href="#m3">checkLanguages</a></td><td rowspan="1">1691833644642</td><td rowspan="1">1205</td></tr><tr class="passedodd"><td rowspan="1">CheckPopularProductsTest</td><td><a href="#m4">checkPopularProducts</a></td><td rowspan="1">1691833644455</td><td rowspan="1">906</td></tr><tr class="passedeven"><td rowspan="1">CheckoutEndToEndTest</td><td><a href="#m5">checkoutEndToEnd</a></td><td rowspan="1">1691833663931</td><td rowspan="1">30392</td></tr><tr class="passedodd"><td rowspan="1">PriceDropCheckTest</td><td><a href="#m6">priceDropCheck</a></td><td rowspan="1">1691833657279</td><td rowspan="1">1018</td></tr><tr class="passedeven"><td rowspan="1">RegistrationWithInvalidDataTest</td><td><a href="#m7">registrationWithValidData</a></td><td rowspan="1">1691833655604</td><td rowspan="1">1904</td></tr><tr class="passedodd"><td rowspan="1">RegistrationWithValidDataTest</td><td><a href="#m8">registrationWithValidData</a></td><td rowspan="1">1691833669088</td><td rowspan="1">2346</td></tr><tr class="passedeven"><td rowspan="1">SubscribeWithInvalidEmailTest</td><td><a href="#m9">checkSubscribeWithInvalidEmail</a></td><td rowspan="1">1691833704453</td><td rowspan="1">65</td></tr></tbody>
 </table>
-<h2>Test 1</h2><h3 id="m0">AddingToCartTest#addingToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.assertj.core.api.SoftAssertionError: 
-The following 2 assertions failed:
-1) [not as expected] 
-Expecting:
- &lt;&quot;Quantity: 1&quot;&gt;
-to be equal to:
- &lt;&quot;Quantity: 5&quot;&gt;
-but was not.
-at AddingToCartTest.addingToCart(AddingToCartTest.java:25)
-2) [not as expected] 
-Expecting:
- &lt;15.48&gt;
-to be equal to:
- &lt;77.4&gt;
-but was not.
-at AddingToCartTest.addingToCart(AddingToCartTest.java:29)
-
-	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:75)
-	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:38)
-	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:43)
-	at AddingToCartTest.addingToCart(AddingToCartTest.java:30)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">CheckoutEndToEndTest#checkoutEndToEnd</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;payment-option-3&apos;]&quot;}
-  (Session info: MicrosoftEdge=115.0.1901.188)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [eae2d6e0531da0fb70744ba49ca2e784, findElement {using=xpath, value=//input[@id=&apos;payment-option-3&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:51559}, msedge: {msedgedriverVersion: 115.0.1901.200 (64b0164e9f6..., userDataDir: C:\Users\Aguka\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51559/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: eae2d6e0531da0fb70744ba49ca2e784
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at pages.ResultSearchPage.clickPayByCheck(ResultSearchPage.java:340)
-	at CheckoutEndToEndTest.checkoutEndToEnd(CheckoutEndToEndTest.java:46)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">SortingCheckTest#sortingCheck</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.assertj.core.api.SoftAssertionError: 
+<h2>Test 1</h2><h3 id="m0">SortingCheckTest#sortingCheck</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.assertj.core.api.SoftAssertionError: 
 The following assertion failed:
 1) 
 Expecting:
@@ -116,14 +62,16 @@ at SortingCheckTest.sortingCheck(SortingCheckTest.java:29)
 	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:75)
 	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:38)
 	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:43)
-	at SortingCheckTest.sortingCheck(SortingCheckTest.java:37)
+	at SortingCheckTest.sortingCheck(SortingCheckTest.java:36)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">CheckCategoriesTest#checkCategories</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">CheckLanguagesTest#checkLanguages</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">CheckPopularProductsTest#checkPopularProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">AddingToCartTest#addingToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">CheckCategoriesTest#checkCategories</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">CheckLanguagesTest#checkLanguages</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">CheckPopularProductsTest#checkPopularProducts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">CheckoutEndToEndTest#checkoutEndToEnd</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">PriceDropCheckTest#priceDropCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m7">RegistrationWithInvalidDataTest#registrationWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m8">RegistrationWithValidDataTest#registrationWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

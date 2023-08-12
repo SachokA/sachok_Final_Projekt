@@ -10490,3 +10490,1057 @@ java.net.SocketException: Connection reset
 [INFO ] 2023-08-09 00:48:29 ResultSearchPage:194 :getTypePaper - message:Getting type paper
 [INFO ] 2023-08-09 00:48:29 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
 [INFO ] 2023-08-09 00:48:29 ResultSearchPage:208 :getTotalPrice - message:Get total price
+[ERROR] 2023-08-10 15:47:27 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-10 15:47:27 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-10 15:47:27 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:47:27 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-10 15:47:27 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-10 15:47:27 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:47:28 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:47:28 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:47:28 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:47:31 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:47:31 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:47:31 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:47:34 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:47:34 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:47:35 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:47:42 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:47:43 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:47:43 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:47:43 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-10 15:47:43 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-10 15:47:43 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:47:43 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-10 15:47:43 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-10 15:47:44 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-10 15:47:44 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-10 15:47:44 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-10 15:47:45 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-10 15:47:45 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-10 15:47:45 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[WARN ] 2023-08-10 15:47:45 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 2023-08-10 15:47:46 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:47:46 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ERROR] 2023-08-10 15:47:46 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:47:46 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:47:46 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:47:46 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:47:47 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:47:47 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:47:47 ResultSearchPage:163 :select - message:Select value
+[INFO ] 2023-08-10 15:47:47 ResultSearchPage:171 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-10 15:47:48 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:47:49 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:47:49 ResultSearchPage:187 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-10 15:47:50 ResultSearchPage:194 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-10 15:47:50 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-10 15:47:50 ResultSearchPage:208 :getTotalPrice - message:Get total price
+[ERROR] 2023-08-10 15:47:51 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:47:51 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:47:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:47:52 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:47:54 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:47:56 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:47:56 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:47:56 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:47:57 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:47:57 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:47:57 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-10 15:47:57 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:47:57 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-10 15:47:58 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-10 15:47:58 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-10 15:47:58 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-10 15:47:58 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[ERROR] 2023-08-10 15:47:59 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:47:59 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:47:59 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-10 15:47:59 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:47:59 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:47:59 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-10 15:47:59 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:47:59 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:48:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:48:00 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:48:01 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:48:01 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:48:02 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:48:03 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:48:03 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:48:04 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:48:04 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:48:04 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:48:05 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:48:06 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
+[ERROR] 2023-08-10 15:48:07 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:48:07 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:48:07 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:48:08 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:48:10 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:48:12 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:48:12 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:48:12 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:48:12 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-10 15:48:12 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-10 15:48:16 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-10 15:48:16 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-10 15:48:18 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:48:18 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-10 15:48:18 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-10 15:48:18 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-10 15:48:19 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-10 15:48:19 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-10 15:48:20 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-10 15:48:21 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-10 15:48:24 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-10 15:48:24 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-10 15:48:24 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-10 15:48:27 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-10 15:48:27 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-10 15:48:27 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-10 15:48:29 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-10 15:48:30 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-10 15:48:32 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-10 15:48:32 ResultSearchPage:332 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-10 15:48:32 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-10 15:48:38 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-10 15:48:39 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-10 15:48:40 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-10 15:48:41 ResultSearchPage:361 :getAmount - message:get Amount
+[INFO ] 2023-08-10 15:48:42 ResultSearchPage:351 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-10 15:48:42 ResultSearchPage:356 :getShipping - message:Get Shipping
+[INFO ] 2023-08-10 15:48:42 ResultSearchPage:345 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-10 15:48:42 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
+[INFO ] 2023-08-10 15:51:43 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:51:43 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:51:43 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:51:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:51:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:51:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:51:46 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:51:47 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:51:48 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:51:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:51:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:51:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:51:56 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:51:56 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:51:57 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-10 15:51:57 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-10 15:51:57 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-10 15:51:57 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-10 15:51:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:51:58 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:51:58 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-10 15:51:58 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-10 15:51:58 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-10 15:51:58 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-10 15:51:59 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-10 15:51:59 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
+[WARN ] 2023-08-10 15:51:59 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-10 15:51:59 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:51:59 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:51:59 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:51:59 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:52:00 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:52:02 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:52:02 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:52:02 ResultSearchPage:163 :select - message:Select value
+[INFO ] 2023-08-10 15:52:02 ResultSearchPage:171 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-10 15:52:04 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:52:04 ResultSearchPage:187 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-10 15:52:05 ResultSearchPage:194 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-10 15:52:05 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-10 15:52:05 ResultSearchPage:208 :getTotalPrice - message:Get total price
+[INFO ] 2023-08-10 15:52:05 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:52:05 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:52:08 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:52:09 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:52:12 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:52:12 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-10 15:52:13 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:52:13 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:52:13 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-10 15:52:13 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:52:13 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-10 15:52:13 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:52:13 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:52:13 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-08-10 15:52:13 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:52:14 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:52:14 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:52:14 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:52:14 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:52:15 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-10 15:52:15 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-10 15:52:15 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:52:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:52:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:52:17 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:52:18 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:52:18 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:52:19 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:52:23 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:52:23 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:52:24 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:52:24 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:52:25 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-10 15:52:26 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
+[INFO ] 2023-08-10 15:52:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
+[INFO ] 2023-08-10 15:52:26 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[INFO ] 2023-08-10 15:52:27 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:52:27 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:52:27 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:52:28 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-10 15:52:28 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:52:28 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-10 15:52:30 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:52:30 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-10 15:52:30 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-10 15:52:30 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-10 15:52:31 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-10 15:52:31 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-10 15:52:34 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-10 15:52:34 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-10 15:52:35 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-10 15:52:36 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-10 15:52:39 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-10 15:52:39 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-10 15:52:39 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-10 15:52:42 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-10 15:52:42 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-10 15:52:42 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-10 15:52:44 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-10 15:52:45 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-10 15:52:47 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-10 15:52:47 ResultSearchPage:332 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-10 15:52:47 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-10 15:52:53 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-10 15:52:54 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-10 15:52:56 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-10 15:52:57 ResultSearchPage:361 :getAmount - message:get Amount
+[INFO ] 2023-08-10 15:52:57 ResultSearchPage:351 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-10 15:52:57 ResultSearchPage:356 :getShipping - message:Get Shipping
+[INFO ] 2023-08-10 15:52:57 ResultSearchPage:345 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-10 15:52:57 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
+[INFO ] 2023-08-10 15:54:31 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:54:31 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:54:31 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:54:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:54:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:54:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:54:37 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:54:37 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:54:37 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:54:38 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:54:38 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:54:39 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:54:47 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:54:47 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:54:48 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-10 15:54:48 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-10 15:54:48 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-10 15:54:48 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:54:48 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:54:48 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-10 15:54:48 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-10 15:54:49 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-10 15:54:50 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-10 15:54:50 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-10 15:54:50 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-10 15:54:50 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-10 15:54:50 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:54:50 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:54:51 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:54:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:54:51 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:54:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:54:53 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:54:54 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:54:54 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:54:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:54:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:54:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:55:02 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:55:02 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-10 15:55:03 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:55:03 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:55:03 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-10 15:55:03 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:55:03 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:55:04 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:55:04 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:55:04 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:55:04 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-10 15:55:04 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-10 15:55:04 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-10 15:55:05 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-08-10 15:55:06 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:55:06 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:55:06 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:55:06 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:55:06 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:55:07 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:55:09 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:55:09 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:55:09 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:55:10 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:55:10 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:55:10 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:55:11 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:55:11 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:55:12 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-10 15:55:13 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:55:13 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-10 15:55:13 WebDriverManager:1238 :resolveDriverVersion - message:Using geckodriver 0.33.0 (resolved driver for Firefox 115)
+[INFO ] 2023-08-10 15:55:13 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.gecko.driver as C:\Users\Aguka\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+[INFO ] 2023-08-10 15:55:15 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in FIREFOX browser.
+[INFO ] 2023-08-10 15:55:17 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:55:19 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:55:19 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:55:19 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-10 15:55:25 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:55:25 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-10 15:55:25 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-10 15:55:25 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[ERROR] 2023-08-10 15:56:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-10 15:56:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-10 15:56:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:56:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-10 15:56:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-10 15:56:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:56:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:56:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:56:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:56:29 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:29 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:29 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:32 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:32 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:32 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:40 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:56:40 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:56:40 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:56:40 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-10 15:56:40 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-10 15:56:40 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:56:40 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-10 15:56:40 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-10 15:56:41 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-10 15:56:41 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-10 15:56:42 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-10 15:56:42 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-10 15:56:42 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-10 15:56:42 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[WARN ] 2023-08-10 15:56:42 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 2023-08-10 15:56:43 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:56:43 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:56:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-10 15:56:43 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:56:43 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:56:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:56:44 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:44 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:44 ResultSearchPage:163 :select - message:Select value
+[INFO ] 2023-08-10 15:56:45 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:45 ResultSearchPage:171 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-10 15:56:45 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:46 ResultSearchPage:187 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-10 15:56:47 ResultSearchPage:194 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-10 15:56:47 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-10 15:56:47 ResultSearchPage:208 :getTotalPrice - message:Get total price
+[ERROR] 2023-08-10 15:56:48 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:56:48 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:56:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:56:49 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:53 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:56:53 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:56:53 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:56:54 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:56:54 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:56:54 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-10 15:56:54 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:56:54 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-10 15:56:54 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-10 15:56:54 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-10 15:56:54 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-10 15:56:55 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[ERROR] 2023-08-10 15:56:55 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:56:55 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:56:55 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-10 15:56:55 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:56:55 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:56:55 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-10 15:56:56 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:56:56 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:56:56 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:56:56 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:56 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:57 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:56:58 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:58 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:56:58 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:57:00 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:57:00 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-10 15:57:06 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:57:06 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-10 15:57:06 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:57:06 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-10 15:57:07 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-10 15:57:07 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-10 15:57:07 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-10 15:57:09 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
+[ERROR] 2023-08-10 15:57:09 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-10 15:57:09 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-10 15:57:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-10 15:57:10 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-10 15:57:10 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-10 15:57:10 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-10 15:57:11 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-10 15:57:13 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-10 15:57:13 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-10 15:57:14 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-10 15:57:16 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-10 15:57:19 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-10 15:57:19 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-10 15:57:19 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-10 15:57:20 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-10 15:57:20 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-10 15:57:21 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-10 15:57:21 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-10 15:57:22 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-10 15:57:22 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-10 15:57:22 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-10 15:57:24 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-10 15:57:25 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-10 15:57:27 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-10 15:57:27 ResultSearchPage:332 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-10 15:57:27 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-10 15:57:33 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-10 15:57:34 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-10 15:57:35 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-10 15:57:36 ResultSearchPage:361 :getAmount - message:get Amount
+[INFO ] 2023-08-10 15:57:36 ResultSearchPage:351 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-10 15:57:36 ResultSearchPage:356 :getShipping - message:Get Shipping
+[INFO ] 2023-08-10 15:57:36 ResultSearchPage:345 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-10 15:57:36 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
+[ERROR] 2023-08-12 12:46:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-12 12:46:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:46:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-12 12:46:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:46:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:46:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:46:58 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:46:58 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:00 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:00 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:08 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:09 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:12 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-12 12:47:12 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 12:47:12 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-12 12:47:13 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-12 12:47:13 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-12 12:47:14 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-12 12:47:14 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-12 12:47:14 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[WARN ] 2023-08-12 12:47:14 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 2023-08-12 12:47:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:16 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:16 ResultSearchPage:163 :select - message:Select value
+[INFO ] 2023-08-12 12:47:16 ResultSearchPage:171 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-12 12:47:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:18 ResultSearchPage:187 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-12 12:47:19 ResultSearchPage:194 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-12 12:47:19 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-12 12:47:19 ResultSearchPage:208 :getTotalPrice - message:Get total price
+[ERROR] 2023-08-12 12:47:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:20 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:21 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:21 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:24 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-12 12:47:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:24 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-12 12:47:24 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-12 12:47:24 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-12 12:47:25 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[ERROR] 2023-08-12 12:47:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-12 12:47:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:26 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:27 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:29 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:35 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:35 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-12 12:47:36 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-12 12:47:36 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-12 12:47:37 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:37 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-12 12:47:37 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-12 12:47:37 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-12 12:47:38 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[ERROR] 2023-08-12 12:47:38 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:38 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:39 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[ERROR] 2023-08-12 12:47:39 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:39 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:40 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:41 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:41 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:43 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:43 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 12:47:44 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 12:47:47 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 12:47:47 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 12:47:49 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:49 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-12 12:47:49 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-12 12:47:49 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-12 12:47:50 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:47:50 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 12:47:51 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-12 12:47:51 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
+[ERROR] 2023-08-12 12:47:52 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:52 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:53 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 12:47:54 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:56 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 12:47:56 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:47:56 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:47:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:58 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-12 12:47:59 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 12:47:59 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 12:47:59 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:48:02 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 12:48:02 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 12:48:04 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 12:48:04 ResultSearchPage:332 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 12:48:04 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 12:48:10 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 12:48:11 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 12:48:13 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:361 :getAmount - message:get Amount
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:351 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:356 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:345 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
+[ERROR] 2023-08-12 12:48:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:48:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:48:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:48:15 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:48:17 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:48:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:48:24 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-12 12:48:24 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-12 12:48:24 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-12 12:52:52 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 12:52:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:52:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:52:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:52:56 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:52:58 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:53:05 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:53:05 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 12:53:06 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 12:53:09 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 12:53:09 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 12:53:12 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:53:12 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 12:53:14 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 12:53:15 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 12:53:18 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 12:53:18 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:53:18 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:53:21 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 12:53:21 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 12:53:21 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:53:23 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 12:53:24 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 12:53:26 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 12:53:26 ResultSearchPage:332 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 12:53:26 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 12:53:32 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 12:53:33 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 12:53:34 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 12:53:35 ResultSearchPage:361 :getAmount - message:get Amount
+[INFO ] 2023-08-12 12:53:35 ResultSearchPage:351 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 12:53:35 ResultSearchPage:356 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 12:53:35 ResultSearchPage:345 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 12:53:36 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
+[INFO ] 2023-08-12 12:54:03 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 12:54:04 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:54:04 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:54:04 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:54:07 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:54:09 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:54:17 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:54:18 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 12:54:18 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 12:54:22 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 12:54:22 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 12:54:25 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:54:25 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 12:54:26 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 12:54:27 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 12:54:30 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 12:54:30 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:54:30 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:54:33 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 12:54:33 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 12:54:33 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:54:35 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 12:54:36 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 12:54:38 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 12:54:38 ResultSearchPage:332 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 12:54:38 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 12:54:44 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 12:54:45 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 12:54:46 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 12:54:47 ResultSearchPage:361 :getAmount - message:get Amount
+[INFO ] 2023-08-12 12:54:47 ResultSearchPage:351 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 12:54:47 ResultSearchPage:356 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 12:54:47 ResultSearchPage:345 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 12:54:47 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
+[WARN ] 2023-08-12 12:54:48 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-12 13:25:12 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 13:25:14 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 13:25:14 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 13:25:14 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 13:25:17 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 13:25:19 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 13:25:27 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 13:25:27 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 13:25:28 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 13:25:31 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 13:25:31 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 13:25:34 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:25:34 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 13:25:35 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 13:25:36 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 13:25:39 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 13:25:39 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:25:40 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:25:42 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 13:25:42 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 13:25:43 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:25:45 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 13:25:45 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 13:25:48 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 13:25:48 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 13:25:48 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 13:25:53 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 13:25:54 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 13:25:56 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 13:25:57 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-12 13:25:57 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 13:25:57 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 13:25:57 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 13:25:57 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
+[WARN ] 2023-08-12 13:25:58 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-12 13:27:01 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 13:27:02 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 13:27:02 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 13:27:02 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 13:27:04 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 13:27:06 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 13:27:14 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 13:27:15 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 13:27:15 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 13:27:19 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 13:27:19 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 13:27:22 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:27:22 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 13:27:23 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 13:27:24 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 13:27:24 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 13:27:24 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:27:25 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:27:27 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 13:27:27 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 13:27:28 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:27:30 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 13:27:30 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 13:27:32 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 13:27:32 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 13:27:33 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 13:27:38 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 13:27:39 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 13:27:41 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 13:27:42 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-12 13:27:42 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 13:27:42 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 13:27:42 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 13:27:42 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
+[WARN ] 2023-08-12 13:27:43 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-12 13:28:06 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 13:28:07 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 13:28:07 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 13:28:08 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 13:28:10 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 13:28:12 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 13:28:20 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 13:28:21 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 13:28:22 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 13:28:25 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 13:28:25 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 13:28:28 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:28:28 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 13:28:29 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 13:28:30 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 13:28:33 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 13:28:33 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:28:33 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:28:36 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 13:28:36 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 13:28:37 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:28:39 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 13:28:39 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 13:28:41 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 13:28:41 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 13:28:42 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 13:28:47 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 13:28:48 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 13:28:50 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 13:28:51 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-12 13:28:51 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 13:28:51 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 13:28:51 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 13:28:51 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
+[WARN ] 2023-08-12 13:28:52 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-12 13:29:25 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 13:29:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 13:29:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 13:29:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 13:29:29 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 13:29:31 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 13:29:39 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 13:29:39 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 13:29:40 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 13:29:44 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 13:29:44 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 13:29:46 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:29:46 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 13:29:47 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 13:29:49 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 13:29:52 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 13:29:52 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:29:52 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:29:54 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 13:29:54 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 13:29:55 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:29:57 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 13:29:57 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 13:30:00 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 13:30:00 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 13:30:00 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 13:30:05 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 13:30:07 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 13:30:08 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 13:30:09 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-12 13:30:09 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 13:30:09 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 13:30:09 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 13:30:09 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
+[WARN ] 2023-08-12 13:30:12 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-12 13:31:11 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 13:31:12 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 13:31:12 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 13:31:12 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 13:31:15 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 13:31:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 13:31:25 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 13:31:25 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 13:31:26 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 13:31:29 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 13:31:29 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 13:31:32 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:31:32 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 13:31:33 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 13:31:34 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 13:31:35 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 13:31:35 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:31:35 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:31:37 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 13:31:37 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 13:31:38 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:31:40 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 13:31:40 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 13:31:43 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 13:31:43 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 13:31:43 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 13:31:48 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 13:31:49 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 13:31:51 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 13:31:52 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-12 13:31:52 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 13:31:52 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 13:31:52 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 13:31:52 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
+[WARN ] 2023-08-12 13:31:55 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-12 13:32:37 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 13:32:38 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 13:32:38 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 13:32:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 13:32:41 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 13:32:42 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 13:32:51 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 13:32:51 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 13:32:52 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 13:32:55 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 13:32:55 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 13:32:58 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:32:58 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 13:32:59 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 13:33:00 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 13:33:03 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 13:33:04 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:33:04 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:33:06 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 13:33:06 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 13:33:07 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:33:09 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 13:33:09 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 13:33:12 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 13:33:12 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 13:33:12 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 13:33:17 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 13:33:18 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 13:33:20 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 13:33:21 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-12 13:33:21 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 13:33:21 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 13:33:21 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 13:33:21 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
+[WARN ] 2023-08-12 13:33:24 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-12 13:34:11 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-12 13:34:12 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 13:34:12 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 13:34:12 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 13:34:14 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 13:34:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 13:34:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 13:34:25 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 13:34:25 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 13:34:29 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 13:34:29 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 13:34:32 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:34:32 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 13:34:33 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-12 13:34:34 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 13:34:34 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 13:34:34 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 13:34:35 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:34:37 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-12 13:34:37 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 13:34:38 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 13:34:40 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 13:34:40 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 13:34:42 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 13:34:43 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 13:34:43 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 13:34:48 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 13:34:49 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 13:34:51 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 13:34:52 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-12 13:34:52 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 13:34:52 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 13:34:52 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 13:34:52 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order

@@ -36,8 +36,6 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public synchronized void setUp() {
-
-
         int width = Integer.parseInt(System.getProperty("browser.width"));
         int height = Integer.parseInt(System.getProperty("browser.height"));
         String browser = System.getProperty("browser.type");

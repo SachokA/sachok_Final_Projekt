@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="105.155" tests="10" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="97.697" tests="10" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="browser.type" value="EDGE"/>
+    <property name="browser.type" value="CHROME"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.class.path" value="C:\Users\Aguka\sachok_Final_Projekt\target\test-classes;C:\Users\Aguka\sachok_Final_Projekt\target\classes;C:\Users\Aguka\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\Aguka\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\Aguka\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Aguka\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Aguka\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Aguka\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Aguka\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\Aguka\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Aguka\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Aguka\.m2\repository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;C:\Users\Aguka\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Aguka\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Aguka\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Aguka\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Aguka\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Aguka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Aguka\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Aguka\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Aguka\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\Aguka\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Aguka\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Aguka\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Aguka\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Aguka\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Aguka\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\Aguka\.m2\repository\org\slf4j\slf4j-reload4j\2.0.5\slf4j-reload4j-2.0.5.jar;C:\Users\Aguka\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-testng\2.22.0\allure-testng-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-java-commons\2.22.0\allure-java-commons-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-model\2.22.0\allure-model-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-test-filter\2.22.0\allure-test-filter-2.22.0.jar;"/>
@@ -16,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Aguka\AppData\Local\Temp\surefire13671249681790516795\surefirebooter-20230809004130187_3.jar C:\Users\Aguka\AppData\Local\Temp\surefire13671249681790516795 2023-08-09T00-41-29_864-jvmRun1 surefire-20230809004130187_1tmp surefire_0-20230809004130187_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Aguka\AppData\Local\Temp\surefire11820954454735765818\surefirebooter-20230812124648600_3.jar C:\Users\Aguka\AppData\Local\Temp\surefire11820954454735765818 2023-08-12T12-46-48_247-jvmRun1 surefire-20230812124648600_1tmp surefire_0-20230812124648600_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Aguka\sachok_Final_Projekt\target\test-classes;C:\Users\Aguka\sachok_Final_Projekt\target\classes;C:\Users\Aguka\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\Aguka\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\Aguka\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Aguka\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Aguka\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Aguka\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Aguka\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\Aguka\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Aguka\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Aguka\.m2\repository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;C:\Users\Aguka\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Aguka\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Aguka\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Aguka\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Aguka\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Aguka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Aguka\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Aguka\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Aguka\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\Aguka\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Aguka\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Aguka\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Aguka\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Aguka\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Aguka\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\Aguka\.m2\repository\org\slf4j\slf4j-reload4j\2.0.5\slf4j-reload4j-2.0.5.jar;C:\Users\Aguka\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-testng\2.22.0\allure-testng-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-java-commons\2.22.0\allure-java-commons-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-model\2.22.0\allure-model-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-test-filter\2.22.0\allure-test-filter-2.22.0.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Aguka\sachok_Final_Projekt\target/allure-results"/>
@@ -32,17 +33,15 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Aguka\AppData\Local\Temp\surefire13671249681790516795\surefirebooter-20230809004130187_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Aguka\AppData\Local\Temp\surefire11820954454735765818\surefirebooter-20230812124648600_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
-    <property name="webdriver.edge.driver" value="C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe"/>
     <property name="user.name" value="Aguka"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1251"/>
-    <property name="browser" value="EDGE"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="browser.height" value="1080"/>
     <property name="localRepository" value="C:\Users\Aguka\.m2\repository"/>
@@ -62,98 +61,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="checkLanguages" classname="CheckLanguagesTest" time="2.286">
-    <system-out><![CDATA[[INFO ] 2023-08-09 00:41:34 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:41:34 WebDriverManager:1583 :logSeekRepo - message:Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-[INFO ] 2023-08-09 00:41:34 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:41:34 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:41:34 WebDriverManager:1583 :logSeekRepo - message:Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-[INFO ] 2023-08-09 00:41:34 WebDriverManager:1583 :logSeekRepo - message:Reading https://msedgedriver.azureedge.net/?restype=container&comp=list to seek msedgedriver
-[INFO ] 2023-08-09 00:41:40 Downloader:127 :downloadAndExtract - message:Downloading https://msedgedriver.azureedge.net/115.0.1901.200/edgedriver_win64.zip
-[INFO ] 2023-08-09 00:41:40 Downloader:127 :downloadAndExtract - message:Downloading https://msedgedriver.azureedge.net/115.0.1901.200/edgedriver_win64.zip
-[INFO ] 2023-08-09 00:41:43 Downloader:127 :downloadAndExtract - message:Downloading https://msedgedriver.azureedge.net/115.0.1901.200/edgedriver_win64.zip
-[INFO ] 2023-08-09 00:41:52 Downloader:188 :extract - message:Extracting driver from compressed file edgedriver_win64.zip
-[INFO ] 2023-08-09 00:41:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:41:55 Downloader:188 :extract - message:Extracting driver from compressed file edgedriver_win64.zip
-[INFO ] 2023-08-09 00:41:55 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:41:56 Downloader:188 :extract - message:Extracting driver from compressed file edgedriver_win64.zip
-[INFO ] 2023-08-09 00:41:56 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:41:56 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:41:58 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:42:00 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:42:02 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:02 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:04 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:09 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:10 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:10 MainPage:202 :setFieldSearch - message:Set field search and enter
-[INFO ] 2023-08-09 00:42:10 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
-[INFO ] 2023-08-09 00:42:10 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
-[INFO ] 2023-08-09 00:42:11 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:11 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
-[INFO ] 2023-08-09 00:42:11 MainPage:115 :getLanguages - message:Getting list all languages
-[INFO ] 2023-08-09 00:42:12 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
-[INFO ] 2023-08-09 00:42:12 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
-[INFO ] 2023-08-09 00:42:12 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
-[INFO ] 2023-08-09 00:42:13 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
-[INFO ] 2023-08-09 00:42:13 MainPage:225 :hoverOverArtCategory - message:Hover over art category
-[INFO ] 2023-08-09 00:42:13 MainPage:252 :getArtValue - message:Check that no any sub category appears
+  <testcase name="checkCategories" classname="CheckCategoriesTest" time="4.34">
+    <system-out><![CDATA[[ERROR] 2023-08-12 12:46:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-12 12:46:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:46:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-12 12:46:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:46:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:46:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:46:58 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:46:58 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:00 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:00 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:08 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:09 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:12 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-12 12:47:12 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 12:47:12 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-12 12:47:13 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-12 12:47:13 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-12 12:47:14 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-12 12:47:14 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-12 12:47:14 MainPage:252 :getArtValue - message:Check that no any sub category appears
 ]]></system-out>
-    <system-err><![CDATA[Aug 09, 2023 12:41:52 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 12, 2023 12:46:54 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:41:55 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+Aug 12, 2023 12:46:54 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:41:56 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:41:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 12, 2023 12:46:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-Aug 09, 2023 12:41:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-Aug 09, 2023 12:42:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 12, 2023 12:46:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="checkCategories" classname="CheckCategoriesTest" time="2.43"/>
-  <testcase name="addingToCart" classname="AddingToCartTest" time="7.884">
-    <failure message="&#10;The following 2 assertions failed:&#10;1) [not as expected] &#10;Expecting:&#10; &lt;&quot;Quantity: 1&quot;&gt;&#10;to be equal to:&#10; &lt;&quot;Quantity: 5&quot;&gt;&#10;but was not.&#10;at AddingToCartTest.addingToCart(AddingToCartTest.java:25)&#10;2) [not as expected] &#10;Expecting:&#10; &lt;15.48&gt;&#10;to be equal to:&#10; &lt;77.4&gt;&#10;but was not.&#10;at AddingToCartTest.addingToCart(AddingToCartTest.java:29)&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
-
-The following 2 assertions failed:
-1) [not as expected] 
-Expecting:
- <"Quantity: 1">
-to be equal to:
- <"Quantity: 5">
-but was not.
-at AddingToCartTest.addingToCart(AddingToCartTest.java:25)
-2) [not as expected] 
-Expecting:
- <15.48>
-to be equal to:
- <77.4>
-but was not.
-at AddingToCartTest.addingToCart(AddingToCartTest.java:29)
-
-	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:75)
-	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:38)
-	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:43)
-	at AddingToCartTest.addingToCart(AddingToCartTest.java:30)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-]]></failure>
-    <system-out><![CDATA[[WARN ] 2023-08-09 00:42:13 WebSocketHandler:142 :handleException - message:onError
+  <testcase name="addingToCart" classname="AddingToCartTest" time="9.305">
+    <system-out><![CDATA[[WARN ] 2023-08-12 12:47:14 WebSocketHandler:142 :handleException - message:onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
@@ -169,20 +110,19 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-[INFO ] 2023-08-09 00:42:14 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:42:14 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:42:14 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:42:14 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:42:15 ResultSearchPage:163 :select - message:Select value
-[INFO ] 2023-08-09 00:42:15 ResultSearchPage:171 :setInputQuantityWanted - message:Set input quantity you wanted(5)
-[INFO ] 2023-08-09 00:42:16 ResultSearchPage:187 :getMessageSuccessfully - message:Get message successfully
-[INFO ] 2023-08-09 00:42:17 ResultSearchPage:194 :getTypePaper - message:Getting type paper
-[INFO ] 2023-08-09 00:42:17 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
-[INFO ] 2023-08-09 00:42:17 ResultSearchPage:208 :getTotalPrice - message:Get total price
-[INFO ] 2023-08-09 00:42:17 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:42:17 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+[ERROR] 2023-08-12 12:47:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:16 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:16 ResultSearchPage:163 :select - message:Select value
+[INFO ] 2023-08-12 12:47:16 ResultSearchPage:171 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-12 12:47:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:18 ResultSearchPage:187 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-12 12:47:19 ResultSearchPage:194 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-12 12:47:19 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-12 12:47:19 ResultSearchPage:208 :getTotalPrice - message:Get total price
 ]]></system-out>
-    <system-err><![CDATA[Aug 09, 2023 12:42:13 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Aug 12, 2023 12:47:14 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
@@ -200,175 +140,156 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-Aug 09, 2023 12:42:14 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+Aug 12, 2023 12:47:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:42:14 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:42:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-Aug 09, 2023 12:42:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 12, 2023 12:47:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="checkPopularProducts" classname="CheckPopularProductsTest" time="1.571">
-    <system-out><![CDATA[[INFO ] 2023-08-09 00:42:22 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:23 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:23 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:23 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:42:23 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:42:23 MainPage:178 :getSizePopularProduct - message:Get size popular product
-[INFO ] 2023-08-09 00:42:24 MainPage:167 :getPopularProduct - message:Get list popular product
-[INFO ] 2023-08-09 00:42:24 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
+  <testcase name="checkPopularProducts" classname="CheckPopularProductsTest" time="0.722">
+    <system-out><![CDATA[[ERROR] 2023-08-12 12:47:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:20 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:21 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:21 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:24 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-12 12:47:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:24 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-12 12:47:24 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-12 12:47:24 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-12 12:47:25 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
 ]]></system-out>
-    <system-err><![CDATA[Aug 09, 2023 12:42:23 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 12, 2023 12:47:20 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:42:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 12, 2023 12:47:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="priceDropCheck" classname="PriceDropCheckTest" time="1.226">
-    <system-out><![CDATA[[INFO ] 2023-08-09 00:42:25 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:42:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:42:28 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:42:28 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:28 MainPage:190 :clickPricesDrop - message:Click button prices drop
-[INFO ] 2023-08-09 00:42:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:29 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+  <testcase name="checkLanguages" classname="CheckLanguagesTest" time="1.206"/>
+  <testcase name="registrationWithValidData" classname="RegistrationWithInvalidDataTest" time="0.23">
+    <system-out><![CDATA[[ERROR] 2023-08-12 12:47:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-12 12:47:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:26 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:27 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:29 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:35 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:35 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-12 12:47:36 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-12 12:47:36 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-12 12:47:37 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:37 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-12 12:47:37 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-12 12:47:37 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
 ]]></system-out>
-    <system-err><![CDATA[Aug 09, 2023 12:42:25 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 12, 2023 12:47:26 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:42:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 12, 2023 12:47:26 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Aug 12, 2023 12:47:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+Aug 12, 2023 12:47:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="registrationWithValidData" classname="RegistrationWithInvalidDataTest" time="0.571">
-    <system-out><![CDATA[[INFO ] 2023-08-09 00:42:29 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:42:29 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:42:31 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:32 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:42:35 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:35 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:35 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
-[INFO ] 2023-08-09 00:42:36 LoginPage:46 :clickNotAccount - message:Clicking button not account
-[INFO ] 2023-08-09 00:42:37 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
-[INFO ] 2023-08-09 00:42:38 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:38 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
-[INFO ] 2023-08-09 00:42:38 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
-[INFO ] 2023-08-09 00:42:38 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
-[INFO ] 2023-08-09 00:42:38 LoginPage:46 :clickNotAccount - message:Clicking button not account
+  <testcase name="priceDropCheck" classname="PriceDropCheckTest" time="1.019">
+    <system-out><![CDATA[[INFO ] 2023-08-12 12:47:38 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[ERROR] 2023-08-12 12:47:38 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:38 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
 ]]></system-out>
-    <system-err><![CDATA[Aug 09, 2023 12:42:29 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:42:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-]]></system-err>
   </testcase>
-  <testcase name="registrationWithValidData" classname="RegistrationWithValidDataTest" time="3.545">
-    <system-out><![CDATA[[INFO ] 2023-08-09 00:42:39 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:42:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:42:39 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
-[INFO ] 2023-08-09 00:42:40 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:42:41 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
+  <testcase name="registrationWithValidData" classname="RegistrationWithValidDataTest" time="2.347">
+    <system-out><![CDATA[[INFO ] 2023-08-12 12:47:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:39 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[ERROR] 2023-08-12 12:47:39 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:39 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:40 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:41 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:41 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:43 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:43 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-12 12:47:44 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-12 12:47:47 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-12 12:47:47 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-12 12:47:49 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:49 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-12 12:47:49 LoginPage:46 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-12 12:47:49 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-12 12:47:50 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:47:50 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-12 12:47:51 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
 ]]></system-out>
-    <system-err><![CDATA[Aug 09, 2023 12:42:39 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 12, 2023 12:47:38 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:42:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 12, 2023 12:47:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+Aug 12, 2023 12:47:39 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Aug 12, 2023 12:47:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="checkSubscribeWithInvalidEmail" classname="SubscribeWithInvalidEmailTest" time="0.102">
-    <system-out><![CDATA[[INFO ] 2023-08-09 00:42:42 WebDriverManager:1238 :resolveDriverVersion - message:Using msedgedriver 115.0.1901.200 (resolved driver for Edge 115)
-[INFO ] 2023-08-09 00:42:42 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.edge.driver as C:\Users\Aguka\.cache\selenium\msedgedriver\win64\115.0.1901.200\msedgedriver.exe
-[INFO ] 2023-08-09 00:42:42 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:42 MainPage:202 :setFieldSearch - message:Set field search and enter
-[INFO ] 2023-08-09 00:42:43 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:43 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
-[INFO ] 2023-08-09 00:42:44 BaseTest:45 :setUp - message:Tests will run at 1920x1080 in EDGE browser.
-[INFO ] 2023-08-09 00:42:45 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:45 MainPage:196 :clickAllProducts - message:Click button All Products
-[INFO ] 2023-08-09 00:42:46 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
-[INFO ] 2023-08-09 00:42:46 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
-[INFO ] 2023-08-09 00:42:48 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-09 00:42:49 ResultSearchPage:231 :clickAddToCard - message:click add to card
-[INFO ] 2023-08-09 00:42:49 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
-[INFO ] 2023-08-09 00:42:50 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
-[INFO ] 2023-08-09 00:42:50 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-09 00:42:50 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
-[INFO ] 2023-08-09 00:42:50 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
-[INFO ] 2023-08-09 00:42:50 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
-]]></system-out>
-    <system-err><![CDATA[Aug 09, 2023 12:42:42 AM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 09, 2023 12:42:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-]]></system-err>
-  </testcase>
-  <testcase name="checkoutEndToEnd" classname="CheckoutEndToEndTest" time="21.229">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;payment-option-3&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=115.0.1901.188)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [eae2d6e0531da0fb70744ba49ca2e784, findElement {using=xpath, value=//input[@id=&apos;payment-option-3&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:51559}, msedge: {msedgedriverVersion: 115.0.1901.200 (64b0164e9f6..., userDataDir: C:\Users\Aguka\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51559/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eae2d6e0531da0fb70744ba49ca2e784" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='payment-option-3']"}
-  (Session info: MicrosoftEdge=115.0.1901.188)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [eae2d6e0531da0fb70744ba49ca2e784, findElement {using=xpath, value=//input[@id='payment-option-3']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:51559}, msedge: {msedgedriverVersion: 115.0.1901.200 (64b0164e9f6..., userDataDir: C:\Users\Aguka\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51559/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: eae2d6e0531da0fb70744ba49ca2e784
-	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at pages.ResultSearchPage.clickPayByCheck(ResultSearchPage.java:340)
-	at CheckoutEndToEndTest.checkoutEndToEnd(CheckoutEndToEndTest.java:46)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2023-08-09 00:42:51 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
-[INFO ] 2023-08-09 00:42:54 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
-[INFO ] 2023-08-09 00:42:54 ResultSearchPage:231 :clickAddToCard - message:click add to card
-[INFO ] 2023-08-09 00:42:54 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
-[INFO ] 2023-08-09 00:42:57 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+  <testcase name="checkoutEndToEnd" classname="CheckoutEndToEndTest" time="16.088">
+    <system-out><![CDATA[[INFO ] 2023-08-12 12:47:51 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
+[ERROR] 2023-08-12 12:47:52 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:47:52 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:47:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:47:53 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-12 12:47:54 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:47:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:47:56 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-12 12:47:56 ResultSearchPage:231 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-12 12:47:56 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:47:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:47:58 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-12 12:47:59 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
 39.62
-[INFO ] 2023-08-09 00:42:57 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
-[INFO ] 2023-08-09 00:42:57 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
-[INFO ] 2023-08-09 00:43:00 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
-[INFO ] 2023-08-09 00:43:00 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
-[INFO ] 2023-08-09 00:43:02 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
-[INFO ] 2023-08-09 00:43:02 ResultSearchPage:332 :setSelectCountry - message:set Select Country
-[INFO ] 2023-08-09 00:43:02 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
-[INFO ] 2023-08-09 00:43:08 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
-[INFO ] 2023-08-09 00:43:09 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
-[INFO ] 2023-08-09 00:43:11 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 12:47:59 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-12 12:47:59 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-12 12:48:02 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-12 12:48:02 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-12 12:48:04 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-12 12:48:04 ResultSearchPage:332 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-12 12:48:04 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-12 12:48:10 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-12 12:48:11 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-12 12:48:13 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:361 :getAmount - message:get Amount
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:351 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:356 :getShipping - message:Get Shipping
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:345 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-12 12:48:14 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
 ]]></system-out>
+    <system-err><![CDATA[Aug 12, 2023 12:47:52 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Aug 12, 2023 12:47:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+]]></system-err>
   </testcase>
-  <testcase name="sortingCheck" classname="SortingCheckTest" time="24.667">
+  <testcase name="checkSubscribeWithInvalidEmail" classname="SubscribeWithInvalidEmailTest" time="0.066">
+    <system-out><![CDATA[[ERROR] 2023-08-12 12:48:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-12 12:48:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-12 12:48:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-12 12:48:15 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-12 12:48:17 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-12 12:48:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-12 12:48:24 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-12 12:48:24 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-12 12:48:24 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+]]></system-out>
+    <system-err><![CDATA[Aug 12, 2023 12:48:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Aug 12, 2023 12:48:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+]]></system-err>
+  </testcase>
+  <testcase name="sortingCheck" classname="SortingCheckTest" time="2.995">
     <failure message="&#10;The following assertion failed:&#10;1) &#10;Expecting:&#10; &lt;[AllProductsComponent{name=&apos;Hummingbird - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug Today is a good day&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The adventure begins&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The best is yet to come&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Customizable mug&apos;, currentPrice=&apos;16.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed t-shirt&apos;, currentPrice=&apos;22.94&apos;, oldPrice=&apos;28.68&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed sweater&apos;, currentPrice=&apos;34.46&apos;, oldPrice=&apos;43.08&apos;},&#10;    AllProductsComponent{name=&apos;Today is a good day Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The adventure begins Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The best is yet to come&apos;...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Pack Mug + Framed poster&apos;, currentPrice=&apos;42.0&apos;, oldPrice=&apos;0.0&apos;}]&gt;&#10;to be equal to:&#10; &lt;[AllProductsComponent{name=&apos;Hummingbird - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug Today is a good day&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The adventure begins&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The best is yet to come&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Customizable mug&apos;, currentPrice=&apos;16.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed t-shirt&apos;, currentPrice=&apos;22.94&apos;, oldPrice=&apos;28.68&apos;},&#10;    AllProductsComponent{name=&apos;Today is a good day Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The adventure begins Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The best is yet to come&apos;...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Pack Mug + Framed poster&apos;, currentPrice=&apos;42.0&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed sweater&apos;, currentPrice=&apos;34.46&apos;, oldPrice=&apos;43.08&apos;}]&gt;&#10;but was not.&#10;at SortingCheckTest.sortingCheck(SortingCheckTest.java:29)&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
 
 The following assertion failed:
@@ -419,7 +340,7 @@ at SortingCheckTest.sortingCheck(SortingCheckTest.java:29)
 	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:75)
 	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:38)
 	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:43)
-	at SortingCheckTest.sortingCheck(SortingCheckTest.java:37)
+	at SortingCheckTest.sortingCheck(SortingCheckTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

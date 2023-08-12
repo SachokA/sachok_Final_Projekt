@@ -16,7 +16,7 @@ public class CheckoutEndToEndTest extends BaseTest {
         String firstName = "Ivan";
         String lastName = "Ivanov";
         String email = "agukavchyk@gmail.com";
-        String address = "вул.Вежа,12";//RandomStringUtils.randomAlphabetic(5);
+        String address = "вул.Вежа,12";
         String zipCode = "12345";
         String city = "Париж";
         double actualTotal = mainPage.setFieldSearch("mug")
@@ -48,10 +48,17 @@ public class CheckoutEndToEndTest extends BaseTest {
 
         double subTotal = resultSearchPage.getSubTotal();
         double shipping = resultSearchPage.getShipping();
-
         BigDecimal expectedAmount = new BigDecimal(subTotal).add(new BigDecimal(shipping)).setScale(2, RoundingMode.HALF_UP);
         softAssert.assertThat(actualAmount).isEqualTo(expectedAmount.doubleValue());
-        resultSearchPage.clickIAgree().clickPlaceOrder();
+        String actualMessageYourOrderedIsConfirmed = resultSearchPage
+                .clickIAgree()
+                .clickPlaceOrder()
+                .getMessageYourOrderedIsConfirmed();
+        softAssert.assertThat(actualMessageYourOrderedIsConfirmed)
+                .isEqualTo("YOUR ORDER IS CONFIRMED");
+        BigDecimal actualTotalLast = BigDecimal.valueOf(resultSearchPage.getTotalLast());
+        softAssert.assertThat(actualTotalLast).isEqualTo(expectedAmount);
+
         softAssert.assertAll();
     }
 }

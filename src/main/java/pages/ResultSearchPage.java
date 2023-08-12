@@ -143,8 +143,15 @@ public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//*[@id='payment-option-3-additional-information']/section/dl/dd[1]")
     private WebElement amount;
 
-    @FindBy(xpath = "//button[@class='btn btn-primary center-block']")
+    @FindBy(xpath = "//button[contains(text(),'Place order')]")
     private WebElement placeOrder;
+
+    @FindBy(xpath = "//h3[@class = 'h1 card-title']")
+    private WebElement messageYourOrderIsConfirmed;
+
+    @FindBy(xpath = "//*[@id='order-items']/div[2]/table/tbody/tr[3]/td[2]")
+    private WebElement  totalLast;
+
 
     public ResultSearchPage() {
         PageFactory.initElements(getDriver(), this);
@@ -365,7 +372,16 @@ public class ResultSearchPage extends BasePage {
     }
     public ResultSearchPage clickPlaceOrder(){
         log.info("click Place Order");
+        waitSecond(1);
         placeOrder.click();
         return this;
+    }
+    public String getMessageYourOrderedIsConfirmed(){
+        waitSecond(1);
+        return messageYourOrderIsConfirmed.getText().substring(1);
+    }
+
+    public double getTotalLast(){
+        return Double.parseDouble(totalLast.getText().substring(1));
     }
 }

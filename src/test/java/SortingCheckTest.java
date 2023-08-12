@@ -27,7 +27,6 @@ public class SortingCheckTest extends BaseTest {
         List<AllProductsComponent> actualResultPriceLowHugh = homePage.waitSecond(2).mergeList();
         List<AllProductsComponent> expectedResultPriceLowHugh = homePage.waitSecond(1).sortedPriceLowHigh();
         softAssert.assertThat(actualResultPriceLowHugh).isEqualTo(expectedResultPriceLowHugh);
-
         homePage.clickButtonSorted().selectSortedPriceHighLow();
         List<AllProductsComponent> actualResultPriceHughLow = homePage.waitSecond(1).mergeList();
         List<AllProductsComponent> expectedResultPriceHughLow = homePage.waitSecond(1).sortedPriceHighLow();
