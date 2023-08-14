@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import untils.Utils;
 
 @Slf4j
 public class LoginPage extends BasePage {
@@ -59,9 +60,13 @@ public class LoginPage extends BasePage {
         buttonSave.click();
         return this;
     }
+    public LoginPage waitSecond(long sec) {
+        Utils.waitSeconds(sec);
+        return this;}
 
     public String getDisplayedUserName() {
         log.info("Get displayed user name");
+        waitSecond(1);
         return showedCurrentlyUser.getText();
     }
 

@@ -43,7 +43,6 @@ public class BaseTest {
         log.info("Tests will run at {}x{} in {} browser.", width, height, browser);
         driver.get("https://demo.prestashop.com/");
         driver.manage().window().setSize(new Dimension(width, height));
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         BasePage.setDriverThreadLocal(driver);
         MainPage mainPage = new MainPage();
         mainPage.waitForPageLoading();

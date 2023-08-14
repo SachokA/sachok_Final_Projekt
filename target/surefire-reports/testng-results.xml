@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-12T12:46:52 EEST" name="Run all tests" finished-at="2023-08-12T12:48:27 EEST" duration-ms="95109">
+  <suite started-at="2023-08-14T13:06:57 EEST" name="Run all tests" finished-at="2023-08-14T13:08:37 EEST" duration-ms="100417">
     <groups>
     </groups>
-    <test started-at="2023-08-12T12:46:52 EEST" name="Test 1" finished-at="2023-08-12T12:48:27 EEST" duration-ms="95109">
+    <test started-at="2023-08-14T13:06:57 EEST" name="Test 1" finished-at="2023-08-14T13:08:37 EEST" duration-ms="100417">
       <class name="PriceDropCheckTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PriceDropCheckTest@2f98635e]" started-at="2023-08-12T12:47:25 EEST" name="setUp" finished-at="2023-08-12T12:47:37 EEST" duration-ms="11723" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PriceDropCheckTest@7c9bdee9]" started-at="2023-08-14T13:07:21 EEST" name="setUp" finished-at="2023-08-14T13:07:33 EEST" duration-ms="12079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="priceDropCheck()[pri:0, instance:PriceDropCheckTest@2f98635e]" started-at="2023-08-12T12:47:37 EEST" name="priceDropCheck" finished-at="2023-08-12T12:47:38 EEST" duration-ms="1018" status="PASS">
+        <test-method signature="priceDropCheck()[pri:0, instance:PriceDropCheckTest@7c9bdee9]" started-at="2023-08-14T13:07:33 EEST" name="priceDropCheck" finished-at="2023-08-14T13:07:34 EEST" duration-ms="1524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceDropCheck -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PriceDropCheckTest@2f98635e]" started-at="2023-08-12T12:47:38 EEST" name="tearDown" finished-at="2023-08-12T12:47:38 EEST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PriceDropCheckTest@7c9bdee9]" started-at="2023-08-14T13:07:34 EEST" name="tearDown" finished-at="2023-08-14T13:07:38 EEST" duration-ms="3425" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=priceDropCheck status=SUCCESS method=PriceDropCheckTest.priceDropCheck()[pri:0, instance:PriceDropCheckTest@2f98635e] output={null}]]]>
+                <![CDATA[[TestResult name=priceDropCheck status=SUCCESS method=PriceDropCheckTest.priceDropCheck()[pri:0, instance:PriceDropCheckTest@7c9bdee9] output={null}]]]>
               </value>
             </param>
           </params>
@@ -28,11 +28,11 @@
         </test-method> <!-- tearDown -->
       </class> <!-- PriceDropCheckTest -->
       <class name="SortingCheckTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SortingCheckTest@221dad51]" started-at="2023-08-12T12:47:51 EEST" name="setUp" finished-at="2023-08-12T12:47:58 EEST" duration-ms="6593" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SortingCheckTest@6b0615ae]" started-at="2023-08-14T13:07:53 EEST" name="setUp" finished-at="2023-08-14T13:07:58 EEST" duration-ms="4915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortingCheck()[pri:0, instance:SortingCheckTest@221dad51]" started-at="2023-08-12T12:47:58 EEST" name="sortingCheck" finished-at="2023-08-12T12:48:27 EEST" duration-ms="29178" status="FAIL">
+        <test-method signature="sortingCheck()[pri:0, instance:SortingCheckTest@6b0615ae]" started-at="2023-08-14T13:07:58 EEST" name="sortingCheck" finished-at="2023-08-14T13:08:28 EEST" duration-ms="29826" status="FAIL">
           <exception class="org.assertj.core.api.SoftAssertionError">
             <message>
               <![CDATA[
@@ -154,11 +154,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortingCheck -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SortingCheckTest@221dad51]" started-at="2023-08-12T12:48:27 EEST" name="tearDown" finished-at="2023-08-12T12:48:27 EEST" duration-ms="399" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SortingCheckTest@6b0615ae]" started-at="2023-08-14T13:08:28 EEST" name="tearDown" finished-at="2023-08-14T13:08:29 EEST" duration-ms="460" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortingCheck status=FAILURE method=SortingCheckTest.sortingCheck()[pri:0, instance:SortingCheckTest@221dad51] output={null}]]]>
+                <![CDATA[[TestResult name=sortingCheck status=FAILURE method=SortingCheckTest.sortingCheck()[pri:0, instance:SortingCheckTest@6b0615ae] output={null}]]]>
               </value>
             </param>
           </params>
@@ -167,19 +167,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- SortingCheckTest -->
       <class name="CheckLanguagesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckLanguagesTest@7c9bdee9]" started-at="2023-08-12T12:47:14 EEST" name="setUp" finished-at="2023-08-12T12:47:24 EEST" duration-ms="9819" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckLanguagesTest@338cc75f]" started-at="2023-08-14T13:07:14 EEST" name="setUp" finished-at="2023-08-14T13:07:19 EEST" duration-ms="5087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkLanguages()[pri:0, instance:CheckLanguagesTest@7c9bdee9]" started-at="2023-08-12T12:47:24 EEST" name="checkLanguages" finished-at="2023-08-12T12:47:25 EEST" duration-ms="1205" status="PASS">
+        <test-method signature="checkLanguages()[pri:0, instance:CheckLanguagesTest@338cc75f]" started-at="2023-08-14T13:07:19 EEST" name="checkLanguages" finished-at="2023-08-14T13:07:20 EEST" duration-ms="1433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLanguages -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckLanguagesTest@7c9bdee9]" started-at="2023-08-12T12:47:25 EEST" name="tearDown" finished-at="2023-08-12T12:47:26 EEST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckLanguagesTest@338cc75f]" started-at="2023-08-14T13:07:20 EEST" name="tearDown" finished-at="2023-08-14T13:07:21 EEST" duration-ms="191" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkLanguages status=SUCCESS method=CheckLanguagesTest.checkLanguages()[pri:0, instance:CheckLanguagesTest@7c9bdee9] output={null}]]]>
+                <![CDATA[[TestResult name=checkLanguages status=SUCCESS method=CheckLanguagesTest.checkLanguages()[pri:0, instance:CheckLanguagesTest@338cc75f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -188,19 +188,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- CheckLanguagesTest -->
       <class name="AddingToCartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AddingToCartTest@4c59e45e]" started-at="2023-08-12T12:46:52 EEST" name="setUp" finished-at="2023-08-12T12:47:09 EEST" duration-ms="16536" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AddingToCartTest@431f1eaf]" started-at="2023-08-14T13:06:57 EEST" name="setUp" finished-at="2023-08-14T13:07:11 EEST" duration-ms="14290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addingToCart()[pri:0, instance:AddingToCartTest@4c59e45e]" started-at="2023-08-12T12:47:10 EEST" name="addingToCart" finished-at="2023-08-12T12:47:19 EEST" duration-ms="9305" status="PASS">
+        <test-method signature="addingToCart()[pri:0, instance:AddingToCartTest@431f1eaf]" started-at="2023-08-14T13:07:11 EEST" name="addingToCart" finished-at="2023-08-14T13:07:19 EEST" duration-ms="7189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AddingToCartTest@4c59e45e]" started-at="2023-08-12T12:47:19 EEST" name="tearDown" finished-at="2023-08-12T12:47:19 EEST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AddingToCartTest@431f1eaf]" started-at="2023-08-14T13:07:19 EEST" name="tearDown" finished-at="2023-08-14T13:07:19 EEST" duration-ms="398" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addingToCart status=SUCCESS method=AddingToCartTest.addingToCart()[pri:0, instance:AddingToCartTest@4c59e45e] output={null}]]]>
+                <![CDATA[[TestResult name=addingToCart status=SUCCESS method=AddingToCartTest.addingToCart()[pri:0, instance:AddingToCartTest@431f1eaf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -209,19 +209,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- AddingToCartTest -->
       <class name="SubscribeWithInvalidEmailTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SubscribeWithInvalidEmailTest@2cec704c]" started-at="2023-08-12T12:48:14 EEST" name="setUp" finished-at="2023-08-12T12:48:24 EEST" duration-ms="9879" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SubscribeWithInvalidEmailTest@4e73b552]" started-at="2023-08-14T13:08:25 EEST" name="setUp" finished-at="2023-08-14T13:08:37 EEST" duration-ms="11122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkSubscribeWithInvalidEmail()[pri:0, instance:SubscribeWithInvalidEmailTest@2cec704c]" started-at="2023-08-12T12:48:24 EEST" name="checkSubscribeWithInvalidEmail" finished-at="2023-08-12T12:48:24 EEST" duration-ms="65" status="PASS">
+        <test-method signature="checkSubscribeWithInvalidEmail()[pri:0, instance:SubscribeWithInvalidEmailTest@4e73b552]" started-at="2023-08-14T13:08:37 EEST" name="checkSubscribeWithInvalidEmail" finished-at="2023-08-14T13:08:37 EEST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSubscribeWithInvalidEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SubscribeWithInvalidEmailTest@2cec704c]" started-at="2023-08-12T12:48:24 EEST" name="tearDown" finished-at="2023-08-12T12:48:24 EEST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SubscribeWithInvalidEmailTest@4e73b552]" started-at="2023-08-14T13:08:37 EEST" name="tearDown" finished-at="2023-08-14T13:08:37 EEST" duration-ms="761" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkSubscribeWithInvalidEmail status=SUCCESS method=SubscribeWithInvalidEmailTest.checkSubscribeWithInvalidEmail()[pri:0, instance:SubscribeWithInvalidEmailTest@2cec704c] output={null}]]]>
+                <![CDATA[[TestResult name=checkSubscribeWithInvalidEmail status=SUCCESS method=SubscribeWithInvalidEmailTest.checkSubscribeWithInvalidEmail()[pri:0, instance:SubscribeWithInvalidEmailTest@4e73b552] output={null}]]]>
               </value>
             </param>
           </params>
@@ -230,19 +230,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- SubscribeWithInvalidEmailTest -->
       <class name="RegistrationWithValidDataTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithValidDataTest@6b0615ae]" started-at="2023-08-12T12:47:37 EEST" name="setUp" finished-at="2023-08-12T12:47:49 EEST" duration-ms="11337" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithValidDataTest@2f98635e]" started-at="2023-08-14T13:07:38 EEST" name="setUp" finished-at="2023-08-14T13:07:50 EEST" duration-ms="12432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithValidDataTest@6b0615ae]" started-at="2023-08-12T12:47:49 EEST" name="registrationWithValidData" finished-at="2023-08-12T12:47:51 EEST" duration-ms="2346" status="PASS">
+        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithValidDataTest@2f98635e]" started-at="2023-08-14T13:07:50 EEST" name="registrationWithValidData" finished-at="2023-08-14T13:07:53 EEST" duration-ms="3219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationWithValidData -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:RegistrationWithValidDataTest@6b0615ae]" started-at="2023-08-12T12:47:51 EEST" name="tearDown" finished-at="2023-08-12T12:47:51 EEST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:RegistrationWithValidDataTest@2f98635e]" started-at="2023-08-14T13:07:53 EEST" name="tearDown" finished-at="2023-08-14T13:07:53 EEST" duration-ms="151" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=registrationWithValidData status=SUCCESS method=RegistrationWithValidDataTest.registrationWithValidData()[pri:0, instance:RegistrationWithValidDataTest@6b0615ae] output={null}]]]>
+                <![CDATA[[TestResult name=registrationWithValidData status=SUCCESS method=RegistrationWithValidDataTest.registrationWithValidData()[pri:0, instance:RegistrationWithValidDataTest@2f98635e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -251,19 +251,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- RegistrationWithValidDataTest -->
       <class name="CheckPopularProductsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckPopularProductsTest@7afbf561]" started-at="2023-08-12T12:47:19 EEST" name="setUp" finished-at="2023-08-12T12:47:24 EEST" duration-ms="4715" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckPopularProductsTest@4f453e63]" started-at="2023-08-14T13:07:19 EEST" name="setUp" finished-at="2023-08-14T13:07:31 EEST" duration-ms="12097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkPopularProducts()[pri:0, instance:CheckPopularProductsTest@7afbf561]" started-at="2023-08-12T12:47:24 EEST" name="checkPopularProducts" finished-at="2023-08-12T12:47:25 EEST" duration-ms="906" status="PASS">
+        <test-method signature="checkPopularProducts()[pri:0, instance:CheckPopularProductsTest@4f453e63]" started-at="2023-08-14T13:07:31 EEST" name="checkPopularProducts" finished-at="2023-08-14T13:07:32 EEST" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPopularProducts -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckPopularProductsTest@7afbf561]" started-at="2023-08-12T12:47:25 EEST" name="tearDown" finished-at="2023-08-12T12:47:25 EEST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckPopularProductsTest@4f453e63]" started-at="2023-08-14T13:07:32 EEST" name="tearDown" finished-at="2023-08-14T13:07:34 EEST" duration-ms="1710" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkPopularProducts status=SUCCESS method=CheckPopularProductsTest.checkPopularProducts()[pri:0, instance:CheckPopularProductsTest@7afbf561] output={null}]]]>
+                <![CDATA[[TestResult name=checkPopularProducts status=SUCCESS method=CheckPopularProductsTest.checkPopularProducts()[pri:0, instance:CheckPopularProductsTest@4f453e63] output={null}]]]>
               </value>
             </param>
           </params>
@@ -272,19 +272,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- CheckPopularProductsTest -->
       <class name="CheckCategoriesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckCategoriesTest@4f453e63]" started-at="2023-08-12T12:46:52 EEST" name="setUp" finished-at="2023-08-12T12:47:09 EEST" duration-ms="16387" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckCategoriesTest@6b00ad9]" started-at="2023-08-14T13:06:57 EEST" name="setUp" finished-at="2023-08-14T13:07:11 EEST" duration-ms="14224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkCategories()[pri:0, instance:CheckCategoriesTest@4f453e63]" started-at="2023-08-12T12:47:10 EEST" name="checkCategories" finished-at="2023-08-12T12:47:14 EEST" duration-ms="4321" status="PASS">
+        <test-method signature="checkCategories()[pri:0, instance:CheckCategoriesTest@6b00ad9]" started-at="2023-08-14T13:07:11 EEST" name="checkCategories" finished-at="2023-08-14T13:07:14 EEST" duration-ms="2159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCategories -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckCategoriesTest@4f453e63]" started-at="2023-08-12T12:47:14 EEST" name="tearDown" finished-at="2023-08-12T12:47:14 EEST" duration-ms="355" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckCategoriesTest@6b00ad9]" started-at="2023-08-14T13:07:14 EEST" name="tearDown" finished-at="2023-08-14T13:07:14 EEST" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkCategories status=SUCCESS method=CheckCategoriesTest.checkCategories()[pri:0, instance:CheckCategoriesTest@4f453e63] output={null}]]]>
+                <![CDATA[[TestResult name=checkCategories status=SUCCESS method=CheckCategoriesTest.checkCategories()[pri:0, instance:CheckCategoriesTest@6b00ad9] output={null}]]]>
               </value>
             </param>
           </params>
@@ -293,19 +293,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- CheckCategoriesTest -->
       <class name="CheckoutEndToEndTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckoutEndToEndTest@4e73b552]" started-at="2023-08-12T12:47:38 EEST" name="setUp" finished-at="2023-08-12T12:47:43 EEST" duration-ms="5396" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CheckoutEndToEndTest@49c8f6e8]" started-at="2023-08-14T13:07:42 EEST" name="setUp" finished-at="2023-08-14T13:07:53 EEST" duration-ms="11039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkoutEndToEnd()[pri:0, instance:CheckoutEndToEndTest@4e73b552]" started-at="2023-08-12T12:47:43 EEST" name="checkoutEndToEnd" finished-at="2023-08-12T12:48:14 EEST" duration-ms="30392" status="PASS">
+        <test-method signature="checkoutEndToEnd()[pri:0, instance:CheckoutEndToEndTest@49c8f6e8]" started-at="2023-08-14T13:07:53 EEST" name="checkoutEndToEnd" finished-at="2023-08-14T13:08:25 EEST" duration-ms="32250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutEndToEnd -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckoutEndToEndTest@4e73b552]" started-at="2023-08-12T12:48:14 EEST" name="tearDown" finished-at="2023-08-12T12:48:14 EEST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CheckoutEndToEndTest@49c8f6e8]" started-at="2023-08-14T13:08:25 EEST" name="tearDown" finished-at="2023-08-14T13:08:25 EEST" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkoutEndToEnd status=SUCCESS method=CheckoutEndToEndTest.checkoutEndToEnd()[pri:0, instance:CheckoutEndToEndTest@4e73b552] output={null}]]]>
+                <![CDATA[[TestResult name=checkoutEndToEnd status=SUCCESS method=CheckoutEndToEndTest.checkoutEndToEnd()[pri:0, instance:CheckoutEndToEndTest@49c8f6e8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -314,19 +314,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- CheckoutEndToEndTest -->
       <class name="RegistrationWithInvalidDataTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithInvalidDataTest@49c8f6e8]" started-at="2023-08-12T12:47:26 EEST" name="setUp" finished-at="2023-08-12T12:47:35 EEST" duration-ms="9444" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:RegistrationWithInvalidDataTest@7afbf561]" started-at="2023-08-14T13:07:34 EEST" name="setUp" finished-at="2023-08-14T13:07:39 EEST" duration-ms="5327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithInvalidDataTest@49c8f6e8]" started-at="2023-08-12T12:47:35 EEST" name="registrationWithValidData" finished-at="2023-08-12T12:47:37 EEST" duration-ms="1904" status="PASS">
+        <test-method signature="registrationWithValidData()[pri:0, instance:RegistrationWithInvalidDataTest@7afbf561]" started-at="2023-08-14T13:07:39 EEST" name="registrationWithValidData" finished-at="2023-08-14T13:07:42 EEST" duration-ms="2735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationWithValidData -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:RegistrationWithInvalidDataTest@49c8f6e8]" started-at="2023-08-12T12:47:37 EEST" name="tearDown" finished-at="2023-08-12T12:47:37 EEST" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:RegistrationWithInvalidDataTest@7afbf561]" started-at="2023-08-14T13:07:42 EEST" name="tearDown" finished-at="2023-08-14T13:07:42 EEST" duration-ms="164" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=registrationWithValidData status=SUCCESS method=RegistrationWithInvalidDataTest.registrationWithValidData()[pri:0, instance:RegistrationWithInvalidDataTest@49c8f6e8] output={null}]]]>
+                <![CDATA[[TestResult name=registrationWithValidData status=SUCCESS method=RegistrationWithInvalidDataTest.registrationWithValidData()[pri:0, instance:RegistrationWithInvalidDataTest@7afbf561] output={null}]]]>
               </value>
             </param>
           </params>

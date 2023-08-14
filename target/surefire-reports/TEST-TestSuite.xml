@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="97.697" tests="10" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="102.081" tests="10" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="browser.type" value="CHROME"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Aguka\AppData\Local\Temp\surefire11820954454735765818\surefirebooter-20230812124648600_3.jar C:\Users\Aguka\AppData\Local\Temp\surefire11820954454735765818 2023-08-12T12-46-48_247-jvmRun1 surefire-20230812124648600_1tmp surefire_0-20230812124648600_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Aguka\AppData\Local\Temp\surefire14892159367851208645\surefirebooter-20230814130655290_3.jar C:\Users\Aguka\AppData\Local\Temp\surefire14892159367851208645 2023-08-14T13-06-54_943-jvmRun1 surefire-20230814130655290_1tmp surefire_0-20230814130655290_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Aguka\sachok_Final_Projekt\target\test-classes;C:\Users\Aguka\sachok_Final_Projekt\target\classes;C:\Users\Aguka\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\Aguka\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\Aguka\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Aguka\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Aguka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Aguka\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Aguka\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Aguka\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\Aguka\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\Aguka\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Aguka\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Aguka\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Aguka\.m2\repository\org\assertj\assertj-core\3.18.1\assertj-core-3.18.1.jar;C:\Users\Aguka\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Aguka\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Aguka\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Aguka\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Aguka\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Aguka\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Aguka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Aguka\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Aguka\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Aguka\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\Aguka\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\Aguka\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\Aguka\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\Aguka\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Aguka\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Aguka\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Aguka\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Aguka\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Aguka\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Aguka\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\Aguka\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\Aguka\.m2\repository\org\slf4j\slf4j-reload4j\2.0.5\slf4j-reload4j-2.0.5.jar;C:\Users\Aguka\.m2\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-testng\2.22.0\allure-testng-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-java-commons\2.22.0\allure-java-commons-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-model\2.22.0\allure-model-2.22.0.jar;C:\Users\Aguka\.m2\repository\io\qameta\allure\allure-test-filter\2.22.0\allure-test-filter-2.22.0.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Aguka\sachok_Final_Projekt\target/allure-results"/>
@@ -33,7 +33,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Aguka\AppData\Local\Temp\surefire11820954454735765818\surefirebooter-20230812124648600_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Aguka\AppData\Local\Temp\surefire14892159367851208645\surefirebooter-20230814130655290_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -61,235 +61,187 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="checkCategories" classname="CheckCategoriesTest" time="4.34">
-    <system-out><![CDATA[[ERROR] 2023-08-12 12:46:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[ERROR] 2023-08-12 12:46:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:46:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[WARN ] 2023-08-12 12:46:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:46:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:46:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:46:58 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:46:58 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:47:00 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:00 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:08 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:09 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:12 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
-[INFO ] 2023-08-12 12:47:12 MainPage:202 :setFieldSearch - message:Set field search and enter
-[INFO ] 2023-08-12 12:47:12 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
-[INFO ] 2023-08-12 12:47:13 ResultSearchPage:157 :clickBrownBearNotebook - message:Click brown bear notebook
-[INFO ] 2023-08-12 12:47:13 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
-[INFO ] 2023-08-12 12:47:14 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
-[INFO ] 2023-08-12 12:47:14 MainPage:225 :hoverOverArtCategory - message:Hover over art category
-[INFO ] 2023-08-12 12:47:14 MainPage:252 :getArtValue - message:Check that no any sub category appears
+  <testcase name="checkCategories" classname="CheckCategoriesTest" time="2.165">
+    <system-out><![CDATA[[ERROR] 2023-08-14 13:06:58 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-14 13:06:58 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:06:58 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-14 13:06:58 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:06:58 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:06:58 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:07:01 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:01 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:03 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:03 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:11 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:11 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:12 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-14 13:07:12 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-14 13:07:12 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-14 13:07:12 ResultSearchPage:164 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-14 13:07:13 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-14 13:07:13 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-14 13:07:13 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-14 13:07:13 MainPage:252 :getArtValue - message:Check that no any sub category appears
 ]]></system-out>
-    <system-err><![CDATA[Aug 12, 2023 12:46:54 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 14, 2023 1:06:58 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:46:54 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+Aug 14, 2023 1:06:58 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:46:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 14, 2023 1:07:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-Aug 12, 2023 12:46:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 14, 2023 1:07:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="addingToCart" classname="AddingToCartTest" time="9.305">
-    <system-out><![CDATA[[WARN ] 2023-08-12 12:47:14 WebSocketHandler:142 :handleException - message:onError
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[ERROR] 2023-08-12 12:47:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:47:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:47:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:47:16 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:47:16 ResultSearchPage:163 :select - message:Select value
-[INFO ] 2023-08-12 12:47:16 ResultSearchPage:171 :setInputQuantityWanted - message:Set input quantity you wanted(5)
-[INFO ] 2023-08-12 12:47:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:18 ResultSearchPage:187 :getMessageSuccessfully - message:Get message successfully
-[INFO ] 2023-08-12 12:47:19 ResultSearchPage:194 :getTypePaper - message:Getting type paper
-[INFO ] 2023-08-12 12:47:19 ResultSearchPage:199 :getProductQuantity - message:Get product quantity
-[INFO ] 2023-08-12 12:47:19 ResultSearchPage:208 :getTotalPrice - message:Get total price
+  <testcase name="addingToCart" classname="AddingToCartTest" time="7.192">
+    <system-out><![CDATA[[ERROR] 2023-08-14 13:07:14 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:07:14 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:07:14 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:07:15 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:16 ResultSearchPage:170 :select - message:Select value
+[INFO ] 2023-08-14 13:07:16 ResultSearchPage:178 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-14 13:07:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:17 ResultSearchPage:194 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-14 13:07:18 ResultSearchPage:201 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-14 13:07:18 ResultSearchPage:206 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-14 13:07:18 ResultSearchPage:215 :getTotalPrice - message:Get total price
 ]]></system-out>
-    <system-err><![CDATA[Aug 12, 2023 12:47:14 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-Aug 12, 2023 12:47:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 14, 2023 1:07:14 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:47:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 14, 2023 1:07:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="checkPopularProducts" classname="CheckPopularProductsTest" time="0.722">
-    <system-out><![CDATA[[ERROR] 2023-08-12 12:47:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:47:20 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:47:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:47:21 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:47:21 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:24 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:24 MainPage:178 :getSizePopularProduct - message:Get size popular product
-[INFO ] 2023-08-12 12:47:24 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:24 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
-[INFO ] 2023-08-12 12:47:24 MainPage:115 :getLanguages - message:Getting list all languages
-[INFO ] 2023-08-12 12:47:24 MainPage:167 :getPopularProduct - message:Get list popular product
-[INFO ] 2023-08-12 12:47:25 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+  <testcase name="checkLanguages" classname="CheckLanguagesTest" time="1.432">
+    <system-out><![CDATA[[INFO ] 2023-08-14 13:07:19 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:19 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-14 13:07:19 MainPage:115 :getLanguages - message:Getting list all languages
+[ERROR] 2023-08-14 13:07:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:07:20 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:07:20 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-14 13:07:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
 ]]></system-out>
-    <system-err><![CDATA[Aug 12, 2023 12:47:20 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 14, 2023 1:07:20 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:47:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+]]></system-err>
+  </testcase>
+  <testcase name="checkPopularProducts" classname="CheckPopularProductsTest" time="0.896">
+    <system-out><![CDATA[[INFO ] 2023-08-14 13:07:20 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[ERROR] 2023-08-14 13:07:21 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:07:21 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:07:21 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:07:22 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:22 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:23 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:31 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:31 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-14 13:07:32 MainPage:167 :getPopularProduct - message:Get list popular product
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2023 1:07:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+Aug 14, 2023 1:07:21 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Aug 14, 2023 1:07:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="checkLanguages" classname="CheckLanguagesTest" time="1.206"/>
-  <testcase name="registrationWithValidData" classname="RegistrationWithInvalidDataTest" time="0.23">
-    <system-out><![CDATA[[ERROR] 2023-08-12 12:47:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:47:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:47:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[ERROR] 2023-08-12 12:47:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:47:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:47:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:47:26 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:47:27 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:47:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:29 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:35 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:35 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
-[INFO ] 2023-08-12 12:47:36 LoginPage:46 :clickNotAccount - message:Clicking button not account
-[INFO ] 2023-08-12 12:47:36 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
-[INFO ] 2023-08-12 12:47:37 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:37 MainPage:190 :clickPricesDrop - message:Click button prices drop
-[INFO ] 2023-08-12 12:47:37 LoginPage:74 :isInvalidFieldMustBeRed - message:Is invalid field must be red
-[INFO ] 2023-08-12 12:47:37 LoginPage:69 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+  <testcase name="priceDropCheck" classname="PriceDropCheckTest" time="1.509">
+    <system-out><![CDATA[[INFO ] 2023-08-14 13:07:33 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:33 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-14 13:07:34 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
 ]]></system-out>
-    <system-err><![CDATA[Aug 12, 2023 12:47:26 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+  </testcase>
+  <testcase name="registrationWithValidData" classname="RegistrationWithInvalidDataTest" time="2.738">
+    <system-out><![CDATA[[ERROR] 2023-08-14 13:07:34 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:07:34 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:07:34 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:07:35 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:36 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[ERROR] 2023-08-14 13:07:38 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:07:38 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:07:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:07:39 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:39 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-14 13:07:39 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:40 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-14 13:07:40 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-14 13:07:41 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:42 LoginPage:79 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-14 13:07:42 LoginPage:74 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2023 1:07:34 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:47:26 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:47:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 14, 2023 1:07:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-Aug 12, 2023 12:47:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 14, 2023 1:07:38 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Aug 14, 2023 1:07:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="priceDropCheck" classname="PriceDropCheckTest" time="1.019">
-    <system-out><![CDATA[[INFO ] 2023-08-12 12:47:38 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
-[ERROR] 2023-08-12 12:47:38 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:47:38 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+  <testcase name="registrationWithValidData" classname="RegistrationWithValidDataTest" time="0.213">
+    <system-out><![CDATA[[ERROR] 2023-08-14 13:07:42 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:07:42 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:07:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:07:43 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:44 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:50 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:50 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-14 13:07:50 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-14 13:07:51 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-14 13:07:52 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-14 13:07:53 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:53 MainPage:202 :setFieldSearch - message:Set field search and enter
 ]]></system-out>
-  </testcase>
-  <testcase name="registrationWithValidData" classname="RegistrationWithValidDataTest" time="2.347">
-    <system-out><![CDATA[[INFO ] 2023-08-12 12:47:38 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:47:39 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[ERROR] 2023-08-12 12:47:39 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:47:39 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:47:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:47:40 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:47:41 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:41 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:43 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:43 MainPage:202 :setFieldSearch - message:Set field search and enter
-[INFO ] 2023-08-12 12:47:44 ResultSearchPage:213 :clickCustomizableMug - message:Click Customizable Mug
-[INFO ] 2023-08-12 12:47:47 ResultSearchPage:219 :setInputProductMessage - message:Set input product message
-[INFO ] 2023-08-12 12:47:47 ResultSearchPage:225 :clickButtonCustomizedData - message:Click button customized data
-[INFO ] 2023-08-12 12:47:49 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:49 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
-[INFO ] 2023-08-12 12:47:49 LoginPage:46 :clickNotAccount - message:Clicking button not account
-[INFO ] 2023-08-12 12:47:49 LoginPage:52 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
-[INFO ] 2023-08-12 12:47:50 ResultSearchPage:231 :clickAddToCard - message:click add to card
-[INFO ] 2023-08-12 12:47:50 ResultSearchPage:237 :clickButtonContinueShopping - message:Click button continue shopping
-[INFO ] 2023-08-12 12:47:51 LoginPage:64 :getDisplayedUserName - message:Get displayed user name
-]]></system-out>
-    <system-err><![CDATA[Aug 12, 2023 12:47:38 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 14, 2023 1:07:43 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:47:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-Aug 12, 2023 12:47:39 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:47:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 14, 2023 1:07:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="checkoutEndToEnd" classname="CheckoutEndToEndTest" time="16.088">
-    <system-out><![CDATA[[INFO ] 2023-08-12 12:47:51 ResultSearchPage:244 :setFieldSearch - message:Setting field search and click ENTER
-[ERROR] 2023-08-12 12:47:52 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:47:52 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:47:52 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:47:53 ResultSearchPage:252 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
-[INFO ] 2023-08-12 12:47:54 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:47:55 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:47:56 ResultSearchPage:258 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
-[INFO ] 2023-08-12 12:47:56 ResultSearchPage:231 :clickAddToCard - message:click add to card
-[INFO ] 2023-08-12 12:47:56 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
-[INFO ] 2023-08-12 12:47:58 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:47:58 MainPage:196 :clickAllProducts - message:Click button All Products
-[INFO ] 2023-08-12 12:47:59 ResultSearchPage:270 :getCurrentTotalPriceValue - message:get Current Total Price Value
+  <testcase name="checkoutEndToEnd" classname="CheckoutEndToEndTest" time="26.944">
+    <system-out><![CDATA[[INFO ] 2023-08-14 13:07:54 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[ERROR] 2023-08-14 13:07:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:07:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:07:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:07:55 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:07:56 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:07:57 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-14 13:07:57 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-14 13:07:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:07:58 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-14 13:08:00 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-14 13:08:00 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-14 13:08:01 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-14 13:08:02 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-14 13:08:05 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-14 13:08:05 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-14 13:08:05 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-14 13:08:08 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
 39.62
-[INFO ] 2023-08-12 12:47:59 ResultSearchPage:275 :getTotalPriceAllProducts - message:get Total Price All Products
-[INFO ] 2023-08-12 12:47:59 ResultSearchPage:264 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
-[INFO ] 2023-08-12 12:48:02 ResultSearchPage:287 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
-[INFO ] 2023-08-12 12:48:02 ResultSearchPage:299 :clickButtonContinue - message:Click Button Continue
-[INFO ] 2023-08-12 12:48:04 ResultSearchPage:312 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
-[INFO ] 2023-08-12 12:48:04 ResultSearchPage:332 :setSelectCountry - message:set Select Country
-[INFO ] 2023-08-12 12:48:04 ResultSearchPage:305 :clickButtonContinueAddresses - message:Click Button Continue Addresses
-[INFO ] 2023-08-12 12:48:10 ResultSearchPage:320 :clickInputMyCarrier - message:click Input My Carrier
-[INFO ] 2023-08-12 12:48:11 ResultSearchPage:326 :clickContinueShippingMethod - message:click Continue Shipping Method
-[INFO ] 2023-08-12 12:48:13 ResultSearchPage:338 :clickPayByCheck - message:click Pay By Check
-[INFO ] 2023-08-12 12:48:14 ResultSearchPage:361 :getAmount - message:get Amount
-[INFO ] 2023-08-12 12:48:14 ResultSearchPage:351 :getSubTotal - message:Get subtotal
-[INFO ] 2023-08-12 12:48:14 ResultSearchPage:356 :getShipping - message:Get Shipping
-[INFO ] 2023-08-12 12:48:14 ResultSearchPage:345 :clickIAgree - message:click I Agree...
-[INFO ] 2023-08-12 12:48:14 ResultSearchPage:367 :clickPlaceOrder - message:click Place Order
+[INFO ] 2023-08-14 13:08:08 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-14 13:08:08 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-14 13:08:11 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-14 13:08:11 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-14 13:08:13 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-14 13:08:14 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-14 13:08:14 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-14 13:08:19 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-14 13:08:20 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-14 13:08:22 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-14 13:08:23 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-14 13:08:23 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-14 13:08:23 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-14 13:08:23 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-14 13:08:23 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
 ]]></system-out>
-    <system-err><![CDATA[Aug 12, 2023 12:47:52 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+    <system-err><![CDATA[Aug 14, 2023 1:07:54 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:47:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 14, 2023 1:07:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
   </testcase>
-  <testcase name="checkSubscribeWithInvalidEmail" classname="SubscribeWithInvalidEmailTest" time="0.066">
-    <system-out><![CDATA[[ERROR] 2023-08-12 12:48:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
-[WARN ] 2023-08-12 12:48:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
-[INFO ] 2023-08-12 12:48:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-[INFO ] 2023-08-12 12:48:15 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
-[INFO ] 2023-08-12 12:48:17 MainPage:87 :waitForPageLoading - message:Waiting for page loading
-[INFO ] 2023-08-12 12:48:24 MainPage:93 :switchToFrame - message:Switch to frame
-[INFO ] 2023-08-12 12:48:24 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
-[INFO ] 2023-08-12 12:48:24 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
-[INFO ] 2023-08-12 12:48:24 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
-]]></system-out>
-    <system-err><![CDATA[Aug 12, 2023 12:48:15 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-Aug 12, 2023 12:48:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
-]]></system-err>
-  </testcase>
-  <testcase name="sortingCheck" classname="SortingCheckTest" time="2.995">
+  <testcase name="sortingCheck" classname="SortingCheckTest" time="29.886">
     <failure message="&#10;The following assertion failed:&#10;1) &#10;Expecting:&#10; &lt;[AllProductsComponent{name=&apos;Hummingbird - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug Today is a good day&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The adventure begins&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The best is yet to come&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Customizable mug&apos;, currentPrice=&apos;16.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed t-shirt&apos;, currentPrice=&apos;22.94&apos;, oldPrice=&apos;28.68&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed sweater&apos;, currentPrice=&apos;34.46&apos;, oldPrice=&apos;43.08&apos;},&#10;    AllProductsComponent{name=&apos;Today is a good day Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The adventure begins Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The best is yet to come&apos;...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Pack Mug + Framed poster&apos;, currentPrice=&apos;42.0&apos;, oldPrice=&apos;0.0&apos;}]&gt;&#10;to be equal to:&#10; &lt;[AllProductsComponent{name=&apos;Hummingbird - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox - Vector graphics&apos;, currentPrice=&apos;10.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug Today is a good day&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The adventure begins&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mug The best is yet to come&apos;, currentPrice=&apos;14.28&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox notebook&apos;, currentPrice=&apos;15.48&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Customizable mug&apos;, currentPrice=&apos;16.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Brown bear cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Mountain fox cushion&apos;, currentPrice=&apos;22.68&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed t-shirt&apos;, currentPrice=&apos;22.94&apos;, oldPrice=&apos;28.68&apos;},&#10;    AllProductsComponent{name=&apos;Today is a good day Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The adventure begins Framed...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;The best is yet to come&apos;...&apos;, currentPrice=&apos;34.8&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Pack Mug + Framed poster&apos;, currentPrice=&apos;42.0&apos;, oldPrice=&apos;0.0&apos;},&#10;    AllProductsComponent{name=&apos;Hummingbird printed sweater&apos;, currentPrice=&apos;34.46&apos;, oldPrice=&apos;43.08&apos;}]&gt;&#10;but was not.&#10;at SortingCheckTest.sortingCheck(SortingCheckTest.java:29)&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
 
 The following assertion failed:
@@ -357,8 +309,25 @@ at SortingCheckTest.sortingCheck(SortingCheckTest.java:29)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></failure>
-    <system-out><![CDATA[19
+    <system-out><![CDATA[[ERROR] 2023-08-14 13:08:26 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:08:26 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:08:26 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:08:27 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+19
 [AllProductsComponent{name='Brown bear - Vector graphics', currentPrice='10.8', oldPrice='0.0'}, AllProductsComponent{name='Brown bear cushion', currentPrice='22.68', oldPrice='0.0'}, AllProductsComponent{name='Brown bear notebook', currentPrice='15.48', oldPrice='0.0'}, AllProductsComponent{name='Customizable mug', currentPrice='16.68', oldPrice='0.0'}, AllProductsComponent{name='Hummingbird - Vector graphics', currentPrice='10.8', oldPrice='0.0'}, AllProductsComponent{name='Hummingbird cushion', currentPrice='22.68', oldPrice='0.0'}, AllProductsComponent{name='Hummingbird notebook', currentPrice='15.48', oldPrice='0.0'}, AllProductsComponent{name='Hummingbird printed sweater', currentPrice='34.46', oldPrice='43.08'}, AllProductsComponent{name='Hummingbird printed t-shirt', currentPrice='22.94', oldPrice='28.68'}, AllProductsComponent{name='Mountain fox - Vector graphics', currentPrice='10.8', oldPrice='0.0'}, AllProductsComponent{name='Mountain fox cushion', currentPrice='22.68', oldPrice='0.0'}, AllProductsComponent{name='Mountain fox notebook', currentPrice='15.48', oldPrice='0.0'}, AllProductsComponent{name='Mug The adventure begins', currentPrice='14.28', oldPrice='0.0'}, AllProductsComponent{name='Mug The best is yet to come', currentPrice='14.28', oldPrice='0.0'}, AllProductsComponent{name='Mug Today is a good day', currentPrice='14.28', oldPrice='0.0'}, AllProductsComponent{name='Pack Mug + Framed poster', currentPrice='42.0', oldPrice='0.0'}, AllProductsComponent{name='The adventure begins Framed...', currentPrice='34.8', oldPrice='0.0'}, AllProductsComponent{name='The best is yet to come'...', currentPrice='34.8', oldPrice='0.0'}, AllProductsComponent{name='Today is a good day Framed...', currentPrice='34.8', oldPrice='0.0'}]
+]]></system-out>
+    <system-err><![CDATA[Aug 14, 2023 1:08:26 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+Aug 14, 2023 1:08:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
+]]></system-err>
+  </testcase>
+  <testcase name="checkSubscribeWithInvalidEmail" classname="SubscribeWithInvalidEmailTest" time="0.094">
+    <system-out><![CDATA[[INFO ] 2023-08-14 13:08:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:08:37 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:08:37 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-14 13:08:37 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-14 13:08:37 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
 ]]></system-out>
   </testcase>
 </testsuite>

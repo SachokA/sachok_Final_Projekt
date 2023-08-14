@@ -19,7 +19,7 @@ public class BrowserFactory {
                 ops.addArguments("--incognito");
                 WebDriverManager.chromedriver().setup();
                 ChromeDriverService service = ChromeDriverService.createDefaultService();
-                return new ChromeDriver(service);
+                return new ChromeDriver(service,ops);
             case SAFARI:
                 WebDriverManager.safaridriver().setup();
                 return new SafariDriver();
