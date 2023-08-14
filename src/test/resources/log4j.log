@@ -13291,3 +13291,13 @@ java.net.SocketException: Connection reset
 [INFO ] 2023-08-14 13:08:37 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
 [INFO ] 2023-08-14 13:08:37 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
 [INFO ] 2023-08-14 13:08:37 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-14 13:28:16 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-14 13:28:18 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 13:28:18 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 13:28:18 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 13:28:21 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 13:28:22 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 13:28:29 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 13:28:30 MainPage:196 :clickAllProducts - message:Click button All Products
