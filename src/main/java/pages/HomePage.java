@@ -41,7 +41,7 @@ public class HomePage extends BasePage {
         PageFactory.initElements(getDriver(), this);
     }
 
-    public HomePage waitSeconds(long seconds) {
+    public HomePage waitSecond(int seconds) {
         waitSeconds(seconds);
         return this;
     }

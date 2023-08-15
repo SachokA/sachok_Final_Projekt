@@ -16,32 +16,32 @@ public class SortingCheckTest extends BaseTest {
         mainPage.clickAllProducts()
                 .clickButtonSorted()
                 .selectSortedNameAZ();
-        List<AllProductsComponent> actualResultAZ = homePage.waitSeconds(1).mergeList();
+        List<AllProductsComponent> actualResultAZ = homePage.waitSecond(1).mergeList();
         List<AllProductsComponent> expectedResultAZ = homePage.sortedAZ();
         softAssert.assertThat(actualResultAZ).isEqualTo(expectedResultAZ);
         homePage.clickButtonSorted()
                 .selectSortedNameZA();
         List<AllProductsComponent> actualResultZA = homePage
-                .waitSeconds(2)
+                .waitSecond(2)
                 .mergeList();
         List<AllProductsComponent> expectedResultZA = homePage.sortedZA();
         softAssert.assertThat(actualResultZA).isEqualTo(expectedResultZA);
         homePage.clickButtonSorted()
                 .selectSortedPriceLowHigh();
         List<AllProductsComponent> actualResultPriceLowHugh = homePage
-                .waitSeconds(2)
+                .waitSecond(2)
                 .mergeList();
         List<AllProductsComponent> expectedResultPriceLowHugh = homePage
-                .waitSeconds(1)
+                .waitSecond(1)
                 .sortedPriceLowHigh();
         softAssert.assertThat(actualResultPriceLowHugh).isEqualTo(expectedResultPriceLowHugh);
         homePage.clickButtonSorted()
                 .selectSortedPriceHighLow();
         List<AllProductsComponent> actualResultPriceHughLow = homePage
-                .waitSeconds(1)
+                .waitSecond(1)
                 .mergeList();
         List<AllProductsComponent> expectedResultPriceHughLow = homePage
-                .waitSeconds(1)
+                .waitSecond(1)
                 .sortedPriceHighLow();
         softAssert.assertThat(actualResultPriceHughLow).isEqualTo(expectedResultPriceHughLow);
         softAssert.assertAll();

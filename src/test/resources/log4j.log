@@ -14084,3 +14084,39 @@ java.net.SocketException: Connection reset
 [INFO ] 2023-08-15 11:29:34 MainPage:88 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
 [INFO ] 2023-08-15 11:29:34 MainPage:95 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
 [INFO ] 2023-08-15 11:29:34 MainPage:100 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-15 11:45:32 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:45:34 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:45:34 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:45:34 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:45:37 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:46:19 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:46:19 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:46:20 MainPage:154 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-15 11:47:57 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:47:58 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:47:58 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:47:59 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:48:02 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:48:44 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:48:44 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:48:45 MainPage:154 :clickAllProducts - message:Click button All Products
+[WARN ] 2023-08-15 11:49:16 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
