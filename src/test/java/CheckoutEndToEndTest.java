@@ -36,9 +36,14 @@ public class CheckoutEndToEndTest extends BaseTest {
         softAssert.assertThat(actualTotal).isEqualTo(expectedTotal);
         double actualAmount = resultSearchPage
                 .clickButtonProceedToCheckout()
-                .fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes(firstName, lastName, email)
+                .setInputFirstName(firstName)
+                .setInputLastName(lastName)
+                .setInputEmail(email)
+                .clickInputCheckBox()
                 .clickButtonContinue()
-                .fillAddressFormWithValidData(address, zipCode, city)
+                .setInputFileAddress(address)
+                .setInputFieldPostcode(zipCode)
+                .setInputFieldCity(city)
                 .setSelectCountry("France")
                 .clickButtonContinueAddresses()
                 .clickInputMyCarrier()

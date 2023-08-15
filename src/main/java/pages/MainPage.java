@@ -2,7 +2,6 @@ package pages;
 
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,9 +9,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
+import static untils.Utils.getList;
+import static untils.Utils.hoverOver;
 
 @Slf4j
 public class MainPage extends BasePage {
@@ -26,11 +26,6 @@ public class MainPage extends BasePage {
 
     @FindBy(linkText = "ART")
     private WebElement artCategory;
-
-    @FindBy(xpath = "//*[@id='category-4'or@id='category-5']/a")
-    private List<WebElement> clothesSubMenu;
-    @FindBy(xpath = "//*[@id='category-7'or@id='category-8']/a")
-    private List<WebElement> accessoriesSubMenu;
     @FindBy(xpath = "//a[contains(text(), 'Art')]")
     private WebElement artSubMenu;
 
@@ -62,11 +57,6 @@ public class MainPage extends BasePage {
 
     @FindBy(xpath = "//span[text()='Sign in']")
     private WebElement buttonSignIn;
-
-
-    @FindBy(xpath = "//div[@class='popover sub-menu js-sub-menu collapse']")
-    private WebElement subMenu;
-
     @FindBy(xpath = "//section[@class='featured-products clearfix']//div[@class='product-description']")
     private List<WebElement> popularProductContainerLocator;
 
@@ -111,40 +101,20 @@ public class MainPage extends BasePage {
         return buttonSubscribe.getCssValue("text-transform");
     }
 
-    public List<String> getLanguages() {
-        log.info("Getting list all languages");
+    public void clickButtonLanguageDropdown() {
         buttonLanguageDropdown.click();
-        List<String> list = new ArrayList<>();
-        List<WebElement> languages = languagesList;
-        for (WebElement webElement : languages) {
-            list.add(webElement.getText());
-        }
-        return list;
     }
 
-    public List<String> getListClothes() {
-        log.info("Getting list elements");
-        List<String> list = new ArrayList<>();
-        List<WebElement> clothes = clothesList;
-        for (WebElement element : clothes) {
-            list.add(element.getText());
-        }
-        return list;
+    public List<String> getListLanguages() {
+        return getList(languagesList);
     }
 
-    public List<String> getListAccessories() {
-        log.info("Getting list elements");
-        List<String> list = new ArrayList<>();
-        List<WebElement> accessories = accessoriesList;
-        for (WebElement element : accessories) {
-            list.add(element.getText());
-        }
-        return list;
+    public List<String> getClothesSubMenu() {
+        return getList(clothesList);
     }
 
-    public int sizeLanguagesList() {
-        log.info("Getting size list of languages");
-        return getLanguages().size();
+    public List<String> getAccessoriesList() {
+        return getList(accessoriesList);
     }
 
     public boolean findingUkrainianLanguagesInList() {
@@ -174,18 +144,6 @@ public class MainPage extends BasePage {
         return products;
     }
 
-    public int getSizePopularProduct() {
-        log.info("Get size popular product");
-        List<PopularProductComponent> products = new ArrayList<>();
-        List<WebElement> containers = popularProductContainerLocator;
-        for (WebElement container : containers) {
-            PopularProductComponent productComponent = new PopularProductComponent(container);
-            products.add(productComponent);
-        }
-
-        return products.size();
-    }
-
     public PricesDropPage clickPricesDrop() {
         log.info("Click button prices drop");
         pricesDrop.click();
@@ -207,45 +165,21 @@ public class MainPage extends BasePage {
 
     public MainPage hoverOverClothesCategory() {
         log.info("Hover over clothes category");
-        Actions actions = new Actions(getDriver());
-        actions.moveToElement(clothesCategory).perform();
+        hoverOver(clothesCategory);
         return this;
-
     }
 
     public MainPage hoverOverAccessoriesCategory() {
         log.info("Hover over accessories category");
-        Actions actions = new Actions(getDriver());
-        actions.moveToElement(accessoriesCategory).perform();
+        hoverOver(accessoriesCategory);
         return this;
 
     }
 
     public MainPage hoverOverArtCategory() {
         log.info("Hover over art category");
-        Actions actions = new Actions(getDriver());
-        actions.moveToElement(artCategory).perform();
+        hoverOver(artCategory);
         return this;
-    }
-
-    public List<String> getClothesSubMenuItems() {
-        log.info("Get clothes subMenu clothes");
-        List<String> clothes = new ArrayList<>();
-        List<WebElement> subMenuClothes = clothesSubMenu;
-        for (WebElement element : subMenuClothes) {
-            clothes.add(element.getText());
-        }
-        return clothes;
-    }
-
-    public List<String> getAccessoriesSubMenuItems() {
-        log.info("Get clothes subMenu accessories");
-        List<String> accessories = new ArrayList<>();
-        List<WebElement> subMenuAccessories = accessoriesSubMenu;
-        for (WebElement element : subMenuAccessories) {
-            accessories.add(element.getText());
-        }
-        return accessories;
     }
 
     public String getArtValue() {

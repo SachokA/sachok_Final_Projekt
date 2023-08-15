@@ -11,7 +11,7 @@ public class CheckPopularProductsTest extends BaseTest {
         MainPage mainPage = new MainPage();
         SoftAssert softAssert = new SoftAssert();
         int expectedSize = 8;
-        int actualSize = mainPage.getSizePopularProduct();
+        int actualSize = mainPage.getPopularProduct().size();
         softAssert.assertEquals(actualSize, expectedSize);
         List<PopularProductComponent> products = mainPage.getPopularProduct();
         for (PopularProductComponent product: products) {

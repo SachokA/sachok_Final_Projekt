@@ -13301,3 +13301,786 @@ java.net.SocketException: Connection reset
 [INFO ] 2023-08-14 13:28:22 MainPage:87 :waitForPageLoading - message:Waiting for page loading
 [INFO ] 2023-08-14 13:28:29 MainPage:93 :switchToFrame - message:Switch to frame
 [INFO ] 2023-08-14 13:28:30 MainPage:196 :clickAllProducts - message:Click button All Products
+[ERROR] 2023-08-14 18:22:56 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ERROR] 2023-08-14 18:22:56 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:22:56 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[WARN ] 2023-08-14 18:22:56 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:22:56 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:22:56 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:22:59 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:22:59 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:01 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 18:23:01 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 18:23:08 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:08 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:08 MainPage:209 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-14 18:23:08 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-14 18:23:08 MainPage:232 :getClothesSubMenuItems - message:Get clothes subMenu clothes
+[INFO ] 2023-08-14 18:23:09 ResultSearchPage:164 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-14 18:23:10 MainPage:217 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-14 18:23:10 MainPage:242 :getAccessoriesSubMenuItems - message:Get clothes subMenu accessories
+[INFO ] 2023-08-14 18:23:10 MainPage:225 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-14 18:23:10 MainPage:252 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-14 18:23:12 ResultSearchPage:170 :select - message:Select value
+[INFO ] 2023-08-14 18:23:12 ResultSearchPage:178 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[ERROR] 2023-08-14 18:23:12 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:23:12 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:23:13 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:23:13 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:14 ResultSearchPage:194 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-14 18:23:14 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 18:23:15 ResultSearchPage:201 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-14 18:23:15 ResultSearchPage:206 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-14 18:23:15 ResultSearchPage:215 :getTotalPrice - message:Get total price
+[ERROR] 2023-08-14 18:23:16 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:23:16 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:23:16 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:23:17 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:17 MainPage:146 :sizeLanguagesList - message:Getting size list of languages
+[INFO ] 2023-08-14 18:23:17 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-14 18:23:17 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:18 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-14 18:23:19 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[ERROR] 2023-08-14 18:23:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:23:20 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:23:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:23:21 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:22 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 18:23:28 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:28 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-14 18:23:28 MainPage:167 :getPopularProduct - message:Get list popular product
+[ERROR] 2023-08-14 18:23:30 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:23:30 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:23:30 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:23:31 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:31 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:31 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-14 18:23:32 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-08-14 18:23:32 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[ERROR] 2023-08-14 18:23:32 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:23:32 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:23:33 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:23:33 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:35 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 18:23:41 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:41 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-14 18:23:42 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-14 18:23:42 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-14 18:23:43 LoginPage:79 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-14 18:23:43 LoginPage:74 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-14 18:23:43 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:43 MainPage:161 :clickButtonSignIn - message:Clicking button Sign In
+[ERROR] 2023-08-14 18:23:44 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:23:44 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:23:44 LoginPage:47 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-14 18:23:44 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:23:44 LoginPage:53 :fillRegistrationFormWithRandomData - message:Filling registration form with random data
+[INFO ] 2023-08-14 18:23:45 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:46 LoginPage:68 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-14 18:23:46 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[ERROR] 2023-08-14 18:23:48 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:23:48 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:23:48 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:23:48 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:23:49 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 18:23:54 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:54 MainPage:202 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-14 18:23:55 ResultSearchPage:220 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-14 18:23:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:23:58 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-14 18:23:59 ResultSearchPage:226 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-14 18:23:59 ResultSearchPage:232 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-14 18:24:01 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-14 18:24:01 ResultSearchPage:244 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-14 18:24:02 ResultSearchPage:251 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-14 18:24:03 ResultSearchPage:259 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-14 18:24:04 ResultSearchPage:265 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-14 18:24:04 ResultSearchPage:238 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-14 18:24:04 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-14 18:24:07 ResultSearchPage:277 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-14 18:24:07 ResultSearchPage:282 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-14 18:24:07 ResultSearchPage:271 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-14 18:24:09 ResultSearchPage:294 :fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes - message:Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes
+[INFO ] 2023-08-14 18:24:10 ResultSearchPage:306 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-14 18:24:12 ResultSearchPage:319 :fillAddressFormWithValidData - message:Fill Address Form With Valid Data
+[INFO ] 2023-08-14 18:24:12 ResultSearchPage:339 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-14 18:24:12 ResultSearchPage:312 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-14 18:24:18 ResultSearchPage:327 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-14 18:24:19 ResultSearchPage:333 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-14 18:24:21 ResultSearchPage:345 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-14 18:24:22 ResultSearchPage:368 :getAmount - message:get Amount
+[INFO ] 2023-08-14 18:24:22 ResultSearchPage:358 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-14 18:24:22 ResultSearchPage:363 :getShipping - message:Get Shipping
+[INFO ] 2023-08-14 18:24:22 ResultSearchPage:352 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-14 18:24:22 ResultSearchPage:374 :clickPlaceOrder - message:click Place Order
+[ERROR] 2023-08-14 18:24:25 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-14 18:24:25 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-14 18:24:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-14 18:24:26 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-14 18:24:27 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-14 18:24:36 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-14 18:24:36 MainPage:98 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-14 18:24:36 MainPage:105 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-14 18:24:36 MainPage:110 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-15 08:40:43 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 08:40:45 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 08:40:45 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 08:40:45 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 08:40:48 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 08:40:49 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 08:40:58 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 08:40:59 MainPage:196 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-15 08:46:22 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 08:46:23 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 08:46:23 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 08:46:24 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 08:46:27 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 08:46:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 08:46:36 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 08:46:37 MainPage:178 :getSizePopularProduct - message:Get size popular product
+[INFO ] 2023-08-15 08:46:37 MainPage:167 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-15 08:51:27 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 08:51:29 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 08:51:29 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 08:51:29 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 08:51:32 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 08:51:33 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 08:51:41 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 08:51:42 MainPage:190 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-15 08:51:42 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[INFO ] 2023-08-15 08:59:58 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:00:00 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:00:00 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:00:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:00:02 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:00:45 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:00:45 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:00:46 MainPage:115 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-15 09:00:47 MainPage:151 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-15 09:11:22 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:11:24 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:11:24 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:11:24 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:11:27 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:12:09 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:12:09 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:12:09 MainPage:149 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-15 09:12:10 MainPage:149 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-15 09:15:37 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:15:39 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:15:39 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:15:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:15:42 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:16:24 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:16:24 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:16:25 MainPage:123 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-15 09:16:26 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-15 09:16:26 MainPage:123 :getLanguages - message:Getting list all languages
+[INFO ] 2023-08-15 09:32:06 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:32:08 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:32:08 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:32:08 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:32:11 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:32:42 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:32:42 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:32:42 MainPage:171 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-15 09:32:42 MainPage:115 :getList - message:Getting list
+[INFO ] 2023-08-15 09:32:43 MainPage:179 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-15 09:32:43 MainPage:115 :getList - message:Getting list
+[INFO ] 2023-08-15 09:32:43 MainPage:187 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-15 09:32:44 MainPage:115 :getList - message:Getting list
+[INFO ] 2023-08-15 09:33:42 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:33:43 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:33:43 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:33:43 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:33:46 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:34:28 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:34:28 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:34:29 MainPage:171 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-15 09:34:29 MainPage:115 :getList - message:Getting list
+[INFO ] 2023-08-15 09:34:30 MainPage:179 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-15 09:34:30 MainPage:115 :getList - message:Getting list
+[INFO ] 2023-08-15 09:34:30 MainPage:187 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-15 09:34:30 MainPage:115 :getList - message:Getting list
+[INFO ] 2023-08-15 09:52:10 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:52:11 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:52:11 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:52:11 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:52:14 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:52:57 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:52:57 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:52:57 MainPage:134 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 09:52:57 LoginPage:49 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 09:54:07 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:54:09 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:54:09 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:54:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:54:11 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:54:54 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:54:54 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:54:54 MainPage:134 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 09:54:55 LoginPage:49 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 09:57:38 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:57:39 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:57:39 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:57:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:57:42 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:57:43 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:57:51 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:57:51 MainPage:134 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 09:57:51 LoginPage:49 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 09:57:52 LoginPage:110 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-15 09:57:52 LoginPage:105 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[INFO ] 2023-08-15 09:58:15 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 09:58:16 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 09:58:16 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 09:58:16 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 09:58:19 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 09:58:20 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 09:58:27 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 09:58:27 MainPage:134 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 09:58:27 LoginPage:49 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 09:58:28 LoginPage:87 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-15 10:01:40 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 10:01:41 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 10:01:41 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 10:01:41 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 10:01:44 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 10:01:46 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 10:01:54 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 10:01:54 MainPage:134 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 10:01:55 LoginPage:49 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 10:01:57 LoginPage:87 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-15 10:11:14 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 10:11:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 10:11:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 10:11:16 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 10:11:18 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 10:12:01 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 10:12:01 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 10:12:02 MainPage:124 :getList - message:Getting list
+[INFO ] 2023-08-15 10:12:03 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-15 10:13:07 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 10:13:09 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 10:13:09 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 10:13:09 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 10:13:12 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 10:13:54 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 10:13:54 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 10:13:55 MainPage:124 :getList - message:Getting list
+[INFO ] 2023-08-15 10:13:55 MainPage:133 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-15 10:16:29 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 10:16:30 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 10:16:30 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 10:16:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 10:16:33 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 10:17:16 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 10:17:16 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 10:17:17 MainPage:128 :getList - message:Getting list
+[INFO ] 2023-08-15 10:17:18 MainPage:137 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[INFO ] 2023-08-15 10:19:03 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 10:19:04 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 10:19:04 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 10:19:05 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 10:19:08 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 10:19:50 MainPage:87 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 10:19:50 MainPage:93 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 10:19:51 MainPage:183 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-15 10:19:51 MainPage:128 :getList - message:Getting list
+[INFO ] 2023-08-15 10:19:52 MainPage:191 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-15 10:19:52 MainPage:128 :getList - message:Getting list
+[INFO ] 2023-08-15 10:19:52 MainPage:199 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-15 10:19:52 MainPage:206 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-15 10:27:30 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 10:27:31 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 10:27:31 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 10:27:31 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 10:27:34 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 10:28:17 MainPage:90 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 10:28:17 MainPage:96 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 10:28:17 MainPage:181 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-15 10:28:18 MainPage:187 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-15 10:28:18 MainPage:194 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-15 10:28:19 MainPage:200 :getArtValue - message:Check that no any sub category appears
+[INFO ] 2023-08-15 10:30:45 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 10:30:46 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 10:30:46 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 10:30:46 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 10:30:50 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 10:31:32 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 10:31:32 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 10:31:34 MainPage:121 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[ERROR] 2023-08-15 11:07:59 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:07:59 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:08:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ERROR] 2023-08-15 11:08:00 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:08:00 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:08:00 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:08:03 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:08:03 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:08:46 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:08:46 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:08:46 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:08:46 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:08:46 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:08:46 MainPage:167 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-15 11:08:47 ResultSearchPage:148 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-15 11:08:48 MainPage:173 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-15 11:08:48 MainPage:180 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-15 11:08:48 MainPage:186 :getArtValue - message:Check that no any sub category appears
+[WARN ] 2023-08-15 11:08:48 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 2023-08-15 11:08:49 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:08:49 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:08:50 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:08:50 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:08:51 ResultSearchPage:154 :select - message:Select value
+[INFO ] 2023-08-15 11:08:51 ResultSearchPage:162 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-15 11:08:52 ResultSearchPage:178 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-15 11:08:53 ResultSearchPage:185 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-15 11:08:53 ResultSearchPage:190 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-15 11:08:53 ResultSearchPage:199 :getTotalPrice - message:Get total price
+[ERROR] 2023-08-15 11:08:54 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:08:54 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:08:54 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:08:55 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:09:33 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:09:33 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:09:33 MainPage:121 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[ERROR] 2023-08-15 11:09:34 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:09:34 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:09:35 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:09:35 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:09:38 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:09:38 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:09:38 MainPage:137 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-15 11:09:38 MainPage:137 :getPopularProduct - message:Get list popular product
+[ERROR] 2023-08-15 11:09:39 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:09:39 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:09:39 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:09:40 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:10:18 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:10:18 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:10:18 MainPage:148 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-15 11:10:19 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[ERROR] 2023-08-15 11:10:19 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:10:19 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:10:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:10:20 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:10:22 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:10:22 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:10:22 MainPage:131 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 11:10:23 LoginPage:48 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 11:10:24 LoginPage:98 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-15 11:10:24 LoginPage:93 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[ERROR] 2023-08-15 11:10:25 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:10:25 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:10:25 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:10:26 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:11:03 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:11:03 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:11:03 MainPage:131 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 11:11:03 LoginPage:48 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 11:11:05 LoginPage:87 :getDisplayedUserName - message:Get displayed user name
+[ERROR] 2023-08-15 11:11:08 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:11:08 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:11:08 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:11:08 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:11:08 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:11:08 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:11:09 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:11:09 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:11:12 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:11:12 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:11:15 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:11:15 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:11:16 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:11:17 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:11:20 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:11:20 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:11:21 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:11:23 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:11:23 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:11:23 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:11:26 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:11:29 ResultSearchPage:343 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:11:29 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:11:31 ResultSearchPage:330 :clickInputMyCarrier - message:click Input My Carrier
+[ERROR] 2023-08-15 11:11:33 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:11:33 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:11:33 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:11:34 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:11:51 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:11:51 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:11:51 MainPage:154 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-15 11:12:16 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:12:16 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:12:16 MainPage:88 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-15 11:12:16 MainPage:95 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-15 11:12:16 MainPage:100 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe
+[INFO ] 2023-08-15 11:13:36 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:13:37 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:13:37 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:13:37 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:13:41 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:14:23 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:14:23 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:14:24 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:14:25 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:14:28 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:14:28 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:14:31 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:14:31 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:14:32 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:14:33 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:14:36 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:14:36 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:14:36 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:14:39 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:14:39 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:14:39 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:14:42 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:14:44 ResultSearchPage:343 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:14:44 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:14:46 ResultSearchPage:330 :clickInputMyCarrier - message:click Input My Carrier
+[WARN ] 2023-08-15 11:14:48 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-15 11:15:16 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:15:18 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:15:18 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:15:18 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:15:21 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:16:03 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:16:03 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:16:04 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:16:05 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:16:08 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:16:08 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:16:11 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:16:11 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:16:12 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:16:13 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:16:16 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:16:16 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:16:16 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:16:19 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:16:19 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:16:20 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:16:22 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:16:24 ResultSearchPage:343 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:16:24 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:16:27 ResultSearchPage:330 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-15 11:17:29 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:17:30 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:17:30 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:17:30 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:17:33 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:18:16 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:18:16 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:18:17 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:18:17 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:18:21 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:18:21 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:18:23 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:18:23 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:18:25 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:18:26 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:18:29 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:18:29 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:18:29 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:18:32 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:18:32 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:18:32 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:18:35 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:18:37 ResultSearchPage:343 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:18:37 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:18:40 ResultSearchPage:330 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-15 11:19:21 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:19:23 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:19:23 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:19:23 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:19:26 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:20:08 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:20:08 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:20:09 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:20:09 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:20:13 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:20:13 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:20:15 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:20:16 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:20:17 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:20:18 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:20:18 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:20:18 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:20:18 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:20:21 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:20:21 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:20:22 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:20:24 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:20:26 ResultSearchPage:343 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:20:26 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:20:30 ResultSearchPage:330 :clickInputMyCarrier - message:click Input My Carrier
+[WARN ] 2023-08-15 11:20:32 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2023-08-15 11:21:18 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:21:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:21:20 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:21:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:21:23 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:22:06 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:22:06 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:22:06 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:22:07 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:22:12 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:22:12 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:22:14 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:22:14 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:22:16 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:22:17 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:22:21 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:22:21 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:22:21 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:22:24 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:22:24 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:22:24 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:22:27 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:22:31 ResultSearchPage:345 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:22:31 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:22:34 ResultSearchPage:332 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-15 11:23:18 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[ERROR] 2023-08-15 11:23:20 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:23:20 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:23:20 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:23:23 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:24:06 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:24:06 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:24:07 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:24:08 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:24:11 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:24:11 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:24:14 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:24:14 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:24:15 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:24:16 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:24:19 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:24:19 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:24:19 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:24:22 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:24:22 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:24:23 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:24:25 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:24:29 ResultSearchPage:345 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:24:30 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:24:36 ResultSearchPage:332 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-15 11:24:38 ResultSearchPage:339 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-15 11:24:42 ResultSearchPage:352 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-15 11:24:43 ResultSearchPage:375 :getAmount - message:get Amount
+[INFO ] 2023-08-15 11:24:43 ResultSearchPage:365 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-15 11:24:43 ResultSearchPage:370 :getShipping - message:Get Shipping
+[INFO ] 2023-08-15 11:24:43 ResultSearchPage:359 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-15 11:24:43 ResultSearchPage:382 :clickPlaceOrder - message:click Place Order
+[ERROR] 2023-08-15 11:25:06 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:25:06 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ERROR] 2023-08-15 11:25:06 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:25:06 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:25:06 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:25:06 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:25:10 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:25:10 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:25:53 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:25:53 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:25:53 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:25:53 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:25:53 MainPage:160 :setFieldSearch - message:Set field search and enter
+[INFO ] 2023-08-15 11:25:53 MainPage:167 :hoverOverClothesCategory - message:Hover over clothes category
+[INFO ] 2023-08-15 11:25:54 ResultSearchPage:148 :clickBrownBearNotebook - message:Click brown bear notebook
+[INFO ] 2023-08-15 11:25:55 MainPage:173 :hoverOverAccessoriesCategory - message:Hover over accessories category
+[INFO ] 2023-08-15 11:25:55 MainPage:180 :hoverOverArtCategory - message:Hover over art category
+[INFO ] 2023-08-15 11:25:55 MainPage:186 :getArtValue - message:Check that no any sub category appears
+[ERROR] 2023-08-15 11:25:56 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:25:56 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:25:56 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:25:57 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:25:57 ResultSearchPage:154 :select - message:Select value
+[INFO ] 2023-08-15 11:25:58 ResultSearchPage:162 :setInputQuantityWanted - message:Set input quantity you wanted(5)
+[INFO ] 2023-08-15 11:25:59 ResultSearchPage:178 :getMessageSuccessfully - message:Get message successfully
+[INFO ] 2023-08-15 11:26:00 ResultSearchPage:185 :getTypePaper - message:Getting type paper
+[INFO ] 2023-08-15 11:26:00 ResultSearchPage:190 :getProductQuantity - message:Get product quantity
+[INFO ] 2023-08-15 11:26:00 ResultSearchPage:199 :getTotalPrice - message:Get total price
+[ERROR] 2023-08-15 11:26:01 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:26:01 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:26:01 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:26:02 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:26:39 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:26:39 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:26:40 MainPage:121 :findingUkrainianLanguagesInList - message:Checking the Ukrainian language is in the list
+[ERROR] 2023-08-15 11:26:42 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:26:42 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:26:42 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:26:42 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:26:44 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:26:44 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:26:44 MainPage:137 :getPopularProduct - message:Get list popular product
+[INFO ] 2023-08-15 11:26:45 MainPage:137 :getPopularProduct - message:Get list popular product
+[ERROR] 2023-08-15 11:26:46 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:26:46 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:26:46 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:26:46 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:27:25 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:27:25 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:27:25 MainPage:148 :clickPricesDrop - message:Click button prices drop
+[INFO ] 2023-08-15 11:27:26 PricesDropPage:22 :getPricesDropProduct - message:Get list prices product
+[ERROR] 2023-08-15 11:27:27 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:27:27 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:27:27 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:27:28 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:27:29 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:27:29 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:27:29 MainPage:131 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 11:27:29 LoginPage:48 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 11:27:31 LoginPage:98 :isInvalidFieldMustBeRed - message:Is invalid field must be red
+[INFO ] 2023-08-15 11:27:31 LoginPage:93 :getMessageAlertInvalidFormat - message:Getting message alert invalid format
+[ERROR] 2023-08-15 11:27:31 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:27:31 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:27:32 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:27:32 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:28:10 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:28:10 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:28:10 MainPage:131 :clickButtonSignIn - message:Clicking button Sign In
+[INFO ] 2023-08-15 11:28:11 LoginPage:48 :clickNotAccount - message:Clicking button not account
+[INFO ] 2023-08-15 11:28:12 LoginPage:87 :getDisplayedUserName - message:Get displayed user name
+[INFO ] 2023-08-15 11:28:15 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:28:15 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:28:15 MainPage:160 :setFieldSearch - message:Set field search and enter
+[ERROR] 2023-08-15 11:28:15 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:28:15 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:28:15 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:28:16 ResultSearchPage:204 :clickCustomizableMug - message:Click Customizable Mug
+[INFO ] 2023-08-15 11:28:16 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:28:19 ResultSearchPage:210 :setInputProductMessage - message:Set input product message
+[INFO ] 2023-08-15 11:28:19 ResultSearchPage:216 :clickButtonCustomizedData - message:Click button customized data
+[INFO ] 2023-08-15 11:28:22 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:28:22 ResultSearchPage:228 :clickButtonContinueShopping - message:Click button continue shopping
+[INFO ] 2023-08-15 11:28:23 ResultSearchPage:235 :setFieldSearch - message:Setting field search and click ENTER
+[INFO ] 2023-08-15 11:28:24 ResultSearchPage:243 :clickTShirtHummingbirdPrinted - message:Click T-shirt Humming printed
+[INFO ] 2023-08-15 11:28:25 ResultSearchPage:249 :clickTShirtHummingbirdPrintedBlackColour - message:Choice of colour T-Shirt black
+[INFO ] 2023-08-15 11:28:25 ResultSearchPage:222 :clickAddToCard - message:click add to card
+[INFO ] 2023-08-15 11:28:25 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:28:27 ResultSearchPage:262 :getCurrentTotalPriceValue - message:get Current Total Price Value
+[INFO ] 2023-08-15 11:28:27 ResultSearchPage:267 :getTotalPriceAllProducts - message:get Total Price All Products
+[INFO ] 2023-08-15 11:28:27 ResultSearchPage:255 :clickButtonProceedToCheckout - message:click Button Proceed To Checkout
+[INFO ] 2023-08-15 11:28:30 ResultSearchPage:302 :clickButtonContinue - message:Click Button Continue
+[INFO ] 2023-08-15 11:28:35 ResultSearchPage:345 :setSelectCountry - message:set Select Country
+[INFO ] 2023-08-15 11:28:35 ResultSearchPage:308 :clickButtonContinueAddresses - message:Click Button Continue Addresses
+[INFO ] 2023-08-15 11:28:41 ResultSearchPage:332 :clickInputMyCarrier - message:click Input My Carrier
+[INFO ] 2023-08-15 11:28:43 ResultSearchPage:339 :clickContinueShippingMethod - message:click Continue Shipping Method
+[INFO ] 2023-08-15 11:28:47 ResultSearchPage:352 :clickPayByCheck - message:click Pay By Check
+[INFO ] 2023-08-15 11:28:48 ResultSearchPage:375 :getAmount - message:get Amount
+[INFO ] 2023-08-15 11:28:48 ResultSearchPage:365 :getSubTotal - message:Get subtotal
+[INFO ] 2023-08-15 11:28:48 ResultSearchPage:370 :getShipping - message:Get Shipping
+[INFO ] 2023-08-15 11:28:48 ResultSearchPage:359 :clickIAgree - message:click I Agree...
+[INFO ] 2023-08-15 11:28:48 ResultSearchPage:382 :clickPlaceOrder - message:click Place Order
+[ERROR] 2023-08-15 11:28:51 HttpClient:176 :execute - message:Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[WARN ] 2023-08-15 11:28:51 VersionDetector:123 :getDriverVersionFromRepository - message:Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[INFO ] 2023-08-15 11:28:51 WebDriverManager:1291 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[INFO ] 2023-08-15 11:28:52 BaseTest:43 :setUp - message:Tests will run at 1920x1080 in CHROME browser.
+[INFO ] 2023-08-15 11:28:59 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:28:59 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:28:59 MainPage:154 :clickAllProducts - message:Click button All Products
+[INFO ] 2023-08-15 11:29:34 MainPage:77 :waitForPageLoading - message:Waiting for page loading
+[INFO ] 2023-08-15 11:29:34 MainPage:83 :switchToFrame - message:Switch to frame
+[INFO ] 2023-08-15 11:29:34 MainPage:88 :getMessageOnPageGetOurLatestNewsAndSpecialSales - message:Getting message near the email field
+[INFO ] 2023-08-15 11:29:34 MainPage:95 :getMessageOnPageOnMayUnsubscribeAtAnyMoment - message:Getting message under email field
+[INFO ] 2023-08-15 11:29:34 MainPage:100 :getMessageButtonSubscribe - message:Getting CssValue with button subscribe

@@ -12,8 +12,8 @@
             <class name="PriceDropCheckTest"/>
             <class name="RegistrationWithInvalidDataTest"/>
             <class name="RegistrationWithValidDataTest"/>
-            <class name="CheckoutEndToEndTest"></class>
-            <class name="SortingCheckTest"></class>
+            <class name="CheckoutEndToEndTest"/>
+            <class name="SortingCheckTest"/>
             <class name="SubscribeWithInvalidEmailTest"/>
         </classes>
     </test>

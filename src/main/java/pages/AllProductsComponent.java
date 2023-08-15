@@ -14,6 +14,9 @@ import java.util.Objects;
 @Getter
 public class AllProductsComponent {
     public static final Comparator<AllProductsComponent> NAME_COMPARATOR = Comparator.comparing(AllProductsComponent::getName);
+    private final By priceOldLocator = By.xpath(".//*[@class='regular-price']");
+    private final By nameLocator = By.xpath(".//a[@content]");
+    private final By currentPriceLocator = By.xpath(".//*[@class='price']");
 
     private String name;
     private Double currentPrice;
@@ -23,15 +26,14 @@ public class AllProductsComponent {
     }
 
     public AllProductsComponent(WebElement container) throws InterruptedException {
-        this.name = container.findElement(By.xpath(".//a[@content]")).getAttribute("textContent");
-
+        this.name = container.findElement(nameLocator).getAttribute("textContent");
         try {
-            this.oldPrice = Double.valueOf(container.findElement(By.xpath(".//*[@class='regular-price']"))
+            this.oldPrice = Double.valueOf(container.findElement(priceOldLocator)
                     .getAttribute("textContent").substring(1).replaceAll("[^\\d.]", ""));
         } catch (NoSuchElementException e) {
             this.oldPrice = 0.0;
         }
-        this.currentPrice = Double.valueOf(container.findElement(By.xpath(".//*[@class='price']"))
+        this.currentPrice = Double.valueOf(container.findElement(currentPriceLocator)
                 .getAttribute("textContent").substring(1).replaceAll("[^\\d.]", ""));
     }
 

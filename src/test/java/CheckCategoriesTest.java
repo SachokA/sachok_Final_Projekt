@@ -17,11 +17,11 @@ public class CheckCategoriesTest extends BaseTest {
         SoftAssertions softly = new SoftAssertions();
 
         mainPage.hoverOverClothesCategory();
-        List<String> actualClothesSubCategories = mainPage.getClothesSubMenuItems();
+        List<String> actualClothesSubCategories = mainPage.getClothesSubMenu();
         softly.assertThat(actualClothesSubCategories).containsAll(CLOTHES.getSubCategories());
 
         mainPage.hoverOverAccessoriesCategory();
-        List<String> actualAccessoriesSubCategories = mainPage.getAccessoriesSubMenuItems();
+        List<String> actualAccessoriesSubCategories = mainPage.getAccessoriesList();
         softly.assertThat(actualAccessoriesSubCategories).containsAll(ACCESSORIES.getSubCategories());
 
         mainPage.hoverOverArtCategory();

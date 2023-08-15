@@ -5,21 +5,19 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 import untils.Utils;
 
-import java.time.Duration;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
+
+import static untils.Utils.waitSeconds;
 
 @Slf4j
 public class HomePage extends BasePage {
 
     @FindBy(xpath = "//button[@class='btn-unstyle select-title']")
     private WebElement buttonSort;
-
-    @FindBy(className = "dropdown-menu")
-    private WebElement listValueForSorted;
 
     @FindBy(xpath = "//a[contains(text(),'Name, A to Z')]")
     private WebElement sortNameAZ;
@@ -35,10 +33,6 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[@class='next js-search-link']")
     private WebElement buttonNext;
-
-    @FindBy(xpath = "//ul[@class='page-list clearfix text-sm-center']")
-    private WebElement previous;
-
     @FindBy(xpath = "//div[@class='product-description']")
     private List<WebElement> allProductsName;
     private List<AllProductsComponent> saveList;
@@ -46,6 +40,12 @@ public class HomePage extends BasePage {
     public HomePage() {
         PageFactory.initElements(getDriver(), this);
     }
+
+    public HomePage waitSeconds(long seconds) {
+        waitSeconds(seconds);
+        return this;
+    }
+
 
     public HomePage clickButtonSorted() {
         JavascriptExecutor executor = (JavascriptExecutor) getDriver();
@@ -68,15 +68,10 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    public HomePage waitSecond(long sec) {
-        Utils.waitSeconds(sec);
-        return this;
-    }
-
     public List<AllProductsComponent> getAllElementsFromPage() throws InterruptedException {
         List<AllProductsComponent> products = new ArrayList<>();
         List<WebElement> containers = allProductsName;
-        waitSecond(2);
+        waitSeconds(2);
         for (WebElement container : containers) {
             AllProductsComponent allProductsComponent = new AllProductsComponent(container);
             products.add(allProductsComponent);
@@ -129,4 +124,4 @@ public class HomePage extends BasePage {
         return this;
     }
 
-  }
+}

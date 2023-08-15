@@ -7,7 +7,10 @@ import org.openqa.selenium.WebElement;
 
 @Getter
 public class PricesDropComponent extends BasePage {
-    private WebElement image;
+    private final By nameLocator = By.xpath(".//div[@class='product-description']//h2//a");
+    private final By oldPriceLocator = By.xpath(".//div[@class='product-price-and-shipping']//span[@class='regular-price']");
+    private final By currentPriceLocator = By.xpath(".//div[@class='product-price-and-shipping']//span[@class='price']");
+    private final By discountLocator = By.xpath(".//li[@class='product-flag discount']");
     private String name;
     private Double currentPrice;
     private double oldPrice;
@@ -17,14 +20,13 @@ public class PricesDropComponent extends BasePage {
     }
 
     public PricesDropComponent(WebElement container) {
-        this.image = container.findElement(By.xpath(".//div[@class='thumbnail-top']//a//img"));
-        this.name = container.findElement(By.xpath(".//div[@class='product-description']//h2//a")).getText();
+        this.name = container.findElement(nameLocator).getText();
         try {
-            this.oldPrice = Double.parseDouble(container.findElement(By.xpath(".//div[@class='product-price-and-shipping']//span[@class='regular-price']")).getText().substring(1));
+            this.oldPrice = Double.parseDouble(container.findElement(oldPriceLocator).getText().substring(1));
         } catch (NoSuchElementException e) {
-            this.oldPrice = 0.0; // Якщо елемент не знайдено, можна задати значення 0.0 або інше значення за замовчуванням.
+            this.oldPrice = 0.0;
         }
-        this.currentPrice = Double.valueOf(container.findElement(By.xpath(".//div[@class='product-price-and-shipping']//span[@class='price']")).getText().substring(1));
-        this.discountPercentageDiscountProduct = 0.01 * (Double.valueOf(container.findElement(By.xpath(".//li[@class='product-flag discount']")).getText().substring(1, 3)));
+        this.currentPrice = Double.valueOf(container.findElement(currentPriceLocator).getText().substring(1));
+        this.discountPercentageDiscountProduct = 0.01 * (Double.valueOf(container.findElement(discountLocator).getText().substring(1, 3)));
     }
 }

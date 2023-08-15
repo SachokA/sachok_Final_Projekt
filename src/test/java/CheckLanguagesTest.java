@@ -8,8 +8,10 @@ public class CheckLanguagesTest extends BaseTest{
     public void checkLanguages(){
         MainPage mainPage = new MainPage();
         SoftAssertions softAssertions = new SoftAssertions();
-        softAssertions.assertThat(mainPage.sizeLanguagesList()).isEqualTo(46);
+        mainPage.clickButtonLanguageDropdown();
+       softAssertions.assertThat(mainPage.getListLanguages().size()).isEqualTo(46);
         softAssertions.assertThat(mainPage.findingUkrainianLanguagesInList()).isTrue();
+
         softAssertions.assertAll();
     }
 }

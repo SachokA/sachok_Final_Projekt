@@ -1,11 +1,9 @@
 package pages;
 
 import lombok.extern.slf4j.Slf4j;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,13 +16,13 @@ import java.math.RoundingMode;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
+import static untils.Utils.waitSeconds;
+
 
 @Slf4j
 public class ResultSearchPage extends BasePage {
-    @FindBy(xpath = "//iframe[@title='Frame of demo shop']")
-    private WebElement iframeFrameOfDemoShop;
+
     @FindBy(xpath = "//a[text()='Brown bear notebook']")
     private WebElement brownBearNotebook;
 
@@ -75,9 +73,6 @@ public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//a[text()='Proceed to checkout']")
     private WebElement buttonProceedToCheckout;
 
-    @FindBy(xpath = "//span[@class='current-price-value']")
-    private WebElement currentPriceValue;
-
     @FindBy(xpath = "//div[@class='cart-summary-line cart-total']//span[@class='value']")
     private WebElement currentTotalPrice;
 
@@ -96,13 +91,7 @@ public class ResultSearchPage extends BasePage {
     @FindBy(xpath = "//input[@type='checkbox']")
     private List<WebElement> inputCheckBox;
 
-    @FindBy(xpath = "//input[@name='psgdpr']")
-    private WebElement inputCheckBoxIAgree;
-
-    @FindBy(xpath = "//input[@name='customer_privacy']")
-    private WebElement inputCheckBoxCustomerPrivacy;
-
-    @FindBy(xpath = "//button[@name='continue']") //"//footer[@class='form-footer clearfix']//button[@name='continue']")
+    @FindBy(xpath = "//button[@name='continue']")
     private WebElement buttonContinue;
 
     @FindBy(xpath = "//input[@id='field-address1']")
@@ -125,8 +114,6 @@ public class ResultSearchPage extends BasePage {
 
     @FindBy(xpath = "//select[@id='field-id_country']")
     private WebElement selectCountry;
-    @FindBy(xpath = "//input[@name='use_same_address']")
-    private WebElement inputUseSameAddress;
 
     @FindBy(xpath = "//input[@id='payment-option-3']")
     private WebElement inputCheckByPay;
@@ -150,16 +137,13 @@ public class ResultSearchPage extends BasePage {
     private WebElement messageYourOrderIsConfirmed;
 
     @FindBy(xpath = "//*[@id='order-items']/div[2]/table/tbody/tr[3]/td[2]")
-    private WebElement  totalLast;
+    private WebElement totalLast;
 
 
     public ResultSearchPage() {
         PageFactory.initElements(getDriver(), this);
     }
-    public ResultSearchPage waitSecond(long sec) {
-        Utils.waitSeconds(sec);
-        return this;
-    }
+
     public ResultSearchPage clickBrownBearNotebook() {
         log.info("Click brown bear notebook");
         brownBearNotebook.click();
@@ -177,7 +161,7 @@ public class ResultSearchPage extends BasePage {
     public ResultSearchPage setInputQuantityWanted() {
         log.info("Set input quantity you wanted(5)");
         int clickCounter = 0;
-        waitSecond(1);
+        waitSeconds(1);
         for (int i = 1; i < 5; i++) {
             inputQuantityWanted.click();
             clickCounter++;
@@ -185,7 +169,7 @@ public class ResultSearchPage extends BasePage {
 
         if (clickCounter == 4) {
             buttonAddToCard.click();
-            clickCounter = 0; // Скидаємо лічильник для наступного разу
+            clickCounter = 0;
         }
         return this;
     }
@@ -273,6 +257,7 @@ public class ResultSearchPage extends BasePage {
         buttonProceedToCheckout.click();
         return this;
     }
+
     public Double getCurrentTotalPriceValue() {
         log.info("get Current Total Price Value");
         return Double.valueOf(currentTotalPrice.getText().substring(1));
@@ -290,11 +275,22 @@ public class ResultSearchPage extends BasePage {
         return Math.round(total * 100.0) / 100.0;
     }
 
-    public ResultSearchPage fillRegistrationFormWithValidDataWithoutPasswordAndCheckAllNecessaryCheckboxes(String firstName, String lastName, String email) {
-        log.info("Fill Registration Form With Valid Data Without Password And Check All Necessary Checkboxes");
+    public ResultSearchPage setInputFirstName(String firstName) {
         inputFirstName.sendKeys(firstName);
+        return this;
+    }
+
+    public ResultSearchPage setInputLastName(String lastName) {
         inputLastName.sendKeys(lastName);
+        return this;
+    }
+
+    public ResultSearchPage setInputEmail(String email) {
         inputEmail.sendKeys(email);
+        return this;
+    }
+
+    public ResultSearchPage clickInputCheckBox() {
         List<WebElement> checkBoxs = inputCheckBox;
         for (WebElement check : checkBoxs) {
             check.click();
@@ -310,26 +306,36 @@ public class ResultSearchPage extends BasePage {
 
     public ResultSearchPage clickButtonContinueAddresses() {
         log.info("Click Button Continue Addresses");
-        waitSecond(2);
+        waitSeconds(3);
         buttonContinueAddresses.click();
         return this;
     }
 
-    public ResultSearchPage fillAddressFormWithValidData(String address, String zipCode, String city) {
-        log.info("Fill Address Form With Valid Data");
+    public ResultSearchPage setInputFileAddress(String address) {
         inputFieldAddress.sendKeys(address);
+        return this;
+    }
+
+    public ResultSearchPage setInputFieldPostcode(String zipCode) {
+        waitSeconds(1);
         inputFieldPostcode.sendKeys(zipCode);
+        return this;
+    }
+
+    public ResultSearchPage setInputFieldCity(String city) {
+        waitSeconds(1);
         inputFieldCity.sendKeys(city);
         return this;
     }
 
     public ResultSearchPage clickInputMyCarrier() {
         log.info("click Input My Carrier");
-        waitSecond(1);
+        waitSeconds(2);
         inputMyCarrier.click();
         return this;
     }
-    public ResultSearchPage clickContinueShippingMethod(){
+
+    public ResultSearchPage clickContinueShippingMethod() {
         log.info("click Continue Shipping Method");
         continueShippingMethod.click();
         return this;
@@ -341,25 +347,26 @@ public class ResultSearchPage extends BasePage {
         select.selectByVisibleText(value);
         return this;
     }
-    public ResultSearchPage clickPayByCheck(){
+
+    public ResultSearchPage clickPayByCheck() {
         log.info("click Pay By Check");
-        waitSecond(1);
+        waitSeconds(1);
         inputCheckByPay.click();
         return this;
     }
 
-    public ResultSearchPage clickIAgree(){
+    public ResultSearchPage clickIAgree() {
         log.info("click I Agree...");
         inputIAgree.click();
         return this;
     }
 
-    public double getSubTotal(){
+    public double getSubTotal() {
         log.info("Get subtotal");
         return Double.parseDouble(subTotal.getText().substring(1));
     }
 
-    public double getShipping(){
+    public double getShipping() {
         log.info("Get Shipping");
         return Double.parseDouble(subTotalShipping.getText().substring(1));
     }
@@ -367,21 +374,23 @@ public class ResultSearchPage extends BasePage {
     public Double getAmount() {
         log.info("get Amount");
         String amountText = amount.getText();
-        BigDecimal amountValue = new BigDecimal(amountText.substring(1,6));
+        BigDecimal amountValue = new BigDecimal(amountText.substring(1, 6));
         return amountValue.setScale(2, RoundingMode.HALF_UP).doubleValue();
     }
-    public ResultSearchPage clickPlaceOrder(){
+
+    public ResultSearchPage clickPlaceOrder() {
         log.info("click Place Order");
-        waitSecond(1);
+        waitSeconds(1);
         placeOrder.click();
         return this;
     }
-    public String getMessageYourOrderedIsConfirmed(){
-        waitSecond(1);
+
+    public String getMessageYourOrderedIsConfirmed() {
+        waitSeconds(1);
         return messageYourOrderIsConfirmed.getText().substring(1);
     }
 
-    public double getTotalLast(){
+    public double getTotalLast() {
         return Double.parseDouble(totalLast.getText().substring(1));
     }
 }

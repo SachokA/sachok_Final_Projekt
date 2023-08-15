@@ -11,14 +11,20 @@ public class RegistrationWithInvalidDataTest extends BaseTest {
     public void registrationWithValidData() {
         MainPage mainPage = new MainPage();
         LoginPage loginPage = new LoginPage();
+        SoftAssert softAssert = new SoftAssert();
         String firstName = "James8";
         String lastName = RandomStringUtils.randomAlphabetic(7);
         String email = RandomStringUtils.randomAlphabetic(10) + "@example.com";
         String password = RandomStringUtils.randomAlphanumeric(10);
         mainPage.clickButtonSignIn()
                 .clickNotAccount()
-                .fillRegistrationFormWithRandomData(firstName, lastName, email, password);
-        SoftAssert softAssert = new SoftAssert();
+                .setFirstName(firstName)
+                .setLastName(lastName)
+                .setEmail(email)
+                .setPassword(password)
+                .clickCheckBox()
+                .clickButtonSave();
+
         softAssert.assertEquals(loginPage.isInvalidFieldMustBeRed(),RED.getValue());
         softAssert.assertEquals(loginPage.getMessageAlertInvalidFormat(), "Invalid format.");
         softAssert.assertAll();

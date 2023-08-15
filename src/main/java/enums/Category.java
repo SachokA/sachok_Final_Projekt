@@ -7,6 +7,7 @@ public enum Category {
     CLOTHES("MEN", "WOMEN"),
     ACCESSORIES("STATIONERY", "HOME ACCESSORIES");
 
+
     private final List<String> subCategories;
 
     Category(String... subCategories) {

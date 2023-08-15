@@ -15,7 +15,13 @@ public class RegistrationWithValidDataTest extends BaseTest{
     String password = RandomStringUtils.randomAlphanumeric(10);
     mainPage.clickButtonSignIn()
             .clickNotAccount()
-            .fillRegistrationFormWithRandomData(firstName,lastName,email,password);
+            .setFirstName(firstName)
+            .setLastName(lastName)
+            .setEmail(email)
+            .setPassword(password)
+            .clickCheckBox()
+            .clickButtonSave();
+
     String randomUserName = firstName + " " + lastName;
     Assert.assertEquals(loginPage.getDisplayedUserName(),randomUserName);
 }

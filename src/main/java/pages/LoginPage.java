@@ -6,6 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import untils.Utils;
 
+import java.util.List;
+
+import static untils.Utils.waitSeconds;
+
 @Slf4j
 public class LoginPage extends BasePage {
     @FindBy(xpath = "//a[@data-link-action='display-register-form']")
@@ -26,11 +30,8 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//input[@name='password']")
     private WebElement inputPassword;
 
-    @FindBy(xpath = "//input[@name='psgdpr']")
-    private WebElement inputCheckBoxIAgree;
-
-    @FindBy(xpath = "//input[@name='customer_privacy']")
-    private WebElement inputCheckBoxCustomerPrivacy;
+    @FindBy(xpath = "//input[@type='checkbox']")
+    private List<WebElement> inputCheckBoxIAgree;
 
     @FindBy(xpath = "//span[@class='hidden-sm-down']")
     private WebElement showedCurrentlyUser;
@@ -49,24 +50,42 @@ public class LoginPage extends BasePage {
         return this;
     }
 
-    public LoginPage fillRegistrationFormWithRandomData(String firstName, String lastName, String email, String password) {
-        log.info("Filling registration form with random data");
+    public LoginPage setFirstName(String firstName) {
         inputFirstName.sendKeys(firstName);
+        return this;
+    }
+
+    public LoginPage setLastName(String lastName) {
         inputLastName.sendKeys(lastName);
-        inputEmail.sendKeys(email);
+        return this;
+    }
+
+    public LoginPage setEmail(String Email) {
+        inputEmail.sendKeys(Email);
+        return this;
+    }
+
+    public LoginPage setPassword(String password) {
         inputPassword.sendKeys(password);
-        inputCheckBoxIAgree.click();
-        inputCheckBoxCustomerPrivacy.click();
+        return this;
+    }
+
+    public LoginPage clickCheckBox() {
+        List<WebElement> checkBoxs = inputCheckBoxIAgree;
+        for (WebElement check : checkBoxs) {
+            check.click();
+        }
+        return this;
+    }
+
+    public LoginPage clickButtonSave() {
         buttonSave.click();
         return this;
     }
-    public LoginPage waitSecond(long sec) {
-        Utils.waitSeconds(sec);
-        return this;}
 
     public String getDisplayedUserName() {
         log.info("Get displayed user name");
-        waitSecond(1);
+        waitSeconds(2);
         return showedCurrentlyUser.getText();
     }
 
